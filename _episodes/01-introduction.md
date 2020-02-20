@@ -149,7 +149,7 @@ TEI is used to transcribe texts in a systematic and complex structure – called
 
 > ## Try out a TEI puzzle
 > 
-> ![Mary Hamilton letter](../fig/HAM_1_1_3_8.png)
+> [![Mary Hamilton letter](../fig/HAM_1_1_3_8.png)](../fig/HAM_1_1_3_8_large.png)
 > This puzzle will help you to put together your very first TEI record by filling in the blanks. 
 > It is based on one of the Mary Hamilton letters.
 > As you work through it, have a think about what some of these elements might mean.
@@ -159,11 +159,22 @@ TEI is used to transcribe texts in a systematic and complex structure – called
 >
 > **For the puzzle above, where would you insert the following pieces?**
 > ![TEI puzzle pieces](../fig/TEI_Exercise_Puzzle_pieces.png)
+> Download the [puzzle as a Word document](../files/TEI_Exercise_Puzzle.docx) or [PDF](../files/TEI_Exercise_Puzzle.pdf).
 >
 > > ## Solution
-> > details of solution FIXME
+> > 
+> > The missing elements appear in the following order:
+> > 1. `teiHeader` -  the header of the record
+> > 2. `language ident="en-GB"` - what language the item is written in, with a standard code
+> > 3. `text xml:id="HAM/1/1/3/8" - the beginning of the text, with an identifier
+> > 4. `opener` - the opening address
+> > 5. `choice` - there is a choice of words that could be used
+> > 6. `orig` - the original written word, perhaps with an archaic spelling
+> > 7. `reg` - the regular written word, using today's spelling
+> > 8. `del rend="erased"` - a word that the author deleted but we can still interpret
+> > 9. `date when="1780-12-18"` - a date that appears, coded in a machine-readable way (YYYY-MM-DD)
 > >
-> > > ~~~
+> > ~~~
 > > <TEI><teiHeader><fileDesc><titleStmt>
 > > 		<idno type="reference">HAM/1/1/3/8</idno>
 > >		<idno type="image">HAM-1-1-3-8.pdf</idno>
@@ -189,6 +200,15 @@ TEI is used to transcribe texts in a systematic and complex structure – called
 > >  </TEI>
 > > ~~~
 > > {: .xml}
+> >
+> > ### More information about the Mary Hamilton letters
+> > 
+> > Mary Hamilton (1756–1816) was governess to the daughters of George III and Queen Charlotte and stood at the centre of a number of royal, aristocratic, literary and artistic circles in late eighteenth-century London. Special Collections holds a substantial archive relating to Mrs. Hamilton, including voluminous correspondence.
+> > 
+> > Since 2013, students of Linguistics at the University of Manchester have created transliterations of Mary Hamilton’s letters as part of a course led by Professor David Denison and Dr Nuria Yáñez-Bouza. The students are expected to reproduce the spelling and punctuation exactly, including any errors or changes to the text.
+> >
+> > In order to show this in depth transcription of the letters, students use TEI which allows them to input very complex metadata.
+> > 
 > {: .solution}
 {: .challenge}
 (ROUGH:) To access this puzzle and the instructions, navigate to the LibraryConnect folder called ‘TEI Puzzle’ by clicking on the link in the ‘Activity’ box. 
