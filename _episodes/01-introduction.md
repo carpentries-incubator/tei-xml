@@ -150,10 +150,82 @@ TEI is used to transcribe texts in a systematic and complex structure – called
 > Activity details FIXME
 > > ## Solution
 > > details of solution FIXME
-
+> {: .solution}
+{: .challenge}
 (ROUGH:) To access this puzzle and the instructions, navigate to the LibraryConnect folder called ‘TEI Puzzle’ by clicking on the link in the ‘Activity’ box. 
 
 # Jargon busting
+
+We’ve already covered quite a lot of jargon, but here’s a recap:
+
+ - **TEI** – Text Encoding Initiative
+ - **XML** – extensible markup language
+ - **Template** – most TEI records are based on a template which can be enhanced to form a...
+ - **Boilerplate** – a template which also contains the standard information for cataloguing a collection (eg. the owner, the cataloguer and the name of the catalogue)
+ - **Elements** – provide structure to the human readable content, for example defining paragraph, name or subject
+ - **Tags** – denote elements in a machine readable format and are usually enclosed in angle brackets, for example <p></p> for ‘paragraph’. Tags almost always appear in pairs (opening and closing around the human readable content)
+ - **Attributes** - include additional information to enrich the element, such as defining the number of columns on a page
+ - **Nesting** – this describes how the elements are structured to define the content with multiple tags ‘inside’ one another. In the same way as Russian Dolls ‘nest’ inside eachother, elements can be brought together to provide increasingly specific information.
+
+# How is TEI used?
+
+As has been noted, TEI is **both machine-readable and human-readable**. This means that a computer can identify and interpret the markup, but a human can as well. For example, using the element `<language ident="en-GB">` tells to computer that the item is in British English – but it’s also relatively easy to see that it’s about language and the codes are intelligible.
+
+Another significant advantage of TEI (and why it’s used in so many research projects) is because it’s **designed to be shared**. Researchers can take someone’s TEI file and **enrich** it, for example by adding extra detail or transcriptions. 
+
+Equally, the structured nature of TEI records means (at least in theory) that records can be worked with at scale to support big data analysis or text data mining. 
+
+Of course we already have interoperable cataloguing languages (such as MARC and EAD) but TEI provides the **richness of metadata** along with scholarly information which makes it an peerless researcher/educational tool.
+
+IMG: Photo by the Creative Exchange on Unsplash
+
+FIXME: UPDATE THIS LINE TO EXPLAIN MDC.
+This is the reason TEI is the mainstay of MDC – the metadata is downloadable so that people can take it away and work with it.
+
+You can also link together subject/authority fields very easily – for example look at the way that name and place authority files have hyperlinks to show how different items in the collection relate to eachother. This is purely through the use of TEI (as an XML language) which enables linked data.
+
+IMG: Henry Hunt, WikiMedia
+
+As we have already seen through the Activity, the Mary Hamilton letters have been transcribed by students and made available online.
+
+The depth of encoding these letters is impressive (and more than we would be able to achieve in the Library) but it adds to scholarly information about the sources. In particular, you can see in the text what’s been erased or changed and how, and you can keep both the original and modern spellings or a word. Have a look at this at http://www.projects.alc.manchester.ac.uk/image-to-text/letter/HAM-1-1-3-10/ (or via the link above)
+
+In a different format but with similar results, the Cambridge Casebooks project digital editions enable deeper access to the resources without significant technical skills; see, for example https://casebooks.lib.cam.ac.uk/search?browse-all=yes;sort=sort-date.
+
+IMG: Mary Hamilton paper HAM/1/10/1/11 (JRL1415453)
+
+Finally, as you’ll have seen with MDC, in-depth description of pages can be linked to a specific image or illustration. An example of this is the Hebrew manuscript on https://cudl.lib.cam.ac.uk/view/MS-ADD-00433/1. This uses the `<locus>` tag to identify a set of pages and describe what appears within them; this could be illustrations, diagrams or a particular narrative.
+
+TEI is a very powerful tool which can bring together curatorial and researcher expertise, and create new knowledge which isn’t limited to a group of people engaging with a particular set of physical objects. It is truly interdisciplinary and enables exciting new areas of research.
+
+IMG: MS Add.433, Hebrew Manuscripts (Cambridge University Library)
+
+
+
+# Schemas and guidelines
+
+As we mentioned at the beginning, TEI can comfortably be used for any text based object. However, there is a lot of variety in this, so there are some specific ‘schemas’ used for different objects. 
+
+ - `msdesc` is the most frequently used – it was created to describe manuscripts (so it includes things like incipit and explicit)
+ - `correspdesc` has also been recently developed, specifically for correspondence, which includes elements for the sender, recipient and date of sending
+ - `epidoc` was developed to describe epigraphic texts (ie inscriptions)
+
+These all use TEI but you can use slightly different elements in the records to suit the type of item being described.
+
+The TEI community produces [guidelines](https://tei-c.org/guidelines/p5/) for the implementation of TEI – the latest is P5. Looking at this online (and while you’re not doing TEI) can be daunting and confusing, but it’s very useful tool! Particularly to identify elements you might want to use and where they sit in the record.
+
+
+# Next steps
+
+FIXME: Needs work!
+
+> Try this before the next session:
+>  - Download Oxygen to your (work) computer – you can find it in the University Software Centre
+>  - Open the test files in the homework folder on LibraryConnect and try the activities! 
+>  - Make a note of any questions you have, or problems you encounter – we can cover these in the next workshop
+> - For more practical TEI training, join us for the next workshop on Friday 8th November
+{: .challenge}
+
 
 
 {% include links.md %}
