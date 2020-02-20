@@ -327,19 +327,19 @@ Particularly to identify elements you might want to use and where they sit in th
 
 ## Homework: Try this before the next session
 
-Open the test file: JRL_LatinMS98_workshop.xml [Link TBA FIXME].
-
 > ## XML structure
 >
-> In the Oxygen menu bar, go to: "Window > Show view > Outline".
+> Open the test file: **JRL_LatinMS98_workshop.xml** [Link TBA FIXME].
+>
+> In the Oxygen menu bar, go to: "Window" > "Show View" > "Outline".
 > This will bring up the structure view in a separate window. 
 > You can click on the <kbd>+</kbd> and <kbd>–</kbd> signs to expand and contract the elements. 
 > If you click on an element, this will be highlighted in the main editor window.
 >
-> Find `msDesc` (manuscript description):
+> Find `<msDesc>` (manuscript description):
 >
-> 1. What element is `msDesc` nested in?
-> 2. What elements are nested directly within `msDesc?` (there are five)
+> 1. What element is `<msDesc>` nested in?
+> 2. What elements are nested directly within `<msDesc>`? (there are five).
 > 3. Can you guess the sorts of information each element contains?
 >
 > > ## Solution
@@ -348,23 +348,26 @@ Open the test file: JRL_LatinMS98_workshop.xml [Link TBA FIXME].
 {: .challenge}
 
 > ## XML content, elements and attributes
-> Find the ID number of the manuscript.
+> Continue working with **JRL_LatinMS98_workshop.xml**. Find the ID number of the manuscript.
 >
-> Tip: the element name is `idno`. 
-> You can find this either by navigating through the structure (it is within msDesc in a reasonably logical place), 
+> Tip: the element name is `<idno>`. 
+> You can find this either by navigating through the structure (it is within `<msDesc>` in a reasonably logical place), 
 > or by doing "Find in page" (<kbd>Ctrl</kbd>+<kbd>F</kbd> or via the menu bar: "Find" > "Find/Replace").
 > 
-> Find `extent`:
+> Find `<extent>`:
 >
-> 1. What element is `extent` nested within?
-> 2. What elements are nested within `extent`?
+> 1. What element is `<extent>` nested within?
+> 2. What elements are nested within `<extent>`?
 > 3. How many leaves does the manuscript contain? 
 > 4. What are the dimensions of each leaf? 
 > 5. What do you think the viewer will see on the screen? 
 > 6. How is this information expressed differently to make it searchable?
 >
 > > ## Solution
-> > FIXME
+> > 
+> > The element number is...
+> > 
+> > FIXME 1 - 5
 > {: .solution}
 {: .challenge}
 
