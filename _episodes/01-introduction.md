@@ -186,15 +186,16 @@ You can also ‘nest’ other texts within text.
 > > ## Solution
 > > 
 > > The missing elements appear in the following order:
-> > 1. `teiHeader` -  the header of the record
-> > 2. `language ident="en-GB"` - what language the item is written in, with a standard code
-> > 3. `text xml:id="HAM/1/1/3/8" - the beginning of the text, with an identifier
-> > 4. `opener` - the opening address
-> > 5. `choice` - there is a choice of words that could be used
-> > 6. `orig` - the original written word, perhaps with an archaic spelling
-> > 7. `reg` - the regular written word, using today's spelling
-> > 8. `del rend="erased"` - a word that the author deleted but we can still interpret
-> > 9. `date when="1780-12-18"` - a date that appears, coded in a machine-readable way (YYYY-MM-DD)
+> > 1. `<teiHeader>` -  the header of the record
+> > 2. `<language ident="en-GB">` - what language the item is written in, with a standard code
+> > 3. `<text xml:id="HAM/1/1/3/8">` - the beginning of the text, with an identifier
+> > 4. `<opener>` - the opening address
+> > 5. `<choice>` - there is a choice of words that could be used
+> > 6. `<orig>` - the original written word, perhaps with an archaic spelling
+> > 7. `<reg>` - the regular written word, using today's spelling
+> > 8. `<lb/>` - a line break (note, this element is already closed, it has a `/` inside it)
+> > 9. `<del rend="erased">` - a word that the author deleted but we can still interpret
+> > 10. `<date when="1780-12-18">` - a date that appears, coded in a machine-readable way (YYYY-MM-DD)
 > >
 > > ~~~
 > > <TEI><teiHeader><fileDesc><titleStmt>
@@ -348,7 +349,9 @@ Particularly to identify elements you might want to use and where they sit in th
 {: .challenge}
 
 > ## XML content, elements and attributes
-> Continue working with **JRL_LatinMS98_workshop.xml**. Find the ID number of the manuscript.
+> Continue working with **JRL_LatinMS98_workshop.xml**. 
+>
+> Find the ID number of the manuscript.
 >
 > Tip: the element name is `<idno>`. 
 > You can find this either by navigating through the structure (it is within `<msDesc>` in a reasonably logical place), 
