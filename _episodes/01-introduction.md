@@ -7,15 +7,15 @@ questions:
 - "How is TEI constructed?"
 - "How is TEI used?"
 objectives:
-- "Understand the key features of a simple TEI record"
-- "Explain the ways in which TEI can be used to describe special collections material"
-- "Explain some of the key jargon used in TEI cataloguing"
-- "Complete a simple TEI template"
-- "Find information about cataloguing in TEI"
+- "Understand the key features of a simple TEI record."
+- "Explain the ways in which TEI can be used to describe special collections material."
+- "Explain some of the key jargon used in TEI cataloguing."
+- "Complete a simple TEI template."
+- "Find information about cataloguing in TEI."
 keypoints:
-- "TEI is a markup language with a set of guidelines for describing and structuring information"
-- "It is used for describing the content and structure of objects in a machine-readable and human-readable way"
-- "It is used for metadata, transcription, detailed descriptions and linking"
+- "TEI is a markup language with a set of guidelines for describing and structuring information."
+- "It is used for describing the content and structure of objects in a machine-readable and human-readable way."
+- "It is used for metadata, transcription, detailed descriptions and linking."
 
 ---
 
@@ -23,9 +23,9 @@ keypoints:
 
 TEI stands for: the Text Encoding Initiative. It has been developed to describe text based objects (eg. manuscripts, archives, letters) but is also being used in some cases to describe visual materials. TEI (helpfully) is actually three things: 
 
-- it is a set of **guidelines** for describing objects and structuring information
-- it is an **organisation** which oversees the production of official guidelines (more on this later)
-- it is a **community of practice** of people using the guidelines
+- it is a set of **guidelines** for describing objects and structuring information.
+- it is an **organisation** which oversees the production of official guidelines (more on this later).
+- it is a **community of practice** of people using the guidelines.
 
 ![TEI logo](../fig/tei-logo.png)
 
@@ -52,7 +52,7 @@ XML is made up of content, elements and attributes.
 <pb/>
 ```
 
-Here you can see the ‘human readable’ content – “1 column, 25 lines” (it describes how a manuscript page is laid out) – this is what gets displayed on a viewer or online catalogue (or in a pdf version). This is surrounded by elements which structure the information. Like in html, the element also determine the formatting of the content.
+Here you can see the ‘human readable’ content – `1 column, 25 lines` (it describes how a manuscript page is laid out) – this is what gets displayed on a viewer or online catalogue (or in a PDF version). This is surrounded by elements which structure the information. Like in html, the element also determine the formatting of the content.
 
 The common element `<p>` for paragraph, is nested inside the element `<layout>`
 
@@ -88,9 +88,9 @@ Don’t worry, you don’t need to remember this!
 
 There are three main elements in a TEI file: header, facsimile and text. All the other elements are nested in one of these.
 
-- The `header` describes both the TEI file itself and its ‘source’ (i.e. the object which is being encoded)
-- `facsimile` is where metadata about digital facsimiles (images) is provided
-- `text` is where the text is transcribed
+- The `header` describes both the TEI file itself and its ‘source’ (i.e. the object which is being encoded).
+- `facsimile` is where metadata about digital facsimiles (images) is provided.
+- `text` is where the text is transcribed.
  
 IMG: outline view from Oxygen
 
@@ -119,9 +119,9 @@ We’re not going to cover here how the facsimile section is arranged!
 ```
 
  - `fileDesc` – this describes the TEI file itself, for example its title, author and publication details (including rights statements), and contains the description of the source, such as the manuscript. We’ll cover this in more detail at the next workshop.
- - `encodingDesc` – this describes how the file has been encoded, including what taxonomies are used (for example states that Library of Congress Subject Headings are being used)
- - `profileDesc` – includes the subject headings themselves, information about language, and can contain correspDesc
- - `revisionDesc` – where you record any changes to the file (should have date and name, and can also include details of changes made)
+ - `encodingDesc` – this describes how the file has been encoded, including what taxonomies are used (for example states that Library of Congress Subject Headings are being used).
+ - `profileDesc` – includes the subject headings themselves, information about language, and can contain `correspDesc`.
+ - `revisionDesc` – where you record any changes to the file (should have date and name, and can also include details of changes made).
 
 ## Text
 
@@ -149,39 +149,46 @@ TEI is used to transcribe texts in a systematic and complex structure – called
 
 > ## Try out a TEI puzzle
 > 
+> ![Mary Hamilton letter](../fig/HAM_1_1_3_8.png)
 > This puzzle will help you to put together your very first TEI record by filling in the blanks. 
+> It is based on one of the Mary Hamilton letters.
 > As you work through it, have a think about what some of these elements might mean.
 >
-> ~~~
-> <TEI><teiHeader><fileDesc><titleStmt>
-> 		<idno type="reference">HAM/1/1/3/8</idno>
->		<idno type="image">HAM-1-1-3-8.pdf</idno>
-> 		<title>Letter from Princess Elizabeth to Mary Hamilton</title>
->	</titleStmt>
-> <sourceDesc><bibl>
->		<title>Correspondence from Princess Elizabeth</title>
->		<p>Mary Hamilton Papers (1743–1826). GB 133 HAM. University of Manchester Library</p></bibl>
->	</sourceDesc></fileDesc>
-> <profileDesc>
-> <langUsage><language ident="en-GB">British English</language></langUsage>
->	<correspDesc>
->		<correspAction type="sent">
->			<persName>Elizabeth, Princess, daughter of George III, King of Great Britain (1770-1840/41). </persName>
-> <date when="1780-12-18">18 December 1780</date>
-> </correspAction>
-> <correspAction type="received">
->	<persName>Hamilton, Mary (1756-1816).</persName>
->		</correspAction>
->	</correspDesc>
-> </profileDesc></teiHeader>
-> ...
-> </TEI>
-> ~~~
-> {: .xml}
+> ![TEI puzzle](../fig/TEI_Exercise_Puzzle.png)
+> Source: HAM/1/1/3/8, licence CC BY-NC 4.0
 >
-> Activity details FIXME
+> **For the puzzle above, where would you insert the following pieces?**
+> ![TEI puzzle pieces](../fig/TEI_Exercise_Puzzle_pieces.png)
+>
 > > ## Solution
 > > details of solution FIXME
+> >
+> > > ~~~
+> > <TEI><teiHeader><fileDesc><titleStmt>
+> > 		<idno type="reference">HAM/1/1/3/8</idno>
+> >		<idno type="image">HAM-1-1-3-8.pdf</idno>
+> > 		<title>Letter from Princess Elizabeth to Mary Hamilton</title>
+> >	</titleStmt>
+> > <sourceDesc><bibl>
+> >		<title>Correspondence from Princess Elizabeth</title>
+> >		<p>Mary Hamilton Papers (1743–1826). GB 133 HAM. University of Manchester Library</p></bibl>
+> >	</sourceDesc></fileDesc>
+> > <profileDesc>
+> > <langUsage><language ident="en-GB">British English</language></langUsage>
+> >	<correspDesc>
+> >		<correspAction type="sent">
+> >			<persName>Elizabeth, Princess, daughter of George III, King of Great Britain (1770-1840/41). </persName>
+> > <date when="1780-12-18">18 December 1780</date>
+> > </correspAction>
+> > <correspAction type="received">
+> >	<persName>Hamilton, Mary (1756-1816).</persName>
+> >		</correspAction>
+> >	</correspDesc>
+> > </profileDesc></teiHeader>
+> > ...
+> >  </TEI>
+> > ~~~
+> > {: .xml}
 > {: .solution}
 {: .challenge}
 (ROUGH:) To access this puzzle and the instructions, navigate to the LibraryConnect folder called ‘TEI Puzzle’ by clicking on the link in the ‘Activity’ box. 
@@ -195,7 +202,7 @@ We’ve already covered quite a lot of jargon, but here’s a recap:
  - **Template** – most TEI records are based on a template which can be enhanced to form a...
  - **Boilerplate** – a template which also contains the standard information for cataloguing a collection (eg. the owner, the cataloguer and the name of the catalogue)
  - **Elements** – provide structure to the human readable content, for example defining paragraph, name or subject
- - **Tags** – denote elements in a machine readable format and are usually enclosed in angle brackets, for example <p></p> for ‘paragraph’. Tags almost always appear in pairs (opening and closing around the human readable content)
+ - **Tags** – denote elements in a machine readable format and are usually enclosed in angle brackets, for example `<p></p>` for ‘paragraph’. Tags almost always appear in pairs (opening and closing around the human readable content)
  - **Attributes** - include additional information to enrich the element, such as defining the number of columns on a page
  - **Nesting** – this describes how the elements are structured to define the content with multiple tags ‘inside’ one another. In the same way as Russian Dolls ‘nest’ inside eachother, elements can be brought together to provide increasingly specific information.
 
@@ -241,9 +248,9 @@ IMG: MS Add.433, Hebrew Manuscripts (Cambridge University Library)
 
 As we mentioned at the beginning, TEI can comfortably be used for any text based object. However, there is a lot of variety in this, so there are some specific ‘schemas’ used for different objects. 
 
- - `msdesc` is the most frequently used – it was created to describe manuscripts (so it includes things like incipit and explicit)
- - `correspdesc` has also been recently developed, specifically for correspondence, which includes elements for the sender, recipient and date of sending
- - `epidoc` was developed to describe epigraphic texts (ie inscriptions)
+ - `msdesc` is the most frequently used – it was created to describe manuscripts (so it includes things like incipit and explicit).
+ - `correspdesc` has also been recently developed, specifically for correspondence, which includes elements for the sender, recipient and date of sending.
+ - `epidoc` was developed to describe epigraphic texts (ie inscriptions).
 
 These all use TEI but you can use slightly different elements in the records to suit the type of item being described.
 
@@ -256,10 +263,10 @@ FIXME: Needs work!
 
 > ## Homework
 > Try this before the next session:
->  - Download Oxygen to your (work) computer – you can find it in the University Software Centre
+>  - Download Oxygen to your (work) computer – you can find it in the University Software Centre.
 >  - Open the test files in the homework folder on LibraryConnect and try the activities! 
->  - Make a note of any questions you have, or problems you encounter – we can cover these in the next workshop
-> - For more practical TEI training, join us for the next workshop
+>  - Make a note of any questions you have, or problems you encounter – we can cover these in the next workshop.
+> - For more practical TEI training, join us for the next workshop.
 {: .challenge}
 
 
