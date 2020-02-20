@@ -1,5 +1,5 @@
 ---
-title: "Descriptions and cataloguing"
+title: "Descriptions and Cataloguing"
 teaching: 0
 exercises: 0
 questions:
