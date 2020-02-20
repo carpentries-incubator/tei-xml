@@ -19,7 +19,7 @@ keypoints:
 
 ---
 
-# What is TEI?
+## What is TEI?
 
 TEI stands for: the Text Encoding Initiative. 
 It has been developed to describe text based objects (eg. manuscripts, archives, letters) 
@@ -50,11 +50,11 @@ At the moment, at The Unversity of Manchester Library, we are using it primarily
 IMG: Photo by Ashkan Forouzani on Unsplash
 
 
-## XML examples
+### XML examples
 XML is made up of content, elements and attributes.
 
 
-### XML content and elements
+#### XML content and elements
 
 ```xml
 <layout>
@@ -74,7 +74,7 @@ The end of the element has a slash before the element name.
 You can get ‘empty’ elements without content, like page break `<pb/>` (this functions as the beginning and end of an element).
 
 
-### XML attributes with values
+#### XML attributes with values
 
 ```xml
 <layout columns="1" writtenLines="25">
@@ -89,7 +89,7 @@ The attribute names are shown here in olive brown. This is followed by an equal 
 
 
 
-# How is TEI constructed?
+## How is TEI constructed?
 Don’t worry, you don’t need to remember this!
 
 ```xml
@@ -116,7 +116,7 @@ For example, if you describe an illustration in the header, this can be linked t
 We’re not going to cover here how the facsimile section is arranged.
 
 
-## Header
+### Header
 
 ```xml
 <TEI>
@@ -140,7 +140,7 @@ We’re not going to cover here how the facsimile section is arranged.
  - `<profileDesc>` – includes the subject headings themselves, information about language, and can contain `correspDesc`.
  - `<revisionDesc>` – where you record any changes to the file (should have date and name, and can also include details of changes made).
 
-## Text
+### Text
 
 ```xml
 <TEI>
@@ -236,7 +236,7 @@ You can also ‘nest’ other texts within text.
 {: .challenge}
 
 
-# Jargon busting
+## Jargon busting
 
 We’ve already covered quite a lot of jargon, but here’s a recap:
 
@@ -249,7 +249,7 @@ We’ve already covered quite a lot of jargon, but here’s a recap:
  - **Attributes** - include additional information to enrich the element, such as defining the number of columns on a page
  - **Nesting** – this describes how the elements are structured to define the content with multiple tags ‘inside’ one another. In the same way as Russian Dolls ‘nest’ inside eachother, elements can be brought together to provide increasingly specific information.
 
-# How is TEI used?
+## How is TEI used?
 
 As has been noted, TEI is **both machine-readable and human-readable**. 
 This means that a computer can identify and interpret the markup, but a human can as well. 
@@ -267,7 +267,7 @@ but TEI provides the **richness of metadata** along with scholarly information w
 
 IMG: Photo by the Creative Exchange on Unsplash
 
-## Downloadable and linkable metadata
+### Downloadable and linkable metadata
 FIXME: UPDATE THIS LINE TO EXPLAIN MDC.
 This is the reason TEI is the mainstay of [Manchester Digital Collections](https://www.digitalcollections.manchester.ac.uk)
  – the **metadata is downloadable** so that people can take it away and work with it.
@@ -279,7 +279,7 @@ This is purely through the use of TEI (as an XML language) which enables linked 
 
 IMG: Henry Hunt, WikiMedia
 
-## Transcription and intellectual metadata
+### Transcription and intellectual metadata
 As we have already seen through the Activity, the Mary Hamilton letters have been **transcribed** by students and 
 [made available online](https://www.projects.alc.manchester.ac.uk/maryhamiltonpapers/letter/HAM-1-1-3-10/).
 
@@ -294,7 +294,7 @@ enable deeper access to the resources without significant technical skills.
 
 IMG: Mary Hamilton paper HAM/1/10/1/11 (JRL1415453)
 
-## Detailed descriptions and wayfinding
+### Detailed descriptions and wayfinding
 Finally, as you’ll have seen with MDC, **in-depth description of pages** can be linked to a specific image or illustration. 
 An example of this is the [Hebrew manuscript on CUDL](https://cudl.lib.cam.ac.uk/view/MS-ADD-00433/1). 
 This uses the `<locus>` tag to identify a set of pages and describe what appears within them; 
@@ -308,7 +308,7 @@ IMG: MS Add.433, Hebrew Manuscripts (Cambridge University Library)
 
 
 
-# Schemas and guidelines
+## Schemas and guidelines
 
 As we mentioned at the beginning, TEI can comfortably be used for any text based object. 
 However, there is a lot of variety in this, so there are some specific ‘schemas’ used for different objects. 
@@ -324,9 +324,9 @@ Looking at this online (and while you’re not doing TEI) can be daunting and co
 Particularly to identify elements you might want to use and where they sit in the record.
 
 
-# Next steps
+## Next steps
 
-## Homework: Try this before the next session
+### Homework: Try this before the next session
 
 > ## XML structure
 >

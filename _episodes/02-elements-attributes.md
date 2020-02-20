@@ -17,7 +17,7 @@ Building on first workshop, getting stuck in to manuscript description.
 
 We will work together at the start, working on paper. When we get to Oxygen, you may work at your own pace.
 
-# Discuss homework from previous exercise
+## Discuss homework from previous exercise
 
 > ## Discussion
 > Look back at the two homework exercises in Episode 1:
@@ -29,9 +29,9 @@ We will work together at the start, working on paper. When we get to Oxygen, you
 {: .discussion}
 
 
-# Marking up descriptions (on paper)
+## Marking up descriptions (on paper)
 
-## Common elements to use
+### Common elements to use
 - `<idno>` - Reference number
 - `<title>` - Title
 - `<material>` - Page/support material
@@ -82,7 +82,7 @@ We will work together at the start, working on paper. When we get to Oxygen, you
 {: .challenge}
 
 
-# Transfering markup into TEI XML (in Oxygen)
+## Transfering markup into TEI XML (in Oxygen)
 
 We have provided some tips and tricks for marking up text in Oxygen. See the bottom of this page.
 
@@ -93,14 +93,14 @@ We have provided some tips and tricks for marking up text in Oxygen. See the bot
 > 
 {: .challenge}
 
-# Validating markup
+## Validating markup
 
 To check that your markup is valid (in other words, there are no syntax errors), tick the "Validate" box. 
 Look for any red lines under markup to identify invalid code. 
 Look for a message at the bottom of screen to say "Validation Successful".
 
 
-# Homework: Adding attributes
+## Homework: Adding attributes
 
 If you are comfortable working in Oxygen, you should add these attributes to the XML file you created at the workshop (for Latin MS 6). 
 If you have less experience with Oxygen and XML, use the partially completed version in the homework folder (Latin MS 6_template_attributes). 
@@ -159,7 +159,7 @@ FIXME: links above
 {: .challenge}
 
 
-# Tips and tricks for working with Oxygen
+## Tips and tricks for working with Oxygen
 
 > ## Oxygen shortcut keys
 >
