@@ -8,9 +8,9 @@ Episode 1 has a puzzle exercise (fill the blanks) which can worth better on pape
 A link to the Word document is provided, also PDF.
 
 # XML editor
-Episodes 2 and 3 require an XML text editor.
+You will need to use an XML text editor.
 
-We recommend Oxygen XML editor, if available.
+We recommend Oxygen XML, if available.
 Free alternatives include...
 
 {% include links.md %}

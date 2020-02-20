@@ -150,12 +150,13 @@ TEI is used to transcribe texts in a systematic and complex structure – called
 > ## Try out a TEI puzzle
 > 
 > [![Mary Hamilton letter](../fig/HAM_1_1_3_8.png)](../fig/HAM_1_1_3_8_large.png)
+> Source: HAM/1/1/3/8, John Rylands Library, licence CC BY-NC 4.0
+> 
 > This puzzle will help you to put together your very first TEI record by filling in the blanks. 
 > It is based on one of the Mary Hamilton letters.
 > As you work through it, have a think about what some of these elements might mean.
 >
 > ![TEI puzzle](../fig/TEI_Exercise_Puzzle.png)
-> Source: HAM/1/1/3/8, licence CC BY-NC 4.0
 >
 > **For the puzzle above, where would you insert the following pieces?**
 > ![TEI puzzle pieces](../fig/TEI_Exercise_Puzzle_pieces.png)
@@ -240,7 +241,8 @@ IMG: Photo by the Creative Exchange on Unsplash
 
 ## Downloadable and linkable metadata
 FIXME: UPDATE THIS LINE TO EXPLAIN MDC.
-This is the reason TEI is the mainstay of MDC – the **metadata is downloadable** so that people can take it away and work with it.
+This is the reason TEI is the mainstay of [Manchester Digital Collections](https://www.digitalcollections.manchester.ac.uk)
+ – the **metadata is downloadable** so that people can take it away and work with it.
 
 You can also **link together subject/authority fields** very easily – for example look at the way that name and place authority files have hyperlinks to show how different items in the collection relate to eachother. This is purely through the use of TEI (as an XML language) which enables linked data.
 
@@ -279,15 +281,39 @@ The TEI community produces [guidelines](https://tei-c.org/guidelines/p5/) for th
 
 # Next steps
 
-FIXME: Needs work!
+## Homework: Try this before the next session
 
-> ## Homework
-> Try this before the next session:
->  - Download Oxygen to your (work) computer – you can find it in the University Software Centre.
->  - Open the test files in the homework folder on LibraryConnect and try the activities! 
->  - Make a note of any questions you have, or problems you encounter – we can cover these in the next workshop.
-> - For more practical TEI training, join us for the next workshop.
+Download Oxygen to your (work) computer – you can find it in the University Software Centre. Open the test file in the training folder – JRL_LatinMS98_workshop.xml [Link TBA FIXME].
+
+> ## Structure
+>
+> In the Oxygen menu bar, go to: "Window > Show view > Outline".
+> This will bring up the structure view in a separate window. You can click on the + and – signs to expand and contract the elements. If you click on an element, this will be highlighted in the main editor window.
+>
+> Find `msDesc` (manuscript description)
+>
+> - What element is `msDesc` nested in?
+> - What elements are nested directly within `msDesc?` (there are five)
+> - Can you guess the sorts of information each element contains?
 {: .challenge}
+
+> ## Content, elements and attributes
+> Find the ID number of the manuscript.
+>
+> Tip: the element name is `idno`. You can find this either by navigating through the structure (it is within msDesc in a reasonably logical place), or by doing ‘find in page’ (ctrl+f or via the menu bar: Find > Find/Replace
+> 
+>Find `<extent>`
+> -	What element is `<extent>` nested within?
+> - What elements are nested within `<extent>`?
+> - How many leaves does the manuscript contain? 
+> - What are the dimensions of each leaf? 
+> - What do you think the viewer will see on the screen? 
+> - How is this information expressed differently to make it searchable?
+{: .challenge}
+
+
+Make a note of any questions you have, or problems you encounter – we can cover these in the next workshop.
+For more practical TEI training, join us for the next workshop.
 
 
 
