@@ -1,9 +1,11 @@
 ---
 title: "Introduction to TEI"
-teaching: 0
-exercises: 0
+teaching: 60
+exercises: 60
 questions:
-- "Key question (FIXME)"
+- "What is TEI?"
+- "How is TEI constructed?"
+- "How is TEI used?"
 objectives:
 - "Understand the key features of a simple TEI record"
 - "Explain the ways in which TEI can be used to describe special collections material"
@@ -11,7 +13,10 @@ objectives:
 - "Complete a simple TEI template"
 - "Find information about cataloguing in TEI"
 keypoints:
-- "First key point. Brief Answer to questions. (FIXME)"
+- "TEI is a markup language with a set of guidelines for describing and structuring information"
+- "It is used for describing the content and structure of objects in a machine-readable and human-readable way"
+- "It is used for metadata, transcription, detailed descriptions and linking"
+
 ---
 
 # What is TEI?
@@ -22,7 +27,7 @@ TEI stands for: the Text Encoding Initiative. It has been developed to describe 
 - it is an **organisation** which oversees the production of official guidelines (more on this later)
 - it is a **community of practice** of people using the guidelines
 
-IMG: TEI logo and link
+![TEI logo](../fig/tei-logo.png)
 
 TEI is one kind of **mark up language**.  Markup encodes information about text – so it could describe the structure, appearance and content of a text. Digital markup has to be explicit and unambiguous so that a computer can understand it.
 
@@ -101,7 +106,7 @@ We’re not going to cover here how the facsimile section is arranged!
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>Catalogue of Latin Manuscripts</titleStmt>
-			<publicationStmt>The University of Manchester</publicationStmt>
+			<publicationStmt>The University of Manchester Library</publicationStmt>
 			<sourceDesc>...</sourceDesc>
 		</fileDesc>
 		<encodingDesc>...</encodingDesc>
@@ -146,7 +151,34 @@ TEI is used to transcribe texts in a systematic and complex structure – called
 > 
 > This puzzle will help you to put together your very first TEI record by filling in the blanks. 
 > As you work through it, have a think about what some of these elements might mean.
-> 
+>
+> ~~~
+> <TEI><teiHeader><fileDesc><titleStmt>
+> 		<idno type="reference">HAM/1/1/3/8</idno>
+>		<idno type="image">HAM-1-1-3-8.pdf</idno>
+> 		<title>Letter from Princess Elizabeth to Mary Hamilton</title>
+>	</titleStmt>
+> <sourceDesc><bibl>
+>		<title>Correspondence from Princess Elizabeth</title>
+>		<p>Mary Hamilton Papers (1743–1826). GB 133 HAM. University of Manchester Library</p></bibl>
+>	</sourceDesc></fileDesc>
+> <profileDesc>
+> <langUsage><language ident="en-GB">British English</language></langUsage>
+>	<correspDesc>
+>		<correspAction type="sent">
+>			<persName>Elizabeth, Princess, daughter of George III, King of Great Britain (1770-1840/41). </persName>
+> <date when="1780-12-18">18 December 1780</date>
+> </correspAction>
+> <correspAction type="received">
+>	<persName>Hamilton, Mary (1756-1816).</persName>
+>		</correspAction>
+>	</correspDesc>
+> </profileDesc></teiHeader>
+> ...
+> </TEI>
+> ~~~
+> {: .xml}
+>
 > Activity details FIXME
 > > ## Solution
 > > details of solution FIXME
@@ -179,14 +211,16 @@ Of course we already have interoperable cataloguing languages (such as MARC and 
 
 IMG: Photo by the Creative Exchange on Unsplash
 
+## Downloadable and linkable metadata
 FIXME: UPDATE THIS LINE TO EXPLAIN MDC.
-This is the reason TEI is the mainstay of MDC – the metadata is downloadable so that people can take it away and work with it.
+This is the reason TEI is the mainstay of MDC – the **metadata is downloadable** so that people can take it away and work with it.
 
-You can also link together subject/authority fields very easily – for example look at the way that name and place authority files have hyperlinks to show how different items in the collection relate to eachother. This is purely through the use of TEI (as an XML language) which enables linked data.
+You can also **link together subject/authority fields** very easily – for example look at the way that name and place authority files have hyperlinks to show how different items in the collection relate to eachother. This is purely through the use of TEI (as an XML language) which enables linked data.
 
 IMG: Henry Hunt, WikiMedia
 
-As we have already seen through the Activity, the Mary Hamilton letters have been transcribed by students and made available online.
+## Transcription and intellectual metadata
+As we have already seen through the Activity, the Mary Hamilton letters have been **transcribed** by students and made available online.
 
 The depth of encoding these letters is impressive (and more than we would be able to achieve in the Library) but it adds to scholarly information about the sources. In particular, you can see in the text what’s been erased or changed and how, and you can keep both the original and modern spellings or a word. Have a look at this at http://www.projects.alc.manchester.ac.uk/image-to-text/letter/HAM-1-1-3-10/ (or via the link above)
 
@@ -194,7 +228,8 @@ In a different format but with similar results, the Cambridge Casebooks project 
 
 IMG: Mary Hamilton paper HAM/1/10/1/11 (JRL1415453)
 
-Finally, as you’ll have seen with MDC, in-depth description of pages can be linked to a specific image or illustration. An example of this is the Hebrew manuscript on https://cudl.lib.cam.ac.uk/view/MS-ADD-00433/1. This uses the `<locus>` tag to identify a set of pages and describe what appears within them; this could be illustrations, diagrams or a particular narrative.
+## Detailed descriptions and wayfinding
+Finally, as you’ll have seen with MDC, **in-depth description of pages** can be linked to a specific image or illustration. An example of this is the Hebrew manuscript on https://cudl.lib.cam.ac.uk/view/MS-ADD-00433/1. This uses the `<locus>` tag to identify a set of pages and describe what appears within them; this could be illustrations, diagrams or a particular narrative.
 
 TEI is a very powerful tool which can bring together curatorial and researcher expertise, and create new knowledge which isn’t limited to a group of people engaging with a particular set of physical objects. It is truly interdisciplinary and enables exciting new areas of research.
 
@@ -219,11 +254,12 @@ The TEI community produces [guidelines](https://tei-c.org/guidelines/p5/) for th
 
 FIXME: Needs work!
 
+> ## Homework
 > Try this before the next session:
 >  - Download Oxygen to your (work) computer – you can find it in the University Software Centre
 >  - Open the test files in the homework folder on LibraryConnect and try the activities! 
 >  - Make a note of any questions you have, or problems you encounter – we can cover these in the next workshop
-> - For more practical TEI training, join us for the next workshop on Friday 8th November
+> - For more practical TEI training, join us for the next workshop
 {: .challenge}
 
 
