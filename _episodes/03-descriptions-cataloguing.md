@@ -120,17 +120,17 @@ There has been some training for cataloguers and non-SC people on different term
 Now, have a go at one or more of these exercises to practice manifests, marking up, 
 or just familiarising yourself with the makeup of some of these records.
 
-> ## Explore the TEI metadata for Latin MS 8
+> ## Exercise: Explore the TEI metadata for Latin MS 8
 > in Oxygen – focus on `<facsimile>` and `<locus>`
 >
 {: .challenge}
 
-> ##Mark up the `<locus>` for Latin MS 164
+> ## Exercise: Mark up the `<locus>` for Latin MS 164
 > in Oxygen
 >
 {: .challenge}
 
-> ##Fill in the gaps in the sample manifest for Latin MS 8 
+> ## Exercise: Fill in the gaps in the sample manifest for Latin MS 8 
 > and compare this to the published facsimile in Manchester Digital Collections
 >
 {: .challenge}
