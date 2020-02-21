@@ -25,7 +25,7 @@ We will work together at the start, working on paper. When we get to Oxygen, you
 > - Find `msDesc` (manuscript description)
 > - Find `extent`
 >
-> FIXME
+> FIXME -- MAYBE INCLUDE THE DISCUSSIONS 'SOLUTIONS' FROM LAST EPISODE HERE INSTEAD?
 {: .discussion}
 
 
@@ -112,7 +112,7 @@ FIXME: links above
 > ## Replace attribute values
 > 
 > The element `<msDesc>` has three attributes. 
-> For the attribute `xml:id`, replace the value `“UkMaJRU-Latin-MS-00”` with `“UkMaJRU-Latin-MS-06”`
+> For the attribute `xml:id`, replace the value `"UkMaJRU-Latin-MS-00"` with `"UkMaJRU-Latin-MS-06"`
 {: .challenge}
 
 > ## Add attributes and values to elements
@@ -126,7 +126,7 @@ FIXME: links above
 >
 > For `<height>` and `<width>`:
 > 
-> - add attribute `quantity=”nnn”` (i.e. `355` and `240`).	
+> - add attribute `quantity="nnn"` (i.e. `355` and `240`).	
 >	
 > For `<binding>`:
 > 
@@ -141,7 +141,7 @@ FIXME: links above
 > For `<origDate>`:
 >
 > - add dating attributes as for binding
-> `<item><ref target="http://id.loc.gov/authorities/subjects/"/>Religion</item>`
+> `<item><ref target="http://id.loc.gov/authorities/subjects/"/>Religion</item>`{:.language-xml}
 {: .challenge}
 
 

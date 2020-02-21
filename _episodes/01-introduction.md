@@ -197,7 +197,7 @@ You can also ‘nest’ other texts within text.
 > > 9. `<del rend="erased">` - a word that the author deleted but we can still interpret
 > > 10. `<date when="1780-12-18">` - a date that appears, coded in a machine-readable way (YYYY-MM-DD)
 > >
-> > ~~~
+> > ```xml
 > > <TEI><teiHeader><fileDesc><titleStmt>
 > > 		<idno type="reference">HAM/1/1/3/8</idno>
 > >		<idno type="image">HAM-1-1-3-8.pdf</idno>
@@ -221,8 +221,7 @@ You can also ‘nest’ other texts within text.
 > > </profileDesc></teiHeader>
 > > ...
 > >  </TEI>
-> > ~~~
-> > {: .xml}
+> > ```
 > >
 > > ### More information about the Mary Hamilton letters
 > > 
@@ -370,7 +369,9 @@ Particularly to identify elements you might want to use and where they sit in th
 > > 
 > > The element number is...
 > > 
-> > FIXME 1 - 5
+> > FIXME solutions 1 - 6
+> >
+> > OR DO WE COVER THIS IN THE NEXT EPISODE, DISCUSSION?
 > {: .solution}
 {: .challenge}
 
