@@ -1,7 +1,7 @@
 ---
 title: "Descriptions and Cataloguing"
-teaching: 0
-exercises: 0
+teaching: 60
+exercises: 60
 questions:
 - "How do you mark up a locus?"
 - "How do you link a locus?"

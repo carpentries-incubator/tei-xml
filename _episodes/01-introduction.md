@@ -198,36 +198,47 @@ You can also ‘nest’ other texts within text.
 > > 10. `<date when="1780-12-18">` - a date that appears, coded in a machine-readable way (YYYY-MM-DD)
 > >
 > > ```xml
-> > <TEI><teiHeader><fileDesc><titleStmt>
-> > 		<idno type="reference">HAM/1/1/3/8</idno>
-> >		<idno type="image">HAM-1-1-3-8.pdf</idno>
-> > 		<title>Letter from Princess Elizabeth to Mary Hamilton</title>
-> >	</titleStmt>
-> > <sourceDesc><bibl>
-> >		<title>Correspondence from Princess Elizabeth</title>
-> >		<p>Mary Hamilton Papers (1743–1826). GB 133 HAM. University of Manchester Library</p></bibl>
-> >	</sourceDesc></fileDesc>
-> > <profileDesc>
-> > <langUsage><language ident="en-GB">British English</language></langUsage>
-> >	<correspDesc>
-> >		<correspAction type="sent">
-> >			<persName>Elizabeth, Princess, daughter of George III, King of Great Britain (1770-1840/41). </persName>
-> > <date when="1780-12-18">18 December 1780</date>
-> > </correspAction>
-> > <correspAction type="received">
-> >	<persName>Hamilton, Mary (1756-1816).</persName>
-> >		</correspAction>
-> >	</correspDesc>
-> > </profileDesc></teiHeader>
+> > <TEI>
+> > 	<teiHeader>
+> > 		<fileDesc>
+> > 			<titleStmt>
+> > 				<idno type="reference">HAM/1/1/3/8</idno>
+> >					<idno type="image">HAM-1-1-3-8.pdf</idno>
+> > 				<title>Letter from Princess Elizabeth to Mary Hamilton</title>
+> >				</titleStmt>
+> > 			<sourceDesc>
+> > 				<bibl>
+> >						<title>Correspondence from Princess Elizabeth</title>
+> >						<p>Mary Hamilton Papers (1743–1826). GB 133 HAM. University of Manchester Library</p>
+> > 				</bibl>
+> >				</sourceDesc>
+> > 		</fileDesc>
+> > 		<profileDesc>
+> > 			<langUsage><language ident="en-GB">British English</language></langUsage>
+> >				<correspDesc>
+> >					<correspAction type="sent">
+> >						<persName>Elizabeth, Princess, daughter of George III, King of Great Britain (1770-1840/41). </persName>
+> > 					<date when="1780-12-18">18 December 1780</date>
+> > 				</correspAction>
+> > 				<correspAction type="received">
+> >						<persName>Hamilton, Mary (1756-1816).</persName>
+> >					</correspAction>
+> >				</correspDesc>
+> > 		</profileDesc>
+> > 	</teiHeader>
 > > ...
 > >  </TEI>
 > > ```
 > >
 > > ### More information about the Mary Hamilton letters
 > > 
-> > Mary Hamilton (1756–1816) was governess to the daughters of George III and Queen Charlotte and stood at the centre of a number of royal, aristocratic, literary and artistic circles in late eighteenth-century London. Special Collections holds a substantial archive relating to Mrs. Hamilton, including voluminous correspondence.
+> > Mary Hamilton (1756–1816) was governess to the daughters of George III and Queen Charlotte 
+> > and stood at the centre of a number of royal, aristocratic, literary and artistic circles in late eighteenth-century London. 
+> > Special Collections holds a substantial archive relating to Mrs. Hamilton, including voluminous correspondence.
 > > 
-> > Since 2013, students of Linguistics at the University of Manchester have created transliterations of Mary Hamilton’s letters as part of a course led by Professor David Denison and Dr Nuria Yáñez-Bouza. The students are expected to reproduce the spelling and punctuation exactly, including any errors or changes to the text.
+> > Since 2013, students of Linguistics at the University of Manchester have created transliterations of Mary Hamilton’s letters 
+> > as part of a course led by Professor David Denison and Dr Nuria Yáñez-Bouza. 
+> > The students are expected to reproduce the spelling and punctuation exactly, including any errors or changes to the text.
 > >
 > > In order to show this in depth transcription of the letters, students use TEI which allows them to input very complex metadata.
 > > 
