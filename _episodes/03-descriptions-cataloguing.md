@@ -5,11 +5,13 @@ exercises: 60
 questions:
 - "How do you mark up a locus?"
 - "How do you link a locus?"
-- "(something on manifests and authorities)"
+- "How do manifests work?"
+- "How do I select and use authorities, and why should I use them?"
 objectives:
 - "Work between records"
-- "(catalogue)"
-- "objective 1 (FIXME)"
+- "Mark up and link a locus"
+- "Use a manifest to... FIXME"
+- "Select and use authorities to better describe ... FIXME"
 keypoints:
 - "First key point. Brief Answer to questions. (FIXME)"
 ---
@@ -69,10 +71,15 @@ MDC enables a live link between the description and the relevant image
 >  - `xml:id` enables linking between the image and transcription `<text>`.
 > 
 > ```xml
-> <facsimile><surface xml:id="i9" n="1r">
-> <graphic>…</graphic></surface></facsimile>
+> <facsimile>
+> 	<surface xml:id="i9" n="1r">
+> 		<graphic>...</graphic>
+> 	</surface>
+> </facsimile>
 > 
-> <text><div><pb n=“1r” xml:id="pb-1r" facs="#i9"/></text>
+> <text>
+> 	<div><pb n=“1r” xml:id="pb-1r" facs="#i9"/>   [WHERE IS </DIV>????]
+> </text>
 > ```
 >
 > Within `<surface>` the element `<graphic>` contains attributes for image metadata.
@@ -80,7 +87,7 @@ MDC enables a live link between the description and the relevant image
 > ```xml
 > <surface xml:id="i1" n="Front_cover">
 > 	<graphic n="JRL1316304" decls="#downloadImageRights #download" rend="portrait" 
-> 	 height="5500px“ width="3797px" 
+> 	 height="5500px“ width="3797px"  
 > 	 url="MS-LATIN-00008-000-00001.jp2"/>
 > </surface>
 > ```
@@ -89,17 +96,118 @@ MDC enables a live link between the description and the relevant image
 > > Show facsimile on MS 8. The `<facsimile>` section brings together information about the digital and physical objects in the TEI file. 
 > > This programming enables the system/reader to link different pieces of information together in one relatively straightforward phrase.
 > > 
+> {: .solution}
 {: .challenge}
+
+## Manifests
+
+Manifests enable the automatic population of the `<facsimile>` element.
+Photographers and cataloguers normally complete these, but they may need curatorial advice.
+They combine relevant information in a single spreadsheet.
+
+- jrl (image) number
+- Folio number of physical object
+- Reference number of digital object
+
+![Manifest spreadsheet sample](../fig/manifest-spreadsheet-sample.png)
+
+Thankfully, this doesn’t require coding up – the manifest will do this work for you! 
+We have spreadsheets with three columns to bring together the important information needed to identify and bring together 
+the relevant information. 
+There has been some training for cataloguers and non-SC people on different terminology and practice 
+(eg. foliation/collation/page numbering) but more work is taking place to standardise this.
+
+Now, have a go at one or more of these exercises to practice manifests, marking up, 
+or just familiarising yourself with the makeup of some of these records.
+
+> ## Explore the TEI metadata for Latin MS 8
+> in Oxygen – focus on `<facsimile>` and `<locus>`
+>
+{: .challenge}
+
+> ##Mark up the `<locus>` for Latin MS 164
+> in Oxygen
+>
+{: .challenge}
+
+> ##Fill in the gaps in the sample manifest for Latin MS 8 
+> and compare this to the published facsimile in Manchester Digital Collections
+>
+{: .challenge}
+
+
 
 ## Authorities and index terms
 
-.... MORE TO COME, FIXME
+There are many authorities you can link to in TEI. The ones we use are:
 
-### Best practice: identifying and encoding
+- [VIAF](http://www.viaf.org) (for people, places, corporations and other entities)
+- [Library of Congress Subject Headings](http://id.loc.gov/authorities/subjects.html) 
+(for topics of manuscripts)
+- [Worldcat](https://www.worldcat.org/) (for bibliography)
 
-> ## Challenges: interoperability
-> 
-> ...
+> ## Suggestion from curator [ELIZABETH OR JO???? FIXME]
+> Sometimes, Worldcat and VIAF have duplicates, I tend to go with the first hit for convenience.  
+> There will be many instances, especially with more modern figures, of multiple people with the same name. 
+> In this instance you have to use other evidence to find the right one – dates of birth, etc.
+{: .testimonial}
+
+### VIAF
+‘William of Conches’ (a medieval author): 
+go to VIAF, search for him under ‘personal names’. 
+There are two hits; I will go with the top, more complete one. 
+Copy the ‘permalink’.
+
+```xml
+<name type="person" subtype="aut" ref="http://viaf.org/viaf/25921941"> 
+	<persname type="standard">William of Conches, 1080-1154</persname> 
+	<persname type="display">Conches, William of (b. C. 1080, d. 1154), theologian<persname>
+</name>
+```
+
+The entity within `<name/>` can be inserted into any field, including `<author/>` or within free text.
+
+### Library of Congress Subject Headings
+These go in a special section at the bottom of the record. I include as many as seem relevant. 
+
+```xml
+<profiledesc>
+	<textclass>
+		<keywords scheme="#LCSH">
+			<list>
+				<item><ref target="http://id.loc.gov/authorities/names/n78095796">
+					Bible. Revelation</ref></item>
+				<item><ref target="http://id.loc.gov/authorities/subjects/sh85013597">
+					Bible--Commentaries</ref></item>
+			</list>
+		</keywords>
+	</textclass>
+</profiledesc>
+```
+
+### Worldcat
+
+This goes in the `<listbibl/>` tag which is a special section near the end of the record. 
+Again, it’s about finding the correct record and copying the URL to paste in.
+ 
+```xml
+<listbibl>
+	<bibl>
+		<ref target="http://www.Worldcat.Org/oclc/956252269">
+			M. R. James, A Descriptive Catalogue of the Latin Manuscripts in the 
+			John Rylands Library at Manchester (Manchester, 1921), 
+			reprinted with an introduction and additional notes and corrections 
+			by F. Taylor (München, 1980).
+		</ref>
+	</bibl>
+</listbibl>
+```
+
+> ## Authority terms: what do you think?
+> - What sources do you use for authority terms?
+> - How do we ensure consistency between different formats and finding aids?
+> - How much should we use them?
+>
 {: .challenge}
 
 
