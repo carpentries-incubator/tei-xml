@@ -141,7 +141,7 @@ FIXME: links above
 > For `<origDate>`:
 >
 > - add dating attributes as for binding
-> `<item><ref target="http://id.loc.gov/authorities/subjects/"/>Religion</item>`{:.language-xml}
+> `<item><ref target="http://id.loc.gov/authorities/subjects/"/>Religion</item>`{: .language-xml}
 {: .challenge}
 
 

@@ -203,30 +203,30 @@ You can also ‘nest’ other texts within text.
 > > 		<fileDesc>
 > > 			<titleStmt>
 > > 				<idno type="reference">HAM/1/1/3/8</idno>
-> >					<idno type="image">HAM-1-1-3-8.pdf</idno>
+> > 				<idno type="image">HAM-1-1-3-8.pdf</idno>
 > > 				<title>Letter from Princess Elizabeth to Mary Hamilton</title>
-> >				</titleStmt>
+> > 			</titleStmt>
 > > 			<sourceDesc>
 > > 				<bibl>
-> >						<title>Correspondence from Princess Elizabeth</title>
+> > 					<title>Correspondence from Princess Elizabeth</title>
 > >						<p>Mary Hamilton Papers (1743–1826). GB 133 HAM. University of Manchester Library</p>
 > > 				</bibl>
-> >				</sourceDesc>
+> > 			</sourceDesc>
 > > 		</fileDesc>
 > > 		<profileDesc>
 > > 			<langUsage><language ident="en-GB">British English</language></langUsage>
-> >				<correspDesc>
-> >					<correspAction type="sent">
-> >						<persName>Elizabeth, Princess, daughter of George III, King of Great Britain (1770-1840/41). </persName>
+> > 			<correspDesc>
+> > 				<correspAction type="sent">
+> > 					<persName>Elizabeth, Princess, daughter of George III, King of Great Britain (1770-1840/41). </persName>
 > > 					<date when="1780-12-18">18 December 1780</date>
 > > 				</correspAction>
 > > 				<correspAction type="received">
-> >						<persName>Hamilton, Mary (1756-1816).</persName>
-> >					</correspAction>
-> >				</correspDesc>
+> > 					<persName>Hamilton, Mary (1756-1816).</persName>
+> > 				</correspAction>
+> > 			</correspDesc>
 > > 		</profileDesc>
 > > 	</teiHeader>
-> > ...
+> > 	...
 > >  </TEI>
 > > ```
 > >
