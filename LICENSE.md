@@ -3,11 +3,18 @@ layout: page
 title: "Licenses"
 root: .
 ---
+
+DRAFT: This material is provided under the licences stated below.
+
 ## Instructional Material
 
-All Software Carpentry, Data Carpentry, and Library Carpentry instructional material is
-made available under the [Creative Commons Attribution
-license][cc-by-human]. The following is a human-readable summary of
+The website template is maintained by [The University of Manchester Library][UML] 
+and rendered with [Jekyll][JK].
+The lesson Jekyll file structure and browsing layout is derived from work by 
+[Software Carpentry][sc] licensed under the 
+[Creative Commons Attribution license][cc-by-human].  
+
+The following is a human-readable summary of
 (and not a substitute for) the [full legal text of the CC BY 4.0
 license][cc-by-legal].
 
@@ -24,9 +31,9 @@ license terms.
 Under the following terms:
 
 * **Attribution**---You must give appropriate credit (mentioning that
-  your work is derived from work that is Copyright © Software
-  Carpentry and, where practical, linking to
-  http://software-carpentry.org/), provide a [link to the
+  your work is derived from work that is Copyright © The University
+  of Manchester and, where practical, linking to
+  http://manchester.ac.uk), provide a [link to the
   license][cc-by-human], and indicate if changes were made. You may do
   so in any reasonable manner, but not in any way that suggests the
   licensor endorses you or your use.
@@ -48,7 +55,7 @@ Notices:
 ## Software
 
 Except where otherwise noted, the example programs and other software
-provided by Software Carpentry and Data Carpentry are made available under the
+provided are made available under the
 [OSI][osi]-approved
 [MIT license][mit-license].
 
@@ -71,6 +78,52 @@ LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
 OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
+## Transcriptions and digitisations
+
+The example transcriptions and digitisations are included with
+their original licences and/or permission from their owners, as noted. 
+Usually this is a 
+[Creative Commons Attribution-NonCommercial licence][cc-by-nc-human].
+
+The following is a human-readable summary of
+(and not a substitute for) the [full legal text of the CC BY-NC 4.0
+license][cc-by-nc-legal].
+
+You are free:
+
+* to **Share**---copy and redistribute the material in any medium or format
+* to **Adapt**---remix, transform, and build upon the material
+
+The licensor cannot revoke these freedoms as long as you follow the
+license terms.
+
+Under the following terms:
+
+* **Attribution**---You must give appropriate credit (mentioning that
+  your work is derived from work that is Copyright © The University
+  of Manchester and, where practical, linking to
+  http://manchester.ac.uk), provide a [link to the
+  license][cc-by-human], and indicate if changes were made. You may do
+  so in any reasonable manner, but not in any way that suggests the
+  licensor endorses you or your use.
+* **NonCommercial**---You may not use the material for
+  commercial purposed.
+
+**No additional restrictions**---You may not apply legal terms or
+technological measures that legally restrict others from doing
+anything the license permits.  With the understanding that:
+
+Notices:
+
+* You do not have to comply with the license for elements of the
+  material in the public domain or where your use is permitted by an
+  applicable exception or limitation.
+* No warranties are given. The license may not give you all of the
+  permissions necessary for your intended use. For example, other
+  rights such as publicity, privacy, or moral rights may limit how you
+  use the material.
+
+
 ## Trademark
 
 "Software Carpentry" and "Data Carpentry" and their respective logos
@@ -81,3 +134,9 @@ are registered trademarks of [Community Initiatives][CI].
 [mit-license]: https://opensource.org/licenses/mit-license.html
 [ci]: http://communityin.org/
 [osi]: https://opensource.org
+[uml]: http://www.manchester.ac.uk/library
+[jk]: https://jekyllrb.com
+[sc]: https://software-carpentry.org
+[lc]: https://librarycarpentry.org
+[cc-by-nc-human]: https://creativecommons.org/licenses/by-nc/4.0/
+[cc-by-nc-legal]: https://creativecommons.org/licenses/by-nc/4.0/legalcode
