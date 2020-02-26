@@ -10,7 +10,7 @@ objectives:
 - "Mark up a description with TEI by hand and in an editor."
 keypoints:
 - "You can mark up a manuscript using fewer than 20 different elements. FIXME"
-- "OTHER KEY POINTS? FIXME"
+- "Use a combination of elements and attributes to effectively mark up a manuscript. FIXME"
 ---
 
 Building on first workshop, getting stuck in to manuscript description.
@@ -99,12 +99,13 @@ We have provided some tips and tricks for marking up text in Oxygen. See the bot
 > Available under CC BY-NC 3.0 licence.
 > 
 > > ## Partial solution
+> > 
 > > A partially completed version: 
 > > [MS-LATIN-00006-template-attributes.xml](../files/MS-LATIN-00006-template-attributes.xml) 
 > > (Right-click, "Save Link As..."). 
 > >
 > > Available under CC BY-NC 3.0 licence.
-> { .solution}
+> {: .solution}
 {: .challenge}
 
 ## Validating markup
