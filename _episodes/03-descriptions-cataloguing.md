@@ -13,7 +13,9 @@ objectives:
 - "Use a manifest to... FIXME"
 - "Select and use authorities to better describe ... FIXME"
 keypoints:
-- "First key point. Brief Answer to questions. (FIXME)"
+- "A locus marks information of interest on a particular page."
+- "Manifests can help automate the markup process but may need curatorial advice."
+- "There are a choice of authorities that can be used to further identify entities."
 ---
 Building on first workshop, getting stuck in to manuscript description.
 
@@ -130,6 +132,7 @@ or just familiarising yourself with the makeup of some of these records.
 > in Oxygen – focus on `<facsimile>` and `<locus>`
 >
 > The XML record is available here to download: [MS-LATIN-00008-for-loci.xml](../files/MS-LATIN-00008-for-loci.xml)
+> (Right-click, "Save Link As...")
 > 
 > Available under CC BY-NC 4.0 licence.
 >
@@ -139,6 +142,7 @@ or just familiarising yourself with the makeup of some of these records.
 > in Oxygen
 > 
 > The XML record is available here to download: [MS-LATIN-00164-for-loci.xml](../files/MS-LATIN-00164-for-loci.xml)
+> (Right-click, "Save Link As...")
 > 
 > Available under CC BY-NC 4.0 licence.
 >
@@ -222,7 +226,8 @@ Again, it’s about finding the correct record and copying the URL to paste in.
 > - How do we ensure consistency between different formats and finding aids?
 > - How much should we use them?
 >
-> FIXME Homework [MS-LATIN-00006-for-homework.xml](../files/MS-LATIN-00006-for-homework.xml)
+> FIXME Homework [MS-LATIN-00006-for-homework.xml](../files/MS-LATIN-00006-for-homework.xml) 
+(Right-click, "Save Link As...")
 >
 > Available under CC BY-NC 4.0 licence.
 >

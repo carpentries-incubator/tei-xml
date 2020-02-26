@@ -10,7 +10,7 @@ Download the [puzzle as a Word document](../files/TEI_Exercise_Puzzle.docx) or [
 # Latin manuscripts
 We will be searching an example TEI file of a Latin manuscript. Later, we will be adding to an existing template.
 
-Source, Licence FIXME
+Available under CC BY-NC 4.0 [licence](../LICENSE.html).
 
 - Episode 1: JRL_LatinMS98_workshop.xml
 - Episode 2: Latin MSS template file for TEI workshop.xml
@@ -19,6 +19,8 @@ Source, Licence FIXME
   - [MS-LATIN-00008-for-loci.xml](../files/MS-LATIN-00008-for-loci.xml)
   - [MS-LATIN-00164-for-loci.xml](../files/MS-LATIN-00164-for-loci.xml)
   - [MS-LATIN-00006-for-homework.xml](../files/MS-LATIN-00006-for-homework.xml)
+
+For XML files, right-click them then choose "Save Link As...".
 
 # XML editor
 You will need to use an XML text editor.
