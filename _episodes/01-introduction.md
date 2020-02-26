@@ -306,11 +306,12 @@ enable deeper access to the resources without significant technical skills.
 
 ### Detailed descriptions and wayfinding
 Finally, as you’ll have seen with MDC, **in-depth description of pages** can be linked to a specific image or illustration. 
-An example of this is the [Hebrew manuscript on CUDL](https://cudl.lib.cam.ac.uk/view/MS-ADD-00433/1). 
+An example of this is the [Hebrew manuscript on Cambridge Digital Library](https://cudl.lib.cam.ac.uk/view/MS-ADD-00433/1). 
 This uses the `<locus>` tag to identify a set of pages and describe what appears within them; 
 this could be illustrations, diagrams or a particular narrative.
 
 [![MS Add.433, Hebrew Manuscripts (Cambridge University Library)](../fig/CUDL_MS_Add.433.png)](../fig/CUDL_MS_Add.433_large.png)
+Source: MS Add.433, Hebrew Manuscripts (Cambridge University Library), licence CC BY-NC 3.0
 
 TEI is a very powerful tool which can bring together curatorial and researcher expertise, 
 and create new knowledge which isn’t limited to a group of people engaging with a particular set of physical objects. 
