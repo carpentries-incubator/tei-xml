@@ -1,7 +1,6 @@
 ---
 title: Setup
 ---
-FIXME
 
 # TEI puzzle
 Episode 1 has a puzzle exercise (fill the blanks) which can worth better on paper. 
@@ -16,6 +15,10 @@ Source, Licence FIXME
 - Episode 1: JRL_LatinMS98_workshop.xml
 - Episode 2: Latin MSS template file for TEI workshop.xml
 - Episode 3: 
+  - [MS-LATIN-00008.xlsx](../files/MS-LATIN-00008.xlsx)
+  - [MS-LATIN-00008-for-loci.xml](../files/MS-LATIN-00008-for-loci.xml)
+  - [MS-LATIN-00164-for-loci.xml](../files/MS-LATIN-00164-for-loci.xml)
+  - [MS-LATIN-00006-for-homework.xml](../files/MS-LATIN-00006-for-homework.xml)
 
 # XML editor
 You will need to use an XML text editor.
