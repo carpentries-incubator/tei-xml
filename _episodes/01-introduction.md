@@ -47,7 +47,7 @@ in (Landow and Delaney 1993))
 TEI is very **broad and flexible** – it can be used in many ways. 
 At the moment, at The Unversity of Manchester Library, we are using it primarily as a mechanism for **structuring** information.
 
-IMG: Photo by Ashkan Forouzani on Unsplash
+*IMG: Photo by Ashkan Forouzani on Unsplash*
 
 
 ### XML examples
@@ -209,7 +209,7 @@ You can also ‘nest’ other texts within text.
 > > 			<sourceDesc>
 > > 				<bibl>
 > > 					<title>Correspondence from Princess Elizabeth</title>
-> >						<p>Mary Hamilton Papers (1743–1826). GB 133 HAM. University of Manchester Library</p>
+> > 					<p>Mary Hamilton Papers (1743–1826). GB 133 HAM. University of Manchester Library</p>
 > > 				</bibl>
 > > 			</sourceDesc>
 > > 		</fileDesc>
@@ -251,12 +251,12 @@ You can also ‘nest’ other texts within text.
 We’ve already covered quite a lot of jargon, but here’s a recap:
 
  - **TEI** – Text Encoding Initiative
- - **XML** – extensible markup language
+ - **XML** – eXtensible Markup Language
  - **Template** – most TEI records are based on a template which can be enhanced to form a...
- - **Boilerplate** – a template which also contains the standard information for cataloguing a collection (eg. the owner, the cataloguer and the name of the catalogue)
- - **Elements** – provide structure to the human readable content, for example defining paragraph, name or subject
- - **Tags** – denote elements in a machine readable format and are usually enclosed in angle brackets, for example `<p></p>` for ‘paragraph’. Tags almost always appear in pairs (opening and closing around the human readable content)
- - **Attributes** - include additional information to enrich the element, such as defining the number of columns on a page
+ - **Boilerplate** – a template which also contains the standard information for cataloguing a collection (eg. the owner, the cataloguer and the name of the catalogue).
+ - **Elements** – provide structure to the human readable content, for example defining paragraph, name or subject.
+ - **Tags** – denote elements in a machine readable format and are usually enclosed in angle brackets, for example `<p></p>` for ‘paragraph’. Tags almost always appear in pairs (opening and closing around the human readable content).
+ - **Attributes** - include additional information to enrich the element, such as defining the number of columns on a page.
  - **Nesting** – this describes how the elements are structured to define the content with multiple tags ‘inside’ one another. In the same way as Russian Dolls ‘nest’ inside eachother, elements can be brought together to provide increasingly specific information.
 
 ## How is TEI used?
@@ -275,10 +275,9 @@ to support big data analysis or text data mining.
 Of course we already have interoperable cataloguing languages (such as MARC and EAD) 
 but TEI provides the **richness of metadata** along with scholarly information which makes it an peerless researcher/educational tool.
 
-IMG: Photo by the Creative Exchange on Unsplash
+*IMG: Photo by the Creative Exchange on Unsplash*
 
 ### Downloadable and linkable metadata
-FIXME: UPDATE THIS LINE TO EXPLAIN MDC.
 This is the reason TEI is the mainstay of [Manchester Digital Collections](https://www.digitalcollections.manchester.ac.uk)
  – the **metadata is downloadable** so that people can take it away and work with it.
 
@@ -287,7 +286,7 @@ for example look at the way that name and place authority files have hyperlinks
 to show how different items in the collection relate to eachother. 
 This is purely through the use of TEI (as an XML language) which enables linked data.
 
-IMG: Henry Hunt, WikiMedia
+*IMG: Henry Hunt, WikiMedia*
 
 ### Transcription and intellectual metadata
 As we have already seen through the Activity, the Mary Hamilton letters have been **transcribed** by students and 
@@ -298,11 +297,12 @@ but it adds to scholarly information about the sources.
 In particular, you can see in the text what’s been erased or changed and how, 
 and you can keep both the original and modern spellings or a word. 
 
+[![Mary Hamilton letter JRL1415453](../fig/HAM_1_10_1_11.png)](../fig/HAM_1_10_1_11_large.png)
+Source: HAM/1/10/1/11 (JRL1415453), John Rylands Library, licence CC BY-NC 4.0
+
 In a different format but with similar results, the 
 [Cambridge Casebooks project digital editions](https://casebooks.lib.cam.ac.uk/search?browse-all=yes;sort=sort-date) 
 enable deeper access to the resources without significant technical skills.
-
-IMG: Mary Hamilton paper HAM/1/10/1/11 (JRL1415453)
 
 ### Detailed descriptions and wayfinding
 Finally, as you’ll have seen with MDC, **in-depth description of pages** can be linked to a specific image or illustration. 
@@ -310,11 +310,11 @@ An example of this is the [Hebrew manuscript on CUDL](https://cudl.lib.cam.ac.uk
 This uses the `<locus>` tag to identify a set of pages and describe what appears within them; 
 this could be illustrations, diagrams or a particular narrative.
 
+[![MS Add.433, Hebrew Manuscripts (Cambridge University Library)](../fig/CUDL_MS_Add.433.png)](../fig/CUDL_MS_Add.433_large.png)
+
 TEI is a very powerful tool which can bring together curatorial and researcher expertise, 
 and create new knowledge which isn’t limited to a group of people engaging with a particular set of physical objects. 
 It is truly interdisciplinary and enables exciting new areas of research.
-
-IMG: MS Add.433, Hebrew Manuscripts (Cambridge University Library)
 
 
 
@@ -340,7 +340,9 @@ Particularly to identify elements you might want to use and where they sit in th
 
 > ## XML structure
 >
-> Open the test file: **JRL_LatinMS98_workshop.xml** [Link TBA FIXME].
+> Open the test file: [MS-LATIN-00098-for-homework.xml](../files/MS-LATIN-00098-for-homework.xml) 
+> (Right-click, "Save Link As..."). Available under CC BY-NC 3.0 licence.
+>
 >
 > In the Oxygen menu bar, go to: "Window" > "Show View" > "Outline".
 > This will bring up the structure view in a separate window. 
@@ -354,7 +356,7 @@ Particularly to identify elements you might want to use and where they sit in th
 > 3. Can you guess the sorts of information each element contains?
 >
 > > ## Solution
-> > FIXME
+> > FIXME - OR SHOULD THIS GO INTO NEXT MONTH.
 > {: .solution}
 {: .challenge}
 
@@ -387,8 +389,8 @@ Particularly to identify elements you might want to use and where they sit in th
 {: .challenge}
 
 
-Make a note of any questions you have, or problems you encounter – we can cover these in the next workshop.
-For more practical TEI training, join us for the next workshop.
+Make a note of any questions you have, or problems you encounter – we can cover these in the next session.
+For more practical TEI training, join us for the next episode.
 
 
 

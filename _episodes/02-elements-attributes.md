@@ -123,7 +123,8 @@ If you have less experience with Oxygen and XML, use the partially completed ver
 [MS-LATIN-00006-template-attributes.xml](../files/MS-LATIN-00006-template-attributes.xml) (Right-click, "Save Link As..."). 
 Available under CC BY-NC 3.0 licence.
 
-You might find it helpful to look at the XML for Latin MS 98 (from the homework the previous episode) 
+You might find it helpful to look at the 
+[XML for Latin MS 98 (from the homework the previous episode)](../files/MS-LATIN-00098-for-homework.xml)
 or the Draft Style Guide for Cambridge Digital Library (pdf) FIXME URL.
 
 > ## Replace attribute values
