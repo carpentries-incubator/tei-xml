@@ -362,7 +362,7 @@ Particularly to identify elements you might want to use and where they sit in th
 {: .challenge}
 
 > ## XML content, elements and attributes
-> Continue working with **JRL_LatinMS98_workshop.xml**. 
+> Continue working with [MS-LATIN-00098-for-homework.xml](../files/MS-LATIN-00098-for-homework.xml). 
 >
 > Find the ID number of the manuscript.
 >
