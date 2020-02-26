@@ -44,7 +44,7 @@ We will work together at the start, working on paper. When we get to Oxygen, you
 - `<binding>` - Binding description
 - `<provenance>` - Provenance
 
-> ## Activity: marking up
+> ## Activity: marking up, on paper
 > 
 > Here is some information from Latin MS 6 to be entered into elements in TEI. 
 > Enter the correct information from here into the corresponding TEI elements.
@@ -86,11 +86,25 @@ We will work together at the start, working on paper. When we get to Oxygen, you
 
 We have provided some tips and tricks for marking up text in Oxygen. See the bottom of this page.
 
-> ## Activity
+> ## Activity: transferring markup to a text editor
 > 
 > Now you have marked up a document by hand, it is time to put it into a text editor. 
+>
 > Start with the template we have provided, replace the blanks with your markup.
 > 
+> The XML record is available here to download: 
+> [MS-LATIN-00006-template.xml](../files/MS-LATIN-00006-template.xml)
+> (Right-click, "Save Link As...")
+> 
+> Available under CC BY-NC 3.0 licence.
+> 
+> > ## Partial solution
+> > A partially completed version: 
+> > [MS-LATIN-00006-template-attributes.xml](../files/MS-LATIN-00006-template-attributes.xml) 
+> > (Right-click, "Save Link As..."). 
+> >
+> > Available under CC BY-NC 3.0 licence.
+> { .solution}
 {: .challenge}
 
 ## Validating markup
@@ -102,12 +116,14 @@ Look for a message at the bottom of screen to say "Validation Successful".
 
 ## Homework: Adding attributes
 
-If you are comfortable working in Oxygen, you should add these attributes to the XML file you created at the workshop (for Latin MS 6). 
-If you have less experience with Oxygen and XML, use the partially completed version in the homework folder (Latin MS 6_template_attributes). 
-You might find it helpful to look at the XML for Latin MS 98 (from the homework for workshop 1) 
-or the Draft Style Guide for Cambridge Digital Library (pdf).
+If you are comfortable working in Oxygen, you should **add these attributes to the XML file you created** (for Latin MS 6). 
 
-FIXME: links above
+If you have less experience with Oxygen and XML, use the partially completed version 
+[MS-LATIN-00006-template-attributes.xml](../files/MS-LATIN-00006-template-attributes.xml) (Right-click, "Save Link As..."). 
+Available under CC BY-NC 3.0 licence.
+
+You might find it helpful to look at the XML for Latin MS 98 (from the homework the previous episode) 
+or the Draft Style Guide for Cambridge Digital Library (pdf) FIXME URL.
 
 > ## Replace attribute values
 > 

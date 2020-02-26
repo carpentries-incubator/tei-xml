@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+        <fileDesc>
+            <titleStmt>
+                <title>Catalogue of Latin Manuscripts in the John Rylands Library</title>
+                <funder/>
+                <principal>John Hodgson</principal>
+                <respStmt>
+                    <resp>Cataloguer</resp>
+                    <name>Joanne Edge</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The University of Manchester Library</publisher>
+                <date calendar="Gregorian">2018</date>
+                <pubPlace>
+                    <address>
+                        <addrLine>The John Rylands Library</addrLine>
+                        <street>150 Deansgate</street>
+                        <settlement>Manchester</settlement>
+                        <postCode>M3 3EH</postCode>
+                        <addrLine><ref
+                                target="http://www.library.manchester.ac.uk/specialcollections/">The
+                                John Rylands Library </ref></addrLine>
+                        <addrLine><email>uml.special-collections@manchester.ac.uk</email></addrLine>
+                    </address>
+                </pubPlace>
+                <idno>UkMaJRU-Latin-MS-06</idno>
+                <availability xml:id="displayImageRights" status="restricted">
+                    <p>Zooming image © University of Manchester Library, All rights reserved.</p>
+                </availability>
+                <availability xml:id="downloadImageRights" status="restricted">
+                    <licence>Images made available for download are licensed under a Creative
+                        Commons Attribution-NonCommercial 3.0 Unported License (CC BY-NC
+                        3.0)</licence>
+                </availability>
+                <availability xml:id="metadataRights" status="restricted">
+                    <licence>This metadata is licensed under a Creative Commons
+                        Attribution-NonCommercial 3.0 Unported License.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc xmlns="http://www.tei-c.org/ns/1.0" xml:id="UkMaJRU-Latin-MS-00"
+                    xml:lang="eng">
+                    
+
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <region type="county">Greater Manchester</region>
+                        <settlement>Manchester</settlement>
+                        <institution>The University of Manchester Library</institution>
+                        <repository>The John Rylands Library</repository>
+                        <collection>Latin Manuscripts</collection>
+
+                        <idno>Latin MS <!-- TODO - fill in - je --></idno>
+
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary><!-- TODO - fill in - je --></summary>
+
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc>
+                                <support>
+                                    <material><!-- TODO - fill in - je --></material></support>
+
+                                <extent>
+                                    <measure/>
+                                    <dimensions type="leaf" unit="mm">
+                                        <height><!-- TODO - fill in - je --></height>
+                                        <width><!-- TODO - fill in - je --></width>
+                                    </dimensions>.</extent>
+
+                                <foliation>
+                                    <p/></foliation>
+
+                                <collation>
+                                    <list>
+                                        <item><hi rend="superscript"></hi><!-- TODO - fill in - je --></item>
+                                    </list>
+                                </collation>
+
+                            </supportDesc>
+
+                            <layoutDesc>
+                                <layout><!-- TODO - fill in - je --></layout>
+
+                            </layoutDesc>
+
+                        </objectDesc>
+
+                        <handDesc>
+                            <handNote>
+                                <p/>
+                            </handNote>
+                        </handDesc>
+
+                        <bindingDesc>
+                            <binding>
+                                <p><!-- TODO - fill in - je --></p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+
+                    <history>
+                        <origin><p><origPlace><!-- TODO - fill in - je --></origPlace>
+                                <origDate><!-- TODO - fill in - je --></origDate></p>
+                        </origin>
+
+                        <provenance><!-- TODO - fill in - je --></provenance>
+
+                        <acquisition/>
+
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                     <source>Description based on <persName>M.R. James</persName>,
+                                        <title>A Descriptive Catalogue of the Latin Manuscripts in
+                                        the John Rylands Library at Manchester</title> (Manchester,
+                                    1921), reprinted with an introduction and additional notes and
+                                    corrections by F. Taylor (München, 1980).</source>
+                            </recordHist>
+
+                            <availability status="restricted">
+                                <p>The manuscript is available for consultation by any accredited
+                                    reader.</p>
+                            </availability>
+                            <note/>
+                        </adminInfo>
+
+                        <listBibl>
+                            <bibl/>
+                        </listBibl>
+
+                    </additional>
+
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl><ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref></bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item/>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+
+            <change>
+                <persName/>.</change>
+
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+
+            <p/>
+        </body>
+    </text>
+</TEI>
