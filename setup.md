@@ -12,7 +12,8 @@ We will be searching an example TEI file of a Latin manuscript. Later, we will b
 
 The following files are available under CC BY-NC 4.0 [licence](../LICENSE.html) unless otherwise stated.
 
-- Episode 1: JRL_LatinMS98_workshop.xml
+- Episode 1: 
+  - [MS-LATIN-00098-for-homework.xml](../files/MS-LATIN-00098-for-homework.xml) (CC BY-NC 3.0)
 - Episode 2: 
   - [MS-LATIN-00006-template.xml](../files/MS-LATIN-00006-template.xml) (CC BY-NC 3.0)
   - [MS-LATIN-00006-template-attributes.xml](../files/MS-LATIN-00006-template-attributes.xml) (CC BY-NC 3.0)
@@ -28,10 +29,11 @@ The following files are available under CC BY-NC 4.0 [licence](../LICENSE.html) 
 You will need to use an XML text editor.
 
 We recommend Oxygen XML, if available.
-Free alternatives include...
+Free alternatives include [JEdit](http://www.jedit.org/index.php?page=download).
 
 ### Installing Oxygen
 
-Download Oxygen to your (work) computer – you can find it in the University Software Centre.
+Download Oxygen to your (work) computer – you can find it in 
+The University of Manchester [Software Centre](http://www.itservices.manchester.ac.uk/software/).
 
 {% include links.md %}
