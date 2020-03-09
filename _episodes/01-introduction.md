@@ -37,17 +37,18 @@ Digital markup has to be explicit and unambiguous so that a computer can underst
 
 TEI is **based on XML** (eXtensible Markup Language), which is a descriptive markup language. EAD (encoded archival description), 
 used to describe archival materials, also uses xml. 
-Markup can be presentational (it tells you about how the text appears on the page eg. line breaks, tabs etc.), 
-procedural (it gives an output device, for example a printer, 
-information about how it should deal with text) or 
-descriptive (it encodes the structure of the text, but not what to do with it).
-(Coombs, James H., Allen H. Renear, and Steven J. DeRose. 1987. "Markup Systems and the Future of Scholarly Text Processing." 
+
+Markup can be:
+
+- **presentational** (it tells you about how the text appears on the page eg. line breaks, tabs etc.), 
+- **procedural** (it gives an output device, for example a printer, information about how it should deal with text) or 
+- **descriptive** (it encodes the structure of the text, but not what to do with it).
+
+(Adapated from Coombs, James H., Allen H. Renear, and Steven J. DeRose. 1987. "Markup Systems and the Future of Scholarly Text Processing." 
 in (Landow and Delaney 1993))
 
 TEI is very **broad and flexible** – it can be used in many ways. 
 At the moment, at The Unversity of Manchester Library, we are using it primarily as a mechanism for **structuring** information.
-
-*IMG: Photo by Ashkan Forouzani on Unsplash*
 
 
 ### XML examples
@@ -67,9 +68,12 @@ Here you can see the ‘human readable’ content – `1 column, 25 lines` (it d
 this is what gets displayed on a viewer or online catalogue (or in a PDF version). 
 This is surrounded by elements which structure the information. Like in html, the element also determine the formatting of the content.
 
-The common element `<p>` for paragraph, is nested inside the element `<layout>`
+The common element `<p>` for paragraph, is [nested](../reference.html#glossary) inside the element `<layout>`
 
-Every element has an opening and closing ‘tag’. The beginning of the element is denoted by the element name in angled brackets. 
+![Layout described for humans to read](../fig/layout-human-readable.jpg)
+
+Every element has an opening and closing ‘[tag](../reference.html#glossary)’. 
+The beginning of the element is denoted by the element name in angled brackets. 
 The end of the element has a slash before the element name. 
 You can get ‘empty’ elements without content, like page break `<pb/>` (this functions as the beginning and end of an element).
 
@@ -90,7 +94,6 @@ The attribute names are shown here in olive brown. This is followed by an equal 
 
 
 ## How is TEI constructed?
-Don’t worry, you don’t need to remember this!
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -106,14 +109,14 @@ There are three main elements in a TEI file: header, facsimile and text. All the
 - The `<teiHeader>` describes both the TEI file itself and its ‘source’ (i.e. the object which is being encoded).
 - `<facsimile>` is where metadata about digital facsimiles (images) is provided.
 - `<text>` is where the text is transcribed.
- 
-IMG: outline view from Oxygen
+
+![Outline view from Oxygen](../fig/oxygen-top.png)
 
 The images are from screenshots of the ‘outline’ view in the Oxygen editor – you can use this to navigate around a TEI document. 
-XML enables linking between sections. 
-For example, if you describe an illustration in the header, this can be linked to via the facsimile section. 
+XML enables linking between these sections. 
+For example, if you describe an illustration from the item in the header, this can be linked to via the facsimile section. 
 
-We’re not going to cover here how the facsimile section is arranged.
+In this episode, we won’t focus on how the facsimile section is arranged.
 
 
 ### Header
@@ -135,10 +138,12 @@ We’re not going to cover here how the facsimile section is arranged.
 </TEI>
 ```
 
- - `<fileDesc>` – this describes the TEI file itself, for example its title, author and publication details (including rights statements), and contains the description of the source, such as the manuscript. We’ll cover this in more detail at the next workshop.
+ - `<fileDesc>` – this describes the TEI file itself, for example its title, author and publication details (including rights statements), and contains the description of the source, such as the manuscript. We’ll cover this in more detail at the next episode.
  - `<encodingDesc>` – this describes how the file has been encoded, including what taxonomies are used (for example states that Library of Congress Subject Headings are being used).
  - `<profileDesc>` – includes the subject headings themselves, information about language, and can contain `correspDesc`.
  - `<revisionDesc>` – where you record any changes to the file (should have date and name, and can also include details of changes made).
+
+![Oxygen header](../fig/oxygen-header.png)
 
 ### Text
 
@@ -162,10 +167,12 @@ The text can be divided into three main components:
  
 You can also ‘nest’ other texts within text.
 
+![Oxygen text](../fig/oxygen-text.png)
+
 > ## Scholarly apparatus
 > TEI is used to transcribe texts in a systematic and complex structure – called ‘scholarly apparatus’. 
-> We’re keeping it simple. For the exercise, we are only using `<body>`, which can be divided into divisions, 
-> and also by page breaks and line breaks.
+> We’re keeping it simple. For the exercise, we are only using `<body>`, which can be divided into divisions `<div>`, 
+> and also by page breaks `<pb>` and line breaks `<lb>`.
 {: .callout}
 
 > ## Try out a TEI puzzle
@@ -275,7 +282,6 @@ to support big data analysis or text data mining.
 Of course we already have interoperable cataloguing languages (such as MARC and EAD) 
 but TEI provides the **richness of metadata** along with scholarly information which makes it an peerless researcher/educational tool.
 
-*IMG: Photo by the Creative Exchange on Unsplash*
 
 ### Downloadable and linkable metadata
 This is the reason TEI is the mainstay of [Manchester Digital Collections](https://www.digitalcollections.manchester.ac.uk)
@@ -286,16 +292,16 @@ for example look at the way that name and place authority files have hyperlinks
 to show how different items in the collection relate to eachother. 
 This is purely through the use of TEI (as an XML language) which enables linked data.
 
-*IMG: Henry Hunt, WikiMedia*
 
 ### Transcription and intellectual metadata
 As we have already seen through the Activity, the Mary Hamilton letters have been **transcribed** by students and 
 [made available online](https://www.projects.alc.manchester.ac.uk/maryhamiltonpapers/letter/HAM-1-1-3-10/).
 
-The depth of encoding these letters is impressive (and more than we would be able to achieve in the Library) 
-but it adds to scholarly information about the sources. 
-In particular, you can see in the text what’s been erased or changed and how, 
-and you can keep both the original and modern spellings or a word. 
+The depth of encoding for these letters was made possible by the involvement specialist scholars; 
+non-specialist library cataloguers could not have included so much detail. 
+Particularly useful for scholarship are the deletions and additions in the text, 
+original and modern spellings and any annotations.
+
 
 [![Mary Hamilton letter JRL1415453](../fig/HAM_1_10_1_11.png)](../fig/HAM_1_10_1_11_large.png)
 Source: HAM/1/10/1/11 (JRL1415453), John Rylands Library, licence CC BY-NC 4.0
@@ -331,13 +337,13 @@ However, there is a lot of variety in this, so there are some specific ‘schema
 These all use TEI but you can use slightly different elements in the records to suit the type of item being described.
 
 The TEI community produces [guidelines](https://tei-c.org/guidelines/p5/) for the implementation of TEI – the latest is P5. 
-Looking at this online (and while you’re not doing TEI) can be daunting and confusing, but it’s very useful tool! 
-Particularly to identify elements you might want to use and where they sit in the record.
+These guidelines can look daunting when you’re not in the process of using TEI, 
+but they are a very useful tool, particularly to identify elements you might want to use and where they sit in the record.
 
 
 ## Next steps
 
-### Homework: Try this before the next session
+### Homework: Try this before the next episode
 
 > ## XML structure
 >
@@ -390,7 +396,7 @@ Particularly to identify elements you might want to use and where they sit in th
 {: .challenge}
 
 
-Make a note of any questions you have, or problems you encounter – we can cover these in the next session.
+Make a note of any questions you have, or problems you encounter – we can cover these in the next episode.
 For more practical TEI training, join us for the next episode.
 
 
