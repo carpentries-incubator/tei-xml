@@ -11,9 +11,9 @@ Learners were given "homework" activities at the end of each workshop.
 Some time was given at the start of the subsequqent workshop to discuss these activities. 
 Those three workshops have been adapted into "episodes" here.
 
-Jane Gallagher, Elizabeth Gow, Dr Jo Edge, Phil Reed
+Lesson design by Jane Gallagher, Elizabeth Gow, Dr Jo Edge and Phil Reed.
 
-Special thanks to Dr Giles Bergel and Dr Christopher Ohge
+Special thanks to Prof David Denison, Nuria Yáñez-Bouza, Dr Giles Bergel and Dr Christopher Ohge.
 
 <!-- this is an html comment -->
 
