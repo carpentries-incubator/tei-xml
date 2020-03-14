@@ -26,10 +26,15 @@ The following files are available under CC BY-NC 4.0 [licence](../LICENSE.html) 
 **To download XML files, right-click then choose "Save Link As...".**
 
 # XML editor
-You will need to use an XML text editor.
+You will need to use an XML text editor. We recommend Oxygen XML, if available.
 
-We recommend Oxygen XML, if available.
-Free alternatives include [JEdit](http://www.jedit.org/index.php?page=download).
+Free alternatives include [JEdit](http://www.jedit.org/index.php?page=download) and 
+[TEI Web Editor](https://tei-web-editor.herokuapp.com). 
+
+- JEdit is a free text editor that works on any platform and includes syntax highlighting for XML and TEI code.
+- TEI Web Editor is an online tool in which you can input TEI and see how it would display. 
+  It doesn’t have all the functionality of Oxygen, 
+  but it’s also not as complex to learn if you just want to see how things would look.
 
 ### Installing Oxygen
 

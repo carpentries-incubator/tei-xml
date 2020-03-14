@@ -304,7 +304,7 @@ original and modern spellings and any annotations.
 
 
 [![Mary Hamilton letter JRL1415453](../fig/HAM_1_10_1_11.png)](../fig/HAM_1_10_1_11_large.png)
-Source: HAM/1/10/1/11 (JRL1415453), John Rylands Library, licence CC BY-NC 4.0
+Source: HAM/1/10/1/11 (JRL1415453), University of Manchester, licence CC BY-NC 4.0
 
 In a different format but with similar results, the 
 [Cambridge Casebooks project digital editions](https://casebooks.lib.cam.ac.uk/search?browse-all=yes;sort=sort-date) 
@@ -312,12 +312,12 @@ enable deeper access to the resources without significant technical skills.
 
 ### Detailed descriptions and wayfinding
 Finally, as you’ll have seen with MDC, **in-depth description of pages** can be linked to a specific image or illustration. 
-An example of this is the [Hebrew manuscript on Cambridge Digital Library](https://cudl.lib.cam.ac.uk/view/MS-ADD-00433/1). 
+An example of this is the [Rylands Beatus (Latin MS 8)](https://www.digitalcollections.manchester.ac.uk/view/MS-LATIN-00008/19). 
 This uses the `<locus>` tag to identify a set of pages and describe what appears within them; 
 this could be illustrations, diagrams or a particular narrative.
 
-[![MS Add.433, Hebrew Manuscripts (Cambridge University Library)](../fig/CUDL_MS_Add.433.png)](../fig/CUDL_MS_Add.433_large.png)
-Source: MS Add.433, Hebrew Manuscripts (Cambridge University Library), licence CC BY-NC 3.0
+[![Beatus super Apocalypsim (The Rylands Beatus)](../the-rylands-beatus.png)](../fig/the-rylands-beatus-large.png)
+Source: Beatus super Apocalypsim (The 'Rylands Beatus') (Latin MS 8), University of Manchester, licence CC BY-NC 4.0
 
 TEI is a very powerful tool which can bring together curatorial and researcher expertise, 
 and create new knowledge which isn’t limited to a group of people engaging with a particular set of physical objects. 
@@ -363,7 +363,7 @@ but they are a very useful tool, particularly to identify elements you might wan
 > 3. Can you guess the sorts of information each element contains?
 >
 > > ## Solution
-> > FIXME - OR SHOULD THIS GO INTO NEXT MONTH.
+> > FIXME - OR COVER THIS IN NEXT EPISODE DISCUSSION?
 > {: .solution}
 {: .challenge}
 
