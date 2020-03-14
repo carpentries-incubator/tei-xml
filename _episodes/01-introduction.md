@@ -316,7 +316,7 @@ An example of this is the [Rylands Beatus (Latin MS 8)](https://www.digitalcolle
 This uses the `<locus>` tag to identify a set of pages and describe what appears within them; 
 this could be illustrations, diagrams or a particular narrative.
 
-[![Beatus super Apocalypsim (The Rylands Beatus)](../the-rylands-beatus.png)](../fig/the-rylands-beatus-large.png)
+[![Beatus super Apocalypsim (The Rylands Beatus)](../fig/the-rylands-beatus.png)](../fig/the-rylands-beatus-large.png)
 Source: Beatus super Apocalypsim (The 'Rylands Beatus') (Latin MS 8), University of Manchester, licence CC BY-NC 4.0
 
 TEI is a very powerful tool which can bring together curatorial and researcher expertise, 
