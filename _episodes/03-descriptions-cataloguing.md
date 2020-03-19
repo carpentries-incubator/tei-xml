@@ -164,7 +164,7 @@ There are many authorities you can link to in TEI. The ones we use are:
 (for topics of manuscripts)
 - [Worldcat](https://www.worldcat.org/) (for bibliography)
 
-> ## Suggestion from curator [ELIZABETH OR JO???? FIXME]
+> ## Suggestion from curator Dr Joanne Edge
 > Sometimes, Worldcat and VIAF have duplicates, I tend to go with the first hit for convenience.  
 > There will be many instances, especially with more modern figures, of multiple people with the same name. 
 > In this instance you have to use other evidence to find the right one – dates of birth, etc.
