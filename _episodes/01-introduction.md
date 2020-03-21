@@ -178,7 +178,7 @@ You can also ‘nest’ other texts within text.
 > ## Try out a TEI puzzle
 > 
 > [![Mary Hamilton letter](../fig/HAM_1_1_3_8.png)](../fig/HAM_1_1_3_8_large.png)
-> Image: HAM/1/1/3/8, John Rylands Library, licence CC BY-NC 4.0
+> <div align="center">Image: HAM/1/1/3/8, John Rylands Library, licence CC BY-NC 4.0</div>
 > 
 > This puzzle will help you to put together your very first TEI record by filling in the blanks. 
 > It is based on one of the Mary Hamilton letters.
@@ -321,7 +321,7 @@ original and modern spellings and any annotations.
 
 
 [![Mary Hamilton letter JRL1415453](../fig/HAM_1_10_1_11.png)](../fig/HAM_1_10_1_11_large.png)
-<div align="left">Image: HAM/1/10/1/11 (JRL1415453), University of Manchester, licence CC BY-NC 4.0</div>
+<div align="center">Image: HAM/1/10/1/11 (JRL1415453), University of Manchester, licence CC BY-NC 4.0</div>
 
 In a different format but with similar results, the 
 [Cambridge Casebooks project digital editions](https://casebooks.lib.cam.ac.uk/search?browse-all=yes;sort=sort-date) 
@@ -334,7 +334,7 @@ This uses the `<locus>` tag to identify a set of pages and describe what appears
 this could be illustrations, diagrams or a particular narrative.
 
 [![Beatus super Apocalypsim (The Rylands Beatus)](../fig/the-rylands-beatus.png)](../fig/the-rylands-beatus-large.png)
-Image: Beatus super Apocalypsim (The 'Rylands Beatus') (Latin MS 8), University of Manchester, licence CC BY-NC 4.0
+<div align="center">Image: Beatus super Apocalypsim (The 'Rylands Beatus') (Latin MS 8), University of Manchester, licence CC BY-NC 4.0</div>
 
 TEI is a very powerful tool which can bring together curatorial and researcher expertise, 
 and create new knowledge which isn’t limited to a group of people engaging with a particular set of physical objects. 
