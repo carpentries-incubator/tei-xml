@@ -178,7 +178,7 @@ You can also ‘nest’ other texts within text.
 > ## Try out a TEI puzzle
 > 
 > [![Mary Hamilton letter](../fig/HAM_1_1_3_8.png)](../fig/HAM_1_1_3_8_large.png)
-> Source: HAM/1/1/3/8, John Rylands Library, licence CC BY-NC 4.0
+> Image: HAM/1/1/3/8, John Rylands Library, licence CC BY-NC 4.0
 > 
 > This puzzle will help you to put together your very first TEI record by filling in the blanks. 
 > It is based on one of the Mary Hamilton letters.
@@ -196,7 +196,7 @@ You can also ‘nest’ other texts within text.
 > > 1. `<teiHeader>` -  the header of the record
 > > 2. `<language ident="en-GB">` - what language the item is written in, with a standard code
 > > 3. `<text xml:id="HAM/1/1/3/8">` - the beginning of the text, with an identifier
-> > 4. `<opener>` - the opening address
+> > 4. `<opener rend="align-left">` - the opening address, left-aligned
 > > 5. `<choice>` - there is a choice of words that could be used
 > > 6. `<orig>` - the original written word, perhaps with an archaic spelling
 > > 7. `<reg>` - the regular written word, using today's spelling
@@ -214,17 +214,17 @@ You can also ‘nest’ other texts within text.
 > > 				<title>Letter from Princess Elizabeth to Mary Hamilton</title>
 > > 			</titleStmt>
 > > 			<sourceDesc>
-> > 				<bibl>
-> > 					<title>Correspondence from Princess Elizabeth</title>
-> > 					<p>Mary Hamilton Papers (1743–1826). GB 133 HAM. University of Manchester Library</p>
-> > 				</bibl>
+> > 				<title>Correspondence from Princess Elizabeth</title>
+> > 				<title>Mary Hamilton Papers (1743–1826). GB 133 HAM. University of Manchester Library</title>
 > > 			</sourceDesc>
 > > 		</fileDesc>
 > > 		<profileDesc>
 > > 			<langUsage><language ident="en-GB">British English</language></langUsage>
 > > 			<correspDesc>
 > > 				<correspAction type="sent">
-> > 					<persName>Elizabeth, Princess, daughter of George III, King of Great Britain (1770-1840/41). </persName>
+> > 					<persName role="author">
+> > 						Elizabeth, Princess, daughter of George III, King of Great Britain (1770-1840/41). 
+> > 					</persName>
 > > 					<date when="1780-12-18">18 December 1780</date>
 > > 				</correspAction>
 > > 				<correspAction type="received">
@@ -233,7 +233,25 @@ You can also ‘nest’ other texts within text.
 > > 			</correspDesc>
 > > 		</profileDesc>
 > > 	</teiHeader>
-> > 	...
+> > 	<text xml:id="HAM/1/1/3/8">
+> > 		<body>
+> > 			<lb/><opener rend="align-left">
+> > 				<salute n="opening">Dear Miſs Hamilton</salute>
+> > 			</opener>
+> > 			<lb/>I have <choice><orig>learnd</orig><reg>learned</reg></choice> the
+> > 			<lb/>six lines that you ordered me.
+> > 			<lb/>I hope you &amp; Princeſs Royal
+> > 			<lb/>are <add place="above">both</add> well Augusta sends her love
+> > 			<lb/>&amp; Sophia a kiſs &amp; Mary her
+> > 			<lb/>love
+> > 			<lb/><salute n="closing" rend="align-right">I am <del rend="erased">your</del>
+> > 			<lb/>yours</salute>
+> > 			<lb/><signed rend="align-right"><persName>Elizabeth</persName></signed>
+> > 			<lb/>
+> > 			<lb/><dateline><address><addrLine>Queens House</addrLine></address>
+> > 			<lb/><date when="1780-12-18"><add place="above">December</add> 18 1780</date></dateline>
+> > 		</body>
+> > 	</text>
 > >  </TEI>
 > > ```
 > >
@@ -304,7 +322,7 @@ original and modern spellings and any annotations.
 
 
 [![Mary Hamilton letter JRL1415453](../fig/HAM_1_10_1_11.png)](../fig/HAM_1_10_1_11_large.png)
-Source: HAM/1/10/1/11 (JRL1415453), University of Manchester, licence CC BY-NC 4.0
+<p style="align:left;">Image: HAM/1/10/1/11 (JRL1415453), University of Manchester, licence CC BY-NC 4.0</p>
 
 In a different format but with similar results, the 
 [Cambridge Casebooks project digital editions](https://casebooks.lib.cam.ac.uk/search?browse-all=yes;sort=sort-date) 
@@ -317,7 +335,7 @@ This uses the `<locus>` tag to identify a set of pages and describe what appears
 this could be illustrations, diagrams or a particular narrative.
 
 [![Beatus super Apocalypsim (The Rylands Beatus)](../fig/the-rylands-beatus.png)](../fig/the-rylands-beatus-large.png)
-Source: Beatus super Apocalypsim (The 'Rylands Beatus') (Latin MS 8), University of Manchester, licence CC BY-NC 4.0
+Image: Beatus super Apocalypsim (The 'Rylands Beatus') (Latin MS 8), University of Manchester, licence CC BY-NC 4.0
 
 TEI is a very powerful tool which can bring together curatorial and researcher expertise, 
 and create new knowledge which isn’t limited to a group of people engaging with a particular set of physical objects. 
