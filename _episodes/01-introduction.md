@@ -68,7 +68,7 @@ Here you can see the ‘human readable’ content – `1 column, 25 lines` (it d
 this is what gets displayed on a viewer or online catalogue (or in a PDF version). 
 This is surrounded by elements which structure the information. Like in html, the element also determine the formatting of the content.
 
-The common element `<p>` for paragraph, is [nested](../reference.html#glossary) inside the element `<layout>`
+The common element `<p>` for paragraph, is [nested](../reference.html#glossary) inside the element `<layout>`.
 
 ![Layout described for humans to read](../fig/layout-human-readable.jpg)
 
