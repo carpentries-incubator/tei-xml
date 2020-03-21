@@ -235,9 +235,7 @@ You can also ‘nest’ other texts within text.
 > > 	<text xml:id="HAM/1/1/3/8">
 > > 		<body>
 > > 			<pb n="1"/>
-> > 			<lb/><opener rend="align-left">
-> > 				<salute n="opening">Dear Miſs Hamilton</salute>
-> > 			</opener>
+> > 			<lb/><opener rend="align-left"><salute n="opening">Dear Miſs Hamilton</salute></opener>
 > > 			<lb/>I have <choice><orig>learnd</orig><reg>learned</reg></choice> the
 > > 			<lb/>six lines that you ordered me.
 > > 			<lb/>I hope you &amp; Princeſs Royal
