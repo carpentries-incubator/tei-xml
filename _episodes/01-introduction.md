@@ -177,7 +177,7 @@ You can also ‘nest’ other texts within text.
 
 > ## Try out a TEI puzzle
 > 
-> [![Mary Hamilton letter](../fig/HAM_1_1_3_8.png)](../fig/HAM_1_1_3_8_large.png)
+> [![Mary Hamilton letter](../fig/HAM_1_1_3_8.png)](../fig/HAM_1_1_3_8_large.jpg)
 > <div align="center">Image: HAM/1/1/3/8, John Rylands Library, licence CC BY-NC 4.0</div>
 > 
 > This puzzle will help you to put together your very first TEI record by filling in the blanks. 
