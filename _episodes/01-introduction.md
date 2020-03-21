@@ -234,6 +234,7 @@ You can also ‘nest’ other texts within text.
 > > 	</teiHeader>
 > > 	<text xml:id="HAM/1/1/3/8">
 > > 		<body>
+> > 			<pb n="1"/>
 > > 			<lb/><opener rend="align-left">
 > > 				<salute n="opening">Dear Miſs Hamilton</salute>
 > > 			</opener>
