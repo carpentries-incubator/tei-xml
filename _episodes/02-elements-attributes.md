@@ -22,10 +22,15 @@ We will work together at the start, working on paper. When we get to Oxygen, you
 > ## Discussion
 > Look back at the two homework exercises in Episode 1:
 >
-> - Find `msDesc` (manuscript description)
-> - Find `extent`
+> 1. Find `msDesc` (manuscript description)
+> 2. Find `extent`
 >
-> FIXME -- MAYBE INCLUDE THE DISCUSSIONS 'SOLUTIONS' FROM LAST EPISODE HERE INSTEAD?
+> > ## Solution
+> >
+> > 1. `<msDesc>` is nested within `<sourceDesc>` part of `<fileDesc`> in the `<teiHeader>`.
+> > 2. `<extent>` is nested within `<supportDesc>`, within `<objectDesc>` in the `<physDesc>` element. 
+> >    This sits in the `<msDesc>` section of the record.
+> > {: .solution}
 {: .discussion}
 
 
