@@ -414,9 +414,13 @@ but they are a very useful tool, particularly to identify elements you might wan
 >
 > > ## Solution
 > > 
+> > Find the ID number of the manuscript:
+> >
 > > The ID number is Latin MS 98 
 > > (within `<msdesc>`; there is another `<idno>` element in the `<fileDesc>` 
 > > but this refers to the digital file, not the original manuscript)
+> > 
+> > Find `<extent>`:
 > > 
 > > 1. `<supportDesc>`
 > > 2. `<measure>` and `<dimensions>`
@@ -442,13 +446,15 @@ but they are a very useful tool, particularly to identify elements you might wan
 > >       (outside of the `<>`).
 > >     - Here it is in full:
 > > 
-> > ```<extent>
+> > ```xml
+> > <extent>
 > >     <measure unit="leaf" n="207">ff. 207 (ii+205)</measure>
 > >     <dimensions type="leaf" unit="mm">
 > >         <height quantity="240">240</height>
 > >         <width quantity="193">193</width>
 > >     </dimensions>
-> > </extent>```
+> > </extent>
+> > ```
 > >
 > {: .solution}
 {: .challenge}
