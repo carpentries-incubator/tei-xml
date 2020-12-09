@@ -379,7 +379,18 @@ but they are a very useful tool, particularly to identify elements you might wan
 > 3. Can you guess the sorts of information each element contains?
 >
 > > ## Solution
-> > FIXME - OR COVER THIS IN NEXT EPISODE DISCUSSION?
+> > 
+> > 1. `<sourceDesc>`
+> > 2. `<msIdentifier>`, `<msContents>`, `<physdesc>`, `<history>`, `<additional>`
+> > 3. Some examples are:
+> >    - `<msIdentifier>`: contains the identification information (including name, ID number and location) for the physical object
+> >    - `<msContents>`: contains information about the content of the object (such as a descriptive summary of the contents, 
+> >      and lists of items within a manuscript or chapters/sections of a book)
+> >    - `<physdesc>`: includes information about the physical aspects of the item (such as size, materials it's made from, condition, 
+> >      how the pages are numbers or arranged)
+> >    - `<history>`: where the physical object came from (particularly its acquisition, origin and provenance)
+> >    - `<additional>`: other relevant information about the physical object, for example, a bibliography of sources consulted
+> >      to create the description
 > {: .solution}
 {: .challenge}
 
@@ -403,11 +414,42 @@ but they are a very useful tool, particularly to identify elements you might wan
 >
 > > ## Solution
 > > 
-> > The element number is...
+> > The ID number is Latin MS 98 
+> > (within `<msdesc>`; there is another `<idno>` element in the `<fileDesc>` 
+> > but this refers to the digital file, not the original manuscript)
 > > 
-> > FIXME solutions 1 - 6
+> > 1. `<supportDesc>`
+> > 2. `<measure>` and `<dimensions>`
+> > 3. 207 (Look in `<extent>` then find the element `<measure>`. Here there is an attribute `@leaf` followed by the 
+> >    number in machine readable and human readable form. Because there are 205 numbered pages and 2 unnumbered (ii),
+> >    this totals at 207.)
+> > 4. 240 x 193 mm (Look in `<extent>` then find the element `<dimensions>`; within this are the elements `<height>`
+> >    and `<width>`. In these elements you have the attributes `@quantity`, which gives you the numbers.
+> >    `<dimensions>` includes the attribute `@unit` which reads `mm`.)
+> > 5. The viewer will see the ‘human readable’ information, which sits outside the angle brackets, so: 
+> >    `ff. 207 (ii+205)`, `240`, `193`. 
+> >    However, because there machine readable section includes the height and width elements, 
+> >    and the `@type` and `@unit` attributes, the viewer should be able to see the context of the figures:
+> >    `ff. 207 (ii+205) Leaf height: 240 mm, width: 193 mm`.
+> >    (See [catalogued record](https://www.digitalcollections.manchester.ac.uk/view/MS-LATIN-00098/1) for the example.)
+> >  6. The machine readable content is available in the angle brackets `<>`. This includes:
+> >     - `<measure>` within which is the unit of measurement `@unit="leaf"` and the number `@n="207"`
+> >     - `<dimensions>` within which is detail of the item which is being measured `@unit="leaf"` 
+> >       and what the unit of measurement is `@unit="mm"`
+> >     - Within the `<dimension>` element, there are elements for `<height>` and `<width>`. 
+> >       The unit of measurement has been defined, so these elements only need to contain the numbers.
+> >       You can see an attribute for `@quantity` which contains the measurements, and also a human readable version
+> >       (outside of the `<>`).
+> >     - Here it is in full:
+> > 
+> > ```<extent>
+> >     <measure unit="leaf" n="207">ff. 207 (ii+205)</measure>
+> >     <dimensions type="leaf" unit="mm">
+> >         <height quantity="240">240</height>
+> >         <width quantity="193">193</width>
+> >     </dimensions>
+> > </extent>```
 > >
-> > OR DO WE COVER THIS IN THE NEXT EPISODE, DISCUSSION?
 > {: .solution}
 {: .challenge}
 
