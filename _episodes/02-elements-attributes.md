@@ -37,7 +37,7 @@ We will work together at the start, working on paper. When we get to Oxygen, you
 ## Marking up descriptions (on paper)
 
 ### Common elements to use
-- `<idno>` - Reference number
+- `<author>` - Author
 - `<title>` - Title
 - `<material>` - Page/support material
 - `<dimensions>` - Page dimensions
@@ -51,11 +51,11 @@ We will work together at the start, working on paper. When we get to Oxygen, you
 
 > ## Activity: marking up, on paper
 > 
-> Here is some information from Latin MS 6 to be entered into elements in TEI. 
+> Here is some information to be entered into elements in TEI. 
 > Enter the correct information from here into the corresponding TEI elements.
 >
-> - Latin MS 6 
-> - Petrus Lombardus super Psalmos 
+> - Peter Lombard (b. c.1100, d. c.1160), theologian and Bishop of Paris
+> - Gloss on the Psalms
 > - Parchment 
 > - Page height and width 355 x 240mm 
 > - 197 folios
@@ -84,6 +84,33 @@ We will work together at the start, working on paper. When we get to Oxygen, you
 > - `<msContents>` (intellectual content): blue
 > - `<physDesc>` (physical description): red
 > - `<history>` (history of the manuscript): green
+> 
+> > ## Solution
+> > 
+> > ```xml
+> > <msContents>
+> >   <author>Peter Lombard (b. c.1100, d. c.1160), theologian and Bishop of Paris</author>
+> >   <title>Petrus Lombardus super PsalmosGloss on the Psalms</title>
+> > </msContents>
+> > <physDesc>
+> >   <material>Parchment</material>
+> >   <dimensions>Page height and width 355 x 240mm</dimensions>
+> >   <measure>197 folios</measure>
+> >   <layout>Double columns of 48 lines</layout>
+> >   <collation>i8 ii8 (wants 1) iii-xxiv8 xxv4, xxvi2</collation>
+> >   <binding>The front cover is plated with gilt metal, apparently, of 13th century. It is thus arranged. 
+> >      The border is composed of six oblong plates of enamel (at the corners and in the middle of the sides)...
+> >   </binding>
+> > </physDesc>
+> > <history>
+> >   <origDate>12th century</origDate>
+> >   <origPlace>Written in Germany</origPlace>
+> >   <provenance>From the Cistercian Abbey of Hunnerode</provenance>
+> >   <provenance>Bought by Lord Lindsay in October 1861 from the London bookseller Thomas Boone of New Bond St. for £80</provenance>
+> > </history>
+> > ```
+> >
+> > {: .solution}
 {: .challenge}
 
 
