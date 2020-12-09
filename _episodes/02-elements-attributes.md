@@ -99,8 +99,8 @@ We will work together at the start, working on paper. When we get to Oxygen, you
 > >   <layout>Double columns of 48 lines</layout>
 > >   <collation>i8 ii8 (wants 1) iii-xxiv8 xxv4, xxvi2</collation>
 > >   <binding>The front cover is plated with gilt metal, apparently, of 13th century. It is thus arranged. 
-> >      The border is composed of six oblong plates of enamel (at the corners and in the middle of the sides)...
-> >   </binding>
+> >     The border is composed of six oblong plates of enamel (at the corners and in the middle of the sides)
+> >     ...</binding>
 > > </physDesc>
 > > <history>
 > >   <origDate>12th century</origDate>
@@ -110,7 +110,7 @@ We will work together at the start, working on paper. When we get to Oxygen, you
 > > </history>
 > > ```
 > >
-> > {: .solution}
+> {: .solution}
 {: .challenge}
 
 
