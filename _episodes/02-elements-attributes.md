@@ -30,7 +30,7 @@ We will work together at the start, working on paper. When we get to Oxygen, you
 > > 1. `<msDesc>` is nested within `<sourceDesc>` part of `<fileDesc`> in the `<teiHeader>`.
 > > 2. `<extent>` is nested within `<supportDesc>`, within `<objectDesc>` in the `<physDesc>` element. 
 > >    This sits in the `<msDesc>` section of the record.
-> > {: .solution}
+> {: .solution}
 {: .discussion}
 
 
