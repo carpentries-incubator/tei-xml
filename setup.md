@@ -28,7 +28,7 @@ The following files are available under CC BY-NC 4.0 [licence](../LICENSE.html) 
 # XML editor
 You will need to use an XML text editor. We recommend Oxygen XML, if available.
 
-Free alternatives include [JEdit](http://www.jedit.org/index.php?page=download), the 
+Free alternatives include [JEdit](https://www.jedit.org/), the 
 [TEI Web Editor](https://tei-web-editor.herokuapp.com) and the TEI/XML editor of the [TextGrid Lab](https://textgrid.de/en/web/guest/textgrid-tools-und-services). 
 
 - JEdit is a free text editor that works on any platform and includes syntax highlighting for XML and TEI code.
