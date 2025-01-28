@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Catalogue of Latin Manuscripts in the John Rylands Library</title>
+                <funder/>
+                <principal>John Hodgson</principal>
+                <respStmt>
+                    <resp>Cataloguer</resp>
+                    <name>Joanne Edge</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The University of Manchester Library</publisher>
+                <date calendar="Gregorian">2018</date>
+                <pubPlace>
+                    <address>
+                        <addrLine>The John Rylands Library</addrLine>
+                        <street>150 Deansgate</street>
+                        <settlement>Manchester</settlement>
+                        <postCode>M3 3EH</postCode>
+                        <addrLine><ref
+                                target="http://www.library.manchester.ac.uk/specialcollections/">The
+                                John Rylands Library </ref></addrLine>
+                        <addrLine><email>uml.special-collections@manchester.ac.uk</email></addrLine>
+                    </address>
+                </pubPlace>
+                <idno>UkMaJRU-Latin-MS-98</idno>
+                <availability xml:id="displayImageRights" status="restricted">
+                    <p>Zooming image © University of Manchester Library, All rights reserved.</p>
+                </availability>
+                <availability xml:id="downloadImageRights" status="restricted">
+                    <licence>Images made available for download are licensed under a Creative
+                        Commons Attribution-NonCommercial 3.0 Unported License (CC BY-NC
+                        3.0)</licence>
+                </availability>
+                <availability xml:id="metadataRights" status="restricted">
+                    <licence>This metadata is licensed under a Creative Commons
+                        Attribution-NonCommercial 3.0 Unported License.</licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc xmlns="http://www.tei-c.org/ns/1.0" xml:id="UkMaJRU-Latin-MS-98"
+                    xml:lang="eng">
+
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <region type="county">Greater Manchester</region>
+                        <settlement>Manchester</settlement>
+                        <institution>The University of Manchester Library</institution>
+                        <repository>The John Rylands Library</repository>
+                        <collection>Latin Manuscripts</collection>
+
+                        <idno>Latin MS 98</idno>
+
+                        <msName>The Ottonian Gospels.</msName>
+
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary>Gospel Book, produced for Otto III between 996-1002, possibly by
+                            the Trier artist known as the 'Master of the Registrum Gregorii'. It
+                            seems to have been in Cologne soon after it was completed and influenced
+                            the decoration of a number of manuscripts executed there in the early
+                            11th century, which provide a good idea of the miniatures it now
+                            lacks.</summary>
+
+                        <msItem n="1">
+
+                            <locus from="1r" to="3v">1r-3v</locus>
+                            <title>Epistula ad Damasum</title>
+                            <author>
+                                <name type="person" subtype="aut"
+                                    ref="http://viaf.org/viaf/95147024">
+                                    <persName type="standard" xml:lang="eng">Jerome, Saint,
+                                        347-420</persName><persName type="display">Saint Jerome (b.
+                                        347, d. 420, theologian and priest</persName>
+                                </name>
+                            </author>
+                            <textLang mainLang="lat">Latin</textLang>
+
+                        </msItem>
+
+                        <msItem n="2">
+
+                            <locus from="4r" to="61r">4r-61r</locus>
+                            <title>Book of Matthew</title>
+                            <textLang mainLang="lat">Latin</textLang>
+
+                        </msItem>
+
+                        <msItem n="3">
+
+                            <locus from="62r" to="92v">62r-92v</locus>
+                            <title>Book of Mark</title>
+                            <textLang mainLang="lat">Latin</textLang>
+
+                        </msItem>
+
+                        <msItem n="4">
+
+                            <locus from="93v" to="149r">93v-149r</locus>
+                            <title>Book of Luke</title>
+                            <textLang mainLang="lat">Latin</textLang>
+
+                        </msItem>
+
+                        <msItem n="5">
+
+                            <locus from="150v" to="192r">150v-192r</locus>
+                            <title>Book of John</title>
+                            <textLang mainLang="lat">Latin</textLang>
+
+                        </msItem>
+
+                        <msItem n="6">
+
+                            <locus from="192r" to="201v">192r-201v</locus>
+                            <title>Capitulare evangeliorum</title>
+                            <textLang mainLang="lat">Latin</textLang>
+
+                        </msItem>
+
+                        <msItem n="7">
+
+                            <locus from="202r" to="203r">202r-203r</locus>
+                            <title>Common of Saints</title>
+                            <textLang mainLang="lat">Latin</textLang>
+
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="parchment">
+                                <support><material>Parchment</material>.</support>
+
+                                <extent>
+                                    <measure unit="leaf" n="207">ff. 207 (ii+205)</measure>
+                                    <dimensions type="leaf" unit="mm">
+                                        <height quantity="240">240</height>
+                                        <width quantity="193">193</width>
+                                    </dimensions>
+                                </extent>
+
+                                <foliation>
+                                    <p>Foliated 1-205.</p>
+                                </foliation>
+
+                                <collation>
+                                    <list>
+                                        <item>Quire 1<hi rend="superscript">2</hi></item>
+                                        <item>Quire A<hi rend="superscript">8</hi></item>
+                                        <item>Quire B<hi rend="superscript">6</hi></item>
+                                        <item>Quire C<hi rend="superscript">4</hi>, 1 and 2 cut
+                                            out</item>
+                                        <item>Quires D-H<hi rend="superscript">8</hi></item>
+                                        <item>Quire I<hi rend="superscript">6</hi></item>
+                                        <item>Quire K absent</item>
+                                        <item>Quire L<hi rend="superscript">2</hi></item>
+                                        <item>Quires M-P<hi rend="superscript">8</hi></item>
+                                        <item>Quire Q<hi rend="superscript">?4</hi>, 1-3 cut
+                                            out</item>
+                                        <item>Quires R-Z<hi rend="superscript">8</hi></item>
+                                        <item>Quire aa absent</item>
+                                        <item>Quire bb<hi rend="superscript">2</hi></item>
+                                        <item>Quires cc-ff<hi rend="superscript">8</hi></item>
+                                        <item>Quire gg<hi rend="superscript">6</hi></item>
+                                        <item>Quire hh<hi rend="superscript">8</hi></item>
+                                        <item>Quire ii<hi rend="superscript">4</hi></item>
+                                    </list>
+                                </collation>
+
+                                <condition>
+                                    <p>In very good condition, although some frontispieces to the
+                                        Gospels have been cut out.</p>
+                                </condition>
+                            </supportDesc>
+
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="25">
+                                    <p>1 column, 25 lines to a page</p>
+                                </layout>
+                            </layoutDesc>
+
+                        </objectDesc>
+
+                        <handDesc>
+                            <handNote scope="major" script="miniscule">
+                                <desc>Written in <term>miniscule</term> by a single scribe</desc>
+                            </handNote>
+                        </handDesc>
+
+                        <decoDesc>
+                            <decoNote>
+                                <p>This manuscript is now generally assigned to the outstanding
+                                    Trier artist of the Ottonian period known as the &apos;Master of
+                                    the Registrum Gregorii&apos;. Brigitte Nitschke has doubted this
+                                    (see her Die Handschrijtengruppe urn den Meister des Registrum
+                                    Gregorii (Münstersche Studien zur Kunstgeschichte, Bd.v (1966)),
+                                    particularly pp. 72-74, 81). For a detailed discussion of the
+                                    whole matter see Peter Bloch and Hermann Schnitzler, Die
+                                    ottonische Kölner Malerschule, 2 vols. (Düsseldorf, 1970) and
+                                    the references there, particularly the notes in Bd.II, pp. 15,
+                                    17-21. Bloch and Schnitzler devote a whole section to this
+                                    manuscript under the heading &apos;Das Evangeliar des Trierer
+                                    Gregormeisters in Manchester, John Rylands Library Cod. 98&apos;
+                                    (Bd. II, pp. 15-21) giving (a) a full collation (II.16-17), (b)
+                                    a reconstruction of its imperfections from the Stuttgart Gospels
+                                    (Landesbibliothek MS. Bibl. f. 21), a MS. which was copied from
+                                    it (II.15), (c) notes on its provenance (II.17), localisation
+                                    and dating (II.17-19) and style (II.19-20), and (d) an account
+                                    of its significance (II.20-21). They date it, &apos;with great
+                                    probability&apos;, to between 996 and 1002. It apparently found
+                                    its way to Cologne soon after it was completed and influenced
+                                    the decoration of a number of manucsripts executed there in the
+                                    early 11th century. From these we may obtain a good idea of the
+                                    miniatures it now lacks.</p></decoNote>
+                            <decoNote type="illustration">
+                                <p>Folio <locus from="1r" to="1r">1r</locus>: Outer frame gold,
+                                    edged with red; four small leaves in gold at the angles. Inner
+                                    frame of three main bands, separated by red lines. The outermost
+                                    and broadest is of acanthus-foliage, in white on dark blue: the
+                                    next, narrow, plain gold: the innermost, gold scroll-work on
+                                    light purple. At the angles, four squares of light red, with a
+                                    conventional four-petalled flower in white and gold. The main
+                                    ground purple, with some small ornaments in white: mainly
+                                    occupied by a large B, of minuscule form, of gold edged with red
+                                    (as throughout), containing panels of white and green. It has
+                                    knots of plaited work and a dragon&apos;s head. Within it the
+                                    ground is a brilliant green, with white ornaments, in which is
+                                    set a large knot of plaited work. Around this latter are the
+                                    letters: E, A, Ti, S (Beatis-) in gold - some filled with green.
+                                    Below, two lines of gold uncials: -simo papae Damaso Hieronimus.
+                                    Old uncoloured silk guard.</p>
+                                <p>Folio <locus from="10r" to="10r">10r</locus>: Eusebian canons.
+                                    The section numbers are arranged in four or three columns on a
+                                    page. They are in red at first, then in black. Short gold lines
+                                    separate the groups of numbers. The framework is in the form of
+                                    the façade of a classical temple: pediment, with acroteria (on
+                                    the gable only, except on the first page); architrave (inscribed
+                                    with the title of the Canon, e.g. Canon primus in quo iiii. Mat.
+                                    Mar. Luc. Ioh., in gold uncials: round-headed arches underneath.
+                                    The columns supporting these arches are very variously coloured
+                                    and patterned. On the first page there are five columns treated
+                                    thus (from left): nos. 1 and 5 are pink, with spiral wavy lines,
+                                    alternately gold and white: nos. 2 and 4 are green, with
+                                    irregular patches of gold: no. 3 is plain gold. The capitals are
+                                    of conventional foliage, usually in pink or blue (or both),
+                                    heightened with white. The bases uniformly gold. The colours of
+                                    pediment, architrave, etc., are varied: pink, purple, blues, and
+                                    greens</p>
+                                <p>Folio <locus from="16r">16r</locus>: Frontispiece to Matthew.
+                                    Outer frame vermilion, edged with blue and patterned with gold:
+                                    projections of gold foliage at the angles and in the centres of
+                                    the sides. Inner frame mainly gold, with red lines and small
+                                    patterns in colour: at the angles, dark blue acanthus, with
+                                    white patterns. In the centre of each side is a medallion with
+                                    gold ground set on a square of dull blue, with groups of three
+                                    white dots in the spandrels. Each medallion contains a bust, in
+                                    colour, of a beardless man in mantle, fastened on the right
+                                    shoulder. The mantle is twice pink and twice green, over white.
+                                    Each medallion is edged with a red line dotted with white. The
+                                    heads of the busts at top and on left look to the right. The
+                                    others look to the left. Each has an inscription in tiny
+                                    capitals round the head, as follows: 1 (top): ROMANE. R. P. DlVI
+                                    MEM OTTO IMPER. AVG. 2 (left): XPIANE RELIGIONIS ET ROMANE R. P.
+                                    OTTO IMP. AVG. 3 (bottom): D. CORONATVS ROMANE R. P. OTTO IMPER.
+                                    AVG. 4 (right): XPIANE RELIGIONIS ET ROMANE. R. P. OTTO IMP.
+                                    Main ground purple: within the convolutions of the foliage it is
+                                    green, with white dots. It is occupied by a large gold L and I
+                                    (the latter springing into foliage). These have panels of white
+                                    plaited-work about them, and below them, in gold uncials, the
+                                    letters: -ber generationis.</p>
+                                <p>Folios <locus from="11v" to="11v">11v</locus> and <locus
+                                        from="17r" to="17r">17r</locus>: framed in green and gold,
+                                    and the text of the genealogy is written in gold as far as i.
+                                    27: qui uocatur christus. Initials of chapters are in plain
+                                    gold: others in red.</p>
+                                <p>Folio <locus from="62r" to="62r">62r</locus>: five bands, three
+                                    of purple and two of green. On these, in gold capitals: Incipit
+                                    ar/gumentum /Evangelii / secundum/ Marcum. Marcus euangelista
+                                    dei. Fine gold initial. On a patch of purple, in gold uncials:
+                                    Expl. argumentum. hic. capitula sequentis</p>
+                                <p>Folio <locus from="64v" to="65r">64v-65r</locus>: Framed
+                                    decorations. On f. 64v the main ground is green. On it are four
+                                    bands of purple, inscribed in gold capitals: Incipit li/ber sci
+                                    evan/gelii secun/dum Marcum. On f. 65r the main ground is
+                                    purple: occupied by a large gold foliated I and the letters
+                                    NITIVM. The frame contains plaited work in gold on green.</p>
+                                <p>Folio <locus from="98r" to="98r">98r</locus>: Full-page
+                                    decoration. Outer frame vermilion. Then two bands of gold and a
+                                    band of white between them, with gold plaited-work. Within this,
+                                    several bands of wavy lines-white, gold, purple. In the centres
+                                    of the sides of the frame are set four squares, framed in green,
+                                    containing rosettes (2) and crossshaped ornaments (2), mainly in
+                                    red and purple. Ground of panel, purple. A large Q occupies most
+                                    of it, which is in gold, with panels of green and white. Below
+                                    it, in gold uncials: -uoniam quidem.</p>
+                                <p>Folio <locus from="150v" to="150v">150v</locus>: Title to John:
+                                    Incipit ar/gumentum/ evangelii/ secundum/Iohannem /, in gold
+                                    capitals, on alternate bands of purple and green Prologue: Hic
+                                    est Johannes. Gold initial. In gold uncials on purple: Expl.
+                                    argumentum.</p>
+                                <p>Folio <locus from="153v" to="153v">153v</locus>: Full-page. Frame
+                                    in gold, and purple with gold plaited-work. Ground within, green
+                                    with four bands of purple (as for Mark), inscribed in gold
+                                    capitals: Incipit liber / sci evange/lii secundum/Iohannem. At
+                                    the angles are four small square pictutes, with light purple
+                                    ground, each representing a black-haired beardless Evangelist,
+                                    seated. Each has a sloping desk on a shaft, with a ledge to
+                                    support the book. Top left: Dark mantle over bluish white.
+                                    Bending forward, he writes in a book on his knee: no book on
+                                    desk on right. Top right: Pink mantle over bluish white. Desk on
+                                    left. He sits, holding a pen, supporting a book on his left
+                                    knee, and looking to right. Bottom left: pink mantle over bluish
+                                    white. Leans forward to right, left hand to his face, right
+                                    elbow on knee, finger pointing to desk with book on right.
+                                    Bottom right: dark mantle over bluish white. Desk on left with
+                                    book. He sits, leaning his face on his right hand and looking
+                                    towards the desk. The classical feeling in these small pictures
+                                    is very strong.</p>
+                                <p>Folio <locus from="154r" to="154r">154r</locus>: Full-page. Frame
+                                    gold, blue acanthus pattern, gold, green. Inner ground purple,
+                                    occupied by the letters I over N in gold, with panels of white
+                                    plaited-work and gold foliage. Above and below, in gold uncials:
+                                    principio erat uerbum. Five small square pictures, with purple
+                                    frames and gold grounds, set in the centres of the sides and
+                                    centre of the page, represent: centre, The Lamb, with
+                                    cross-nimbus, facing right, his breast pierced by a spear.
+                                    Bottom, half-length angel in pink over blue, and blue-white
+                                    wings, looking up to right and holding up scroll over left hand.
+                                    Right, pink lion, with blue wings, couchant, head to right, a
+                                    book between his fore-feet. Left, winged ox, similar, head to
+                                    left. Top, eagle, with blue wings and pink body, looking back to
+                                    right, a roll under his right claw.</p>
+                                <p>Folio <locus from="192r" to="192r">192r</locus>: in gold uncials
+                                    on purple: Inc. breuiarium/Lectionum euangeli/orum legendorum
+                                    per / circirculum (sic) anni. Rubric. In uigilia natalis domini
+                                    hora nona ad sanctam mariam.</p>
+                            </decoNote>
+
+                        </decoDesc>
+
+                        <bindingDesc>
+                            <binding notBefore="1500" notAfter="1600">
+                                <p>Brown leather, with plain central panel and roll-pattern, over
+                                    wooden boards, two metal clasps with slight ornament.</p>
+                                <p>16th century</p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+
+                    <history>
+                        <origin><p><origPlace><country ref="http://viaf.org/viaf/316400406"
+                                        >Germany</country><placeName
+                                        ref="http://viaf.org/viaf/135701727" cert="low"
+                                        >Trier</placeName></origPlace>
+                                <origDate calendar="Gregorian" notBefore="0996" notAfter="1002"
+                                    >996-1002 CE</origDate>
+                            </p>
+                        </origin>
+
+                        <provenance>
+                            <p>In Cologne soon after creation, as it influenced a number of
+                                manuscripts that were illuminated there in the early 11th
+                                century</p>
+                            <p>Purchased by <name type="person" ref="http://viaf.org/viaf/9985420"
+                                    subtype="fmo">
+                                    <persName type="display">James Ludovic Lindsay (b. 1847, d.
+                                        1913), 26th Earl of Crawford</persName><persName
+                                        type="standard">Lindsay, James Ludovic,
+                                    1847-1913</persName></name> at the Fountaine Sale in <date
+                                    when="1894">1894</date> (CLL, Oct.-Dec. 1895 [sic], no. 759).
+                                Crawford&apos;s librarian, Mr. Edmond, visited the Bollandists
+                                    in<date when="1895-10"> October 1895</date> to try to discover
+                                further details about it, but, he reported, &apos;all in vain&apos;,
+                                although <name type="person" ref="http://viaf.org/viaf/88889398">
+                                    <persName type="display">Joseph van den Gheyn (b. 1854, d.
+                                        1913), monk and Bollandist</persName><persName
+                                        type="standard">van den Gheyn, Joseph,
+                                    1854-1913</persName></name> &apos;spent hours with me hunting
+                                for information&apos; (ibid. no. 712). It must, he informed Lord
+                                Crawford, have been acquired by them after the French Revolution,
+                                but &apos;unfortunately they have no register of gifts, or letter
+                                book in which such a gift might be recorded&apos; (ibid. nos.
+                                712-13).</p>
+                            <p>On the fore-edge of the manuscript, in black ink, is written
+                                &apos;Biblia&apos; and that the watermark (fleur-de-lys) on the
+                                front fly-leaf approximates to Heawood, nos. 1673, 1679 (Dutch,
+                                1690s).</p>
+                        </provenance>
+
+                        <acquisition>
+                            <p>Purchased by Enriqueta Rylands in <date calendar="#Gregorian"
+                                    when="1901">1901</date> from <name type="person"
+                                    ref="http://viaf.org/viaf/9985420" subtype="fmo">
+                                    <persName type="display">James Ludovic Lindsay (b. 1847, d.
+                                        1913), 26th Earl of Crawford</persName><persName
+                                        type="standard">Lindsay, James Ludovic,
+                                    1847-1913</persName></name>. Bequeathed by Rylands to the John
+                                Rylands Library in 1908.</p>
+                        </acquisition>
+
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>Description based on <persName>M.R. James</persName>,
+                                        <title>A Descriptive Catalogue of the Latin Manuscripts in
+                                        the John Rylands Library at Manchester</title> (Manchester,
+                                    1921), reprinted with an introduction and additional notes and
+                                    corrections by F. Taylor (München, 1980), revised and expanded
+                                    by Joanne Edge.</source>
+                            </recordHist>
+
+                            <availability status="restricted">
+                                <p>The manuscript is available for consultation by any accredited
+                                    reader.</p>
+                            </availability>
+                            <note/>
+                        </adminInfo>
+
+                        <listBibl>
+                            <bibl><ref target="https://www.worldcat.org/oclc/829885323">Brigitte
+                                    Nitschke, Die Handschriftengruppe um den Meister des Registrum
+                                    Gregorii (Milnstersche Studien zur Kunstgeschichte, Bd.v
+                                    (Recklinghausen: Verlag Aurel Bongers, 1966).</ref></bibl>
+                            <bibl><ref target="https://www.worldcat.org/oclc/504167916">Peter Bloch
+                                    and Hermann Schnitzler, Die ottonische Kölner Malerschule, 2
+                                    vols. (Düsseldorf, 1970).</ref></bibl>
+                            <bibl><ref target="https://www.worldcat.org/oclc/888261759">Carl
+                                    Nordenfalk, The chronology of the Registrum Master in
+                                    Kunsthistorische Forschungen Otto Pücht zu Ehren zu seinem 70.
+                                    Geburtstag, ed. Artur Rosenauer und Gerold Weber, pp. 62-76
+                                    (Salzburg: Residenz Verl, 1972).</ref></bibl>
+                            <bibl><ref target="https://www.worldcat.org/oclc/1723816">Carl
+                                    Nordenfalk, &apos;Ottonian Illumination&apos; in A. Grabar and
+                                    C. Nordenfalk, Early Medieval Painting (New York: SKIRA, 1967),
+                                    pp. 202-203.</ref></bibl>
+                            <bibl><ref target="https://www.worldcat.org/oclc/248011980">Florentine
+                                    Mütherich, Das Evangeliar Ottos III: Clm 4453 der Bayerischen
+                                    Staatsbibliothek München (Darmstadt: Wiss. Buchges,
+                                2001).</ref></bibl>
+                            <bibl><ref target="https://www.worldcat.org/oclc/802831528">J. J. G.
+                                    Alexander, The Decorated Letter (London: Thames and Hudson,
+                                    1978).</ref></bibl>
+                            <bibl><ref target="https://www.worldcat.org/oclc/888224249">Meyer
+                                    Schapiro, The Parma Ildefonsus (MS 1650 in the Palatine Library
+                                    of Parma ... the treatise of Ildefonsus, bishop of Toledo ... on
+                                    the virginity of Mary.) A Romanesque illuminated manuscript from
+                                    Cluny and related works (Providence, RI: Archaeological
+                                    Institute of America, 1964).</ref></bibl>
+                            <bibl><ref target="https://www.worldcat.org/oclc/400616">W. H. Frere,
+                                    Bibliotheca musico-liturgica. A descriptive handlist of the
+                                    musical and Latin-liturgical MSS. of the Middle Ages preserved
+                                    in the libraries of Great Britain and Ireland (Plainsong and
+                                    Mediaeval Music Society (Hildesheim, Gg. Olms, 1967), vol
+                                    2.</ref></bibl>
+                            <bibl><ref target="https://www.worldcat.org/oclc/471768617">E. A. Lowe,
+                                    Palaeographical papers, 1907-1965 ed. Ludwig Bieler. (Oxford,
+                                    the Clarendon Press, 1972).</ref></bibl>
+                        </listBibl>
+
+                    </additional>
+
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl><ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref></bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item><ref target="http://id.loc.gov/authorities/subjects/sh85112549"
+                            />Religion</item>
+                        <item><ref target="http://id.loc.gov/authorities/subjects/sh85025219"
+                                >Christianity</ref></item>
+                        <item><ref target="http://id.loc.gov/authorities/subjects/sh88004788">Bible.
+                                Latin--Versions--Vulgate</ref></item>
+                        <item><ref target="http://id.loc.gov/authorities/subjects/sh96011928">Bible.
+                                New Testament</ref></item>
+                    </list>
+
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+
+            <change when="2018-10-16">
+                <persName/>Joanne Edge</change>
+            <change when="2019-08-02">
+                <persName/>Joanne Edge</change>
+        </revisionDesc>
+    </teiHeader>
+<facsimile><!-- SAMPLE -->
+<graphic decls="#document-thumbnail" rend="portrait" url="MS-HEBREW-GASTER-00086-000-00268.jp2"/>
+<surface xml:id="i1">
+<graphic decls="#downloadImageRights #download" rend="portrait" height="6500px" width="5444px" url="MS-HEBREW-GASTER-00086-000-00268.jp2"/>
+</surface><surface xml:id="i602">
+<graphic decls="#downloadImageRights #download" rend="landscape" height="2224px" width="6500px" url="MS-HEBREW-GASTER-00086-000-00869.jp2"/>
+</surface>
+</facsimile>
+   <text><!-- SAMPLE -->
+<body>
+<div>
+<pb n="Front board" xml:id="pb-Frontboard" facs="#i1"/>
+<pb n="Front paste-down" xml:id="pb-Frontpaste-down" facs="#i2"/>
+<pb n="ia" xml:id="pb-ia" facs="#i3"/>
+<pb n="spine" xml:id="pb-spine" facs="#i599"/>
+<pb n="top" xml:id="pb-top" facs="#i600"/>
+<pb n="edge" xml:id="pb-edge" facs="#i601"/>
+<pb n="bottom" xml:id="pb-bottom" facs="#i602"/>
+</div></body>
+    </text>
+</TEI>

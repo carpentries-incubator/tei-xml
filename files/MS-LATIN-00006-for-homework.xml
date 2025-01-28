@@ -1,0 +1,2281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Catalogue of Latin Manuscripts in the John Rylands Library</title>
+                <!--<funder/>-->
+                <principal>John Hodgson</principal>
+                <respStmt>
+                    <resp>Cataloguer</resp>
+                    <name>Joanne Edge</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The University of Manchester Library</publisher>
+                <date calendar="Gregorian">2018</date>
+                <pubPlace>
+                    <address>
+                        <addrLine>The John Rylands Library</addrLine>
+                        <street>150 Deansgate</street>
+                        <settlement>Manchester</settlement>
+                        <postCode>M3 3EH</postCode>
+                        <addrLine>
+                            <ref target="http://www.library.manchester.ac.uk/specialcollections/"
+                                >The John Rylands Library </ref>
+                        </addrLine>
+                        <addrLine>
+                            <email>uml.special-collections@manchester.ac.uk</email>
+                        </addrLine>
+                    </address>
+                </pubPlace>
+                <idno>UkMaJRU-Latin-MS-06</idno>
+                <availability xml:id="displayImageRights" status="restricted">
+					<p>Zooming image © University of Manchester Library, All rights reserved.</p>
+				</availability>
+				<availability xml:id="downloadImageRights" status="restricted">
+					<licence>Images and Metadata made available for download are licensed under a Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0).</licence>
+				</availability>
+				<availability xml:id="metadataRights" status="restricted">
+					<licence>Images and Metadata made available for download are licensed under a Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0).</licence>
+				</availability>
+			</publicationStmt>
+
+            <sourceDesc>
+                <msDesc xmlns="http://www.tei-c.org/ns/1.0" xml:id="UkMaJRU-Latin-MS-06"
+                    xml:lang="eng">
+
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <region type="county">Greater Manchester</region>
+                        <settlement>Manchester</settlement>
+                        <institution>The University of Manchester Library</institution>
+                        <repository>The John Rylands Library</repository>
+                        <collection>Latin Manuscripts</collection>
+
+                        <idno>Latin MS 6</idno>
+
+                        <msName>Petrus Lombardus Super Psalmos</msName>
+
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary>Peter Lombard, Gloss on the Psalms, produced in Germany in the
+                            twelfth century.</summary>
+
+                        <msItem n="1">
+
+                            <locus from="1r" to="197r">1r-197r</locus>
+                            <title xml:lang="eng">Gloss on the Psalms</title>
+                            <textLang mainLang="lat">Latin</textLang>
+
+                            <author>
+                                <name type="person" role="aut" ref="https://viaf.org/viaf/51797933">
+                                    <persName type="standard">Lombard, Peter, 1100-1160</persName>
+                                    <persName type="display">Peter Lombard (b. c. 1100, d. c. 1160),
+                                        theologian and Bishop of Paris</persName>
+                                </name>
+                            </author>
+
+                        </msItem>
+
+                        <msItem n="2">
+                            <locus from="197v" to="197v">197v</locus>
+                            <title xml:lang="lat">De sex alis Cherubim (incomplete)</title>
+                            <textLang mainLang="lat">Latin</textLang>
+                            <author>Pseudonymously attributed to <name type="person" role="aut"
+                                    ref="https://viaf.org/viaf/72187470"><persName type="standard"
+                                        >Lille, Alan, 1128-1202</persName>
+                                    <persName type="display">Alan of Lille (b. c. 1128, d. c. 1202),
+                                        theologian and poet</persName></name>
+                            </author>
+
+                        </msItem>
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="parchment">
+                                <support><material>Parchment</material>.</support>
+
+                                <extent>
+                                    <measure unit="leaves" quantity="197">197 ff.</measure>
+                                    <dimensions type="leaf" unit="mm">
+                                        <height n="355">355</height>
+                                        <width n="240">240</width>
+                                    </dimensions>
+                                </extent>
+
+                                <foliation>
+                                    <p>Modern pencil foliation at the start of each quire.</p>
+                                </foliation>
+
+                                <collation>
+                                    <p>
+                                        <list>
+                                            <item>Quire 1<hi rend="superscript">8</hi></item>
+                                            <item>Quire 2<hi rend="superscript">8</hi> (wants
+                                                1)</item>
+                                            <item>Quires 3-24<hi rend="superscript">8</hi></item>
+                                            <item>Quire 25<hi rend="superscript">4</hi></item>
+                                            <item>Quire 26<hi rend="superscript">2</hi></item>
+                                        </list>
+                                    </p>
+                                </collation>
+
+                            </supportDesc>
+
+                            <layoutDesc>
+                                <layout columns="2" writtenLines="48">
+                                    <p>2 columns, 48 lines</p>
+                                </layout>
+                            </layoutDesc>
+
+                        </objectDesc>
+
+                        <handDesc>
+                            <handNote scope="major" script="gothic" scribe="scribe1">
+                                <p>Written in a <term>gothic</term> hand by two
+                                scribes.</p></handNote>
+                        </handDesc>
+
+                        <decoDesc>
+                            <decoNote type="initials">
+                                <p>The psalms which begin Nocturnes or fifties have decorative
+                                    initials: <locus from="37r" to="37r">37r</locus>, <locus
+                                        from="58v" to="58v">58v</locus>, <locus from="76v" to="76v"
+                                        >76v</locus>, <locus from="99r" to="99r">99r</locus>, <locus
+                                        from="122v" to="122v">122v</locus>, <locus from="142v"
+                                        to="142v">142v</locus>, <locus from="144v" to="144v"
+                                        >144v</locus>, <locus from="161r" to="161r"
+                                    >161r</locus>.</p>
+                            </decoNote>
+                        </decoDesc>
+
+                        <bindingDesc>
+                            <binding notBefore="1200" notAfter="1225">
+                                <p>The front cover is plated with gilt metal. It is thus arranged.
+                                    The border is composed of six oblong plates of enamel (at the
+                                    corners and in the middle of the sides) bearing decorative
+                                    designs: the intervals between these are occupied by six longer
+                                    strips of filagree work, each of which is set with four stones.
+                                    The central plate of gilt metal has an incised design of foliage
+                                    partially surrounding a crucifix. The figure on the cross is in
+                                    relief, crowned, with loin-cloth, and is fastened by four nails.
+                                    The cross is set with small turquoises. The head (bearded)
+                                    inclines to L. The title of the cross bears the letters IHS:
+                                    above it is the Divine Hand. The interior angles of the cross
+                                    are filled in, so that there is a disk at the intersection. The
+                                    field or body of the cross is enamelled. At each extremity are
+                                    two stones; two more are on the right of the lower part of the
+                                    cross, and one is opposite to them on the left. Nail holes
+                                    (seven in number) are in various parts of the field. At the
+                                    angles of the panel are four disks of enamelled metal, bearing
+                                    decorative designs. The second cover is of wood, covered with
+                                    green-brown velvet.</p>
+                                <p>First quarter of the 13th century.</p>
+                            </binding>
+
+                        </bindingDesc>
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <p>
+                                <origPlace>
+                                    <country ref=" http://viaf.org/viaf/127773629">Germany</country>
+                                </origPlace>, <origDate calendar="Gregorian" notBefore="1100"
+                                    notAfter="1200">12th century </origDate>
+                            </p>
+                        </origin>
+
+                        <provenance>
+                            <p>The Cistercian Abbey of Himmerod, Germany (founded 1134): marginal
+                                note: &apos;Liber monachorum Sancte Marie in hunnerode ordinis
+                                Cisterciensis, Treuerensis diocesis&apos; (f. <locus from="104v"
+                                    to="104v">104v</locus>).</p>
+                            <p><name type="person" ref="http://viaf.org/viaf/9985420"><persName
+                                        type="standard">Lindsay, James Ludovic
+                                        (1847-1913)</persName><persName type="display">James Ludovic
+                                        Lindsay (b. 1847, d. 1913), peer and
+                                    collector</persName></name>: bought from <persName
+                                    ref=" http://viaf.org/viaf/306293913" type="standard">Boone,
+                                    Thomas (b. c. 1795, d. c. 1870)</persName><persName
+                                    type="display">Thomas Boone, 1795-1870, bookseller</persName> of
+                                New Bond Street for £80, October 1861 (Crawford Library Letters,
+                                July-Dec. 1861, nos. 226, 277-78; Crawford Library Receipts,
+                                1856-62, no. 1061).</p>
+                        </provenance>
+
+                        <acquisition>
+                            <p>Purchased by Enriqueta Rylands in <date calendar="Gregorian"
+                                    when="1901">1901</date> from <persName type="standard"
+                                    ref="http://viaf.org/viaf/9985420">James Ludovic Lindsay, 26th
+                                    Earl of Crawford</persName>. Bequeathed by Rylands to the John
+                                Rylands Library in 1908.</p>
+                        </acquisition>
+
+                    </history>
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>Description based on <persName>M.R. James</persName>,
+                                        <title>A Descriptive Catalogue of the Latin Manuscripts in
+                                        the John Rylands Library at Manchester</title> (Manchester,
+                                    1921), reprinted with an introduction and additional notes and
+                                    corrections by F. Taylor (München, 1980), revised and expanded
+                                    by Joanne Edge.</source>
+                                <!--<change/>-->
+                            </recordHist>
+
+                            <availability status="restricted">
+                                <p>The manuscript is available for consultation by any accredited
+                                    reader.</p>
+                            </availability>
+                            <!--<note/>-->
+                        </adminInfo>
+
+                    </additional>
+
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <ref target="http://id.loc.gov/authorities/subjects/sh85134665"
+                                >Theology</ref>
+                        </item>
+                        <item>
+                            <ref target="http://id.loc.gov/authorities/subjects/sh85013795">Bible.
+                                Psalms. Latin--Criticism, Textual</ref>
+                        </item>
+
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+        <revisionDesc>
+
+            <change when="2018-09-21">
+                <persName>Joanne Edge</persName>.</change>
+            <change when="2019-08-01">
+                <persName>Joanne Edge</persName>.</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <facsimile>
+        <graphic decls="#document-thumbnail" rend="portrait" url="MS-LATIN-00006-000-00001.jp2"/>
+        <surface xml:id="i1" n="Front_cover">
+            <graphic n="JRL1205642" decls="#downloadImageRights #download" rend="portrait" height="5811px"
+                width="3876px" url="MS-LATIN-00006-000-00001.jp2"/>
+        </surface>
+        <surface xml:id="i2" n="Inner_front_cover">
+            <graphic n="JRL1205643" decls="#downloadImageRights #download" rend="portrait" height="5345px"
+                width="3653px" url="MS-LATIN-00006-000-00002.jp2"/>
+        </surface>
+        <surface xml:id="i3" n="1r">
+            <graphic n="JRL1205644" decls="#downloadImageRights #download" rend="portrait" height="5404px"
+                width="3670px" url="MS-LATIN-00006-000-00003.jp2"/>
+        </surface>
+        <surface xml:id="i4" n="1v">
+            <graphic n="JRL1205645" decls="#downloadImageRights #download" rend="portrait" height="5037px"
+                width="3353px" url="MS-LATIN-00006-000-00004.jp2"/>
+        </surface>
+        <surface xml:id="i5" n="2r">
+            <graphic n="JRL1205646" decls="#downloadImageRights #download" rend="portrait" height="5430px"
+                width="3670px" url="MS-LATIN-00006-000-00005.jp2"/>
+        </surface>
+        <surface xml:id="i6" n="2v">
+            <graphic n="JRL1205647" decls="#downloadImageRights #download" rend="portrait" height="5054px"
+                width="3329px" url="MS-LATIN-00006-000-00006.jp2"/>
+        </surface>
+        <surface xml:id="i7" n="3r">
+            <graphic n="JRL1205648" decls="#downloadImageRights #download" rend="portrait" height="5404px"
+                width="3670px" url="MS-LATIN-00006-000-00007.jp2"/>
+        </surface>
+        <surface xml:id="i8" n="3v">
+            <graphic n="JRL1205649" decls="#downloadImageRights #download" rend="portrait" height="5054px"
+                width="3329px" url="MS-LATIN-00006-000-00008.jp2"/>
+        </surface>
+        <surface xml:id="i9" n="4r">
+            <graphic n="JRL1205650" decls="#downloadImageRights #download" rend="portrait" height="5404px"
+                width="3670px" url="MS-LATIN-00006-000-00009.jp2"/>
+        </surface>
+        <surface xml:id="i10" n="4v">
+            <graphic n="JRL1205651" decls="#downloadImageRights #download" rend="portrait" height="5054px"
+                width="3329px" url="MS-LATIN-00006-000-00010.jp2"/>
+        </surface>
+        <surface xml:id="i11" n="5r">
+            <graphic n="JRL1205652" decls="#downloadImageRights #download" rend="portrait" height="5404px"
+                width="3670px" url="MS-LATIN-00006-000-00011.jp2"/>
+        </surface>
+        <surface xml:id="i12" n="5v">
+            <graphic n="JRL1205653" decls="#downloadImageRights #download" rend="portrait" height="5054px"
+                width="3329px" url="MS-LATIN-00006-000-00012.jp2"/>
+        </surface>
+        <surface xml:id="i13" n="6r">
+            <graphic n="JRL1205654" decls="#downloadImageRights #download" rend="portrait" height="5404px"
+                width="3670px" url="MS-LATIN-00006-000-00013.jp2"/>
+        </surface>
+        <surface xml:id="i14" n="6v">
+            <graphic n="JRL1205655" decls="#downloadImageRights #download" rend="portrait" height="5054px"
+                width="3329px" url="MS-LATIN-00006-000-00014.jp2"/>
+        </surface>
+        <surface xml:id="i15" n="7r">
+            <graphic n="JRL1205656" decls="#downloadImageRights #download" rend="portrait" height="5404px"
+                width="3670px" url="MS-LATIN-00006-000-00015.jp2"/>
+        </surface>
+        <surface xml:id="i16" n="7v">
+            <graphic n="JRL1205657" decls="#downloadImageRights #download" rend="portrait" height="5054px"
+                width="3329px" url="MS-LATIN-00006-000-00016.jp2"/>
+        </surface>
+        <surface xml:id="i17" n="8r">
+            <graphic n="JRL1205658" decls="#downloadImageRights #download" rend="portrait" height="5404px"
+                width="3670px" url="MS-LATIN-00006-000-00017.jp2"/>
+        </surface>
+        <surface xml:id="i18" n="8v">
+            <graphic n="JRL1205659" decls="#downloadImageRights #download" rend="portrait" height="5054px"
+                width="3329px" url="MS-LATIN-00006-000-00018.jp2"/>
+        </surface>
+        <surface xml:id="i19" n="9r">
+            <graphic n="JRL1205660" decls="#downloadImageRights #download" rend="portrait" height="5393px"
+                width="3670px" url="MS-LATIN-00006-000-00019.jp2"/>
+        </surface>
+        <surface xml:id="i20" n="9v">
+            <graphic n="JRL1205661" decls="#downloadImageRights #download" rend="portrait" height="5054px"
+                width="3329px" url="MS-LATIN-00006-000-00020.jp2"/>
+        </surface>
+        <surface xml:id="i21" n="10r">
+            <graphic n="JRL1205662" decls="#downloadImageRights #download" rend="portrait" height="5393px"
+                width="3670px" url="MS-LATIN-00006-000-00021.jp2"/>
+        </surface>
+        <surface xml:id="i22" n="10v">
+            <graphic n="JRL1205663" decls="#downloadImageRights #download" rend="portrait" height="5054px"
+                width="3329px" url="MS-LATIN-00006-000-00022.jp2"/>
+        </surface>
+        <surface xml:id="i23" n="11r">
+            <graphic n="JRL1205664" decls="#downloadImageRights #download" rend="portrait" height="5393px"
+                width="3670px" url="MS-LATIN-00006-000-00023.jp2"/>
+        </surface>
+        <surface xml:id="i24" n="11v">
+            <graphic n="JRL1205665" decls="#downloadImageRights #download" rend="portrait" height="5054px"
+                width="3329px" url="MS-LATIN-00006-000-00024.jp2"/>
+        </surface>
+        <surface xml:id="i25" n="12r">
+            <graphic n="JRL1205666" decls="#downloadImageRights #download" rend="portrait" height="5393px"
+                width="3670px" url="MS-LATIN-00006-000-00025.jp2"/>
+        </surface>
+        <surface xml:id="i26" n="12v">
+            <graphic n="JRL1205667" decls="#downloadImageRights #download" rend="portrait" height="5054px"
+                width="3394px" url="MS-LATIN-00006-000-00026.jp2"/>
+        </surface>
+        <surface xml:id="i27" n="13r">
+            <graphic n="JRL1205668" decls="#downloadImageRights #download" rend="portrait" height="5371px"
+                width="3670px" url="MS-LATIN-00006-000-00027.jp2"/>
+        </surface>
+        <surface xml:id="i28" n="13v">
+            <graphic n="JRL1205669" decls="#downloadImageRights #download" rend="portrait" height="5054px"
+                width="3394px" url="MS-LATIN-00006-000-00028.jp2"/>
+        </surface>
+        <surface xml:id="i29" n="14r">
+            <graphic n="JRL1205670" decls="#downloadImageRights #download" rend="portrait" height="5371px"
+                width="3670px" url="MS-LATIN-00006-000-00029.jp2"/>
+        </surface>
+        <surface xml:id="i30" n="14v">
+            <graphic n="JRL1205671" decls="#downloadImageRights #download" rend="portrait" height="5119px"
+                width="3419px" url="MS-LATIN-00006-000-00030.jp2"/>
+        </surface>
+        <surface xml:id="i31" n="15r">
+            <graphic n="JRL1205672" decls="#downloadImageRights #download" rend="portrait" height="5371px"
+                width="3670px" url="MS-LATIN-00006-000-00031.jp2"/>
+        </surface>
+        <surface xml:id="i32" n="15v">
+            <graphic n="JRL1205673" decls="#downloadImageRights #download" rend="portrait" height="5098px"
+                width="3419px" url="MS-LATIN-00006-000-00032.jp2"/>
+        </surface>
+        <surface xml:id="i33" n="16r">
+            <graphic n="JRL1205674" decls="#downloadImageRights #download" rend="portrait" height="5371px"
+                width="3670px" url="MS-LATIN-00006-000-00033.jp2"/>
+        </surface>
+        <surface xml:id="i34" n="16v">
+            <graphic n="JRL1205675" decls="#downloadImageRights #download" rend="portrait" height="5098px"
+                width="3419px" url="MS-LATIN-00006-000-00034.jp2"/>
+        </surface>
+        <surface xml:id="i35" n="17r">
+            <graphic n="JRL1205676" decls="#downloadImageRights #download" rend="portrait" height="5393px"
+                width="3670px" url="MS-LATIN-00006-000-00035.jp2"/>
+        </surface>
+        <surface xml:id="i36" n="17v">
+            <graphic n="JRL1205677" decls="#downloadImageRights #download" rend="portrait" height="5098px"
+                width="3419px" url="MS-LATIN-00006-000-00036.jp2"/>
+        </surface>
+        <surface xml:id="i37" n="18r">
+            <graphic n="JRL1205678" decls="#downloadImageRights #download" rend="portrait" height="5393px"
+                width="3670px" url="MS-LATIN-00006-000-00037.jp2"/>
+        </surface>
+        <surface xml:id="i38" n="18v">
+            <graphic n="JRL1205679" decls="#downloadImageRights #download" rend="portrait" height="5098px"
+                width="3419px" url="MS-LATIN-00006-000-00038.jp2"/>
+        </surface>
+        <surface xml:id="i39" n="19r">
+            <graphic n="JRL1205680" decls="#downloadImageRights #download" rend="portrait" height="5393px"
+                width="3670px" url="MS-LATIN-00006-000-00039.jp2"/>
+        </surface>
+        <surface xml:id="i40" n="19v">
+            <graphic n="JRL1205681" decls="#downloadImageRights #download" rend="portrait" height="5098px"
+                width="3419px" url="MS-LATIN-00006-000-00040.jp2"/>
+        </surface>
+        <surface xml:id="i41" n="20r">
+            <graphic n="JRL1205682" decls="#downloadImageRights #download" rend="portrait" height="5393px"
+                width="3670px" url="MS-LATIN-00006-000-00041.jp2"/>
+        </surface>
+        <surface xml:id="i42" n="20v">
+            <graphic n="JRL1205683" decls="#downloadImageRights #download" rend="portrait" height="5125px"
+                width="3442px" url="MS-LATIN-00006-000-00042.jp2"/>
+        </surface>
+        <surface xml:id="i43" n="21r">
+            <graphic n="JRL1205684" decls="#downloadImageRights #download" rend="portrait" height="5393px"
+                width="3670px" url="MS-LATIN-00006-000-00043.jp2"/>
+        </surface>
+        <surface xml:id="i44" n="21v">
+            <graphic n="JRL1205685" decls="#downloadImageRights #download" rend="portrait" height="5125px"
+                width="3442px" url="MS-LATIN-00006-000-00044.jp2"/>
+        </surface>
+        <surface xml:id="i45" n="22r">
+            <graphic n="JRL1205686" decls="#downloadImageRights #download" rend="portrait" height="5393px"
+                width="3670px" url="MS-LATIN-00006-000-00045.jp2"/>
+        </surface>
+        <surface xml:id="i46" n="22v">
+            <graphic n="JRL1205687" decls="#downloadImageRights #download" rend="portrait" height="5125px"
+                width="3442px" url="MS-LATIN-00006-000-00046.jp2"/>
+        </surface>
+        <surface xml:id="i47" n="23r">
+            <graphic n="JRL1205688" decls="#downloadImageRights #download" rend="portrait" height="5393px"
+                width="3670px" url="MS-LATIN-00006-000-00047.jp2"/>
+        </surface>
+        <surface xml:id="i48" n="23v">
+            <graphic n="JRL1205689" decls="#downloadImageRights #download" rend="portrait" height="5125px"
+                width="3442px" url="MS-LATIN-00006-000-00048.jp2"/>
+        </surface>
+        <surface xml:id="i49" n="24r">
+            <graphic n="JRL1205690" decls="#downloadImageRights #download" rend="portrait" height="5393px"
+                width="3670px" url="MS-LATIN-00006-000-00049.jp2"/>
+        </surface>
+        <surface xml:id="i50" n="24v">
+            <graphic n="JRL1205691" decls="#downloadImageRights #download" rend="portrait" height="5125px"
+                width="3442px" url="MS-LATIN-00006-000-00050.jp2"/>
+        </surface>
+        <surface xml:id="i51" n="25r">
+            <graphic n="JRL1205692" decls="#downloadImageRights #download" rend="portrait" height="5393px"
+                width="3670px" url="MS-LATIN-00006-000-00051.jp2"/>
+        </surface>
+        <surface xml:id="i52" n="25v">
+            <graphic n="JRL1205693" decls="#downloadImageRights #download" rend="portrait" height="5125px"
+                width="3442px" url="MS-LATIN-00006-000-00052.jp2"/>
+        </surface>
+        <surface xml:id="i53" n="26r">
+            <graphic n="JRL1205694" decls="#downloadImageRights #download" rend="portrait" height="5393px"
+                width="3670px" url="MS-LATIN-00006-000-00053.jp2"/>
+        </surface>
+        <surface xml:id="i54" n="26v">
+            <graphic n="JRL1205695" decls="#downloadImageRights #download" rend="portrait" height="5125px"
+                width="3442px" url="MS-LATIN-00006-000-00054.jp2"/>
+        </surface>
+        <surface xml:id="i55" n="27r">
+            <graphic n="JRL1205696" decls="#downloadImageRights #download" rend="portrait" height="5393px"
+                width="3670px" url="MS-LATIN-00006-000-00055.jp2"/>
+        </surface>
+        <surface xml:id="i56" n="27v">
+            <graphic n="JRL1205697" decls="#downloadImageRights #download" rend="portrait" height="5135px"
+                width="3442px" url="MS-LATIN-00006-000-00056.jp2"/>
+        </surface>
+        <surface xml:id="i57" n="28r">
+            <graphic n="JRL1205698" decls="#downloadImageRights #download" rend="portrait" height="5393px"
+                width="3670px" url="MS-LATIN-00006-000-00057.jp2"/>
+        </surface>
+        <surface xml:id="i58" n="28v">
+            <graphic n="JRL1205699" decls="#downloadImageRights #download" rend="portrait" height="5135px"
+                width="3442px" url="MS-LATIN-00006-000-00058.jp2"/>
+        </surface>
+        <surface xml:id="i59" n="29r">
+            <graphic n="JRL1205700" decls="#downloadImageRights #download" rend="portrait" height="5393px"
+                width="3670px" url="MS-LATIN-00006-000-00059.jp2"/>
+        </surface>
+        <surface xml:id="i60" n="29v">
+            <graphic n="JRL1205701" decls="#downloadImageRights #download" rend="portrait" height="5135px"
+                width="3442px" url="MS-LATIN-00006-000-00060.jp2"/>
+        </surface>
+        <surface xml:id="i61" n="30r">
+            <graphic n="JRL1205702" decls="#downloadImageRights #download" rend="portrait" height="5368px"
+                width="3631px" url="MS-LATIN-00006-000-00061.jp2"/>
+        </surface>
+        <surface xml:id="i62" n="30v">
+            <graphic n="JRL1205703" decls="#downloadImageRights #download" rend="portrait" height="5135px"
+                width="3442px" url="MS-LATIN-00006-000-00062.jp2"/>
+        </surface>
+        <surface xml:id="i63" n="31r">
+            <graphic n="JRL1205704" decls="#downloadImageRights #download" rend="portrait" height="5368px"
+                width="3631px" url="MS-LATIN-00006-000-00063.jp2"/>
+        </surface>
+        <surface xml:id="i64" n="31v">
+            <graphic n="JRL1205705" decls="#downloadImageRights #download" rend="portrait" height="5135px"
+                width="3442px" url="MS-LATIN-00006-000-00064.jp2"/>
+        </surface>
+        <surface xml:id="i65" n="32r">
+            <graphic n="JRL1205706" decls="#downloadImageRights #download" rend="portrait" height="5368px"
+                width="3631px" url="MS-LATIN-00006-000-00065.jp2"/>
+        </surface>
+        <surface xml:id="i66" n="32v">
+            <graphic n="JRL1205707" decls="#downloadImageRights #download" rend="portrait" height="5135px"
+                width="3442px" url="MS-LATIN-00006-000-00066.jp2"/>
+        </surface>
+        <surface xml:id="i67" n="33r">
+            <graphic n="JRL1205708" decls="#downloadImageRights #download" rend="portrait" height="5368px"
+                width="3631px" url="MS-LATIN-00006-000-00067.jp2"/>
+        </surface>
+        <surface xml:id="i68" n="33v">
+            <graphic n="JRL1205709" decls="#downloadImageRights #download" rend="portrait" height="5135px"
+                width="3442px" url="MS-LATIN-00006-000-00068.jp2"/>
+        </surface>
+        <surface xml:id="i69" n="34r">
+            <graphic n="JRL1205710" decls="#downloadImageRights #download" rend="portrait" height="5368px"
+                width="3631px" url="MS-LATIN-00006-000-00069.jp2"/>
+        </surface>
+        <surface xml:id="i70" n="34v">
+            <graphic n="JRL1205711" decls="#downloadImageRights #download" rend="portrait" height="5155px"
+                width="3442px" url="MS-LATIN-00006-000-00070.jp2"/>
+        </surface>
+        <surface xml:id="i71" n="35r">
+            <graphic n="JRL1205712" decls="#downloadImageRights #download" rend="portrait" height="5368px"
+                width="3631px" url="MS-LATIN-00006-000-00071.jp2"/>
+        </surface>
+        <surface xml:id="i72" n="35v">
+            <graphic n="JRL1205713" decls="#downloadImageRights #download" rend="portrait" height="5155px"
+                width="3442px" url="MS-LATIN-00006-000-00072.jp2"/>
+        </surface>
+        <surface xml:id="i73" n="36r">
+            <graphic n="JRL1205714" decls="#downloadImageRights #download" rend="portrait" height="5315px"
+                width="3609px" url="MS-LATIN-00006-000-00073.jp2"/>
+        </surface>
+        <surface xml:id="i74" n="36v">
+            <graphic n="JRL1205715" decls="#downloadImageRights #download" rend="portrait" height="5155px"
+                width="3442px" url="MS-LATIN-00006-000-00074.jp2"/>
+        </surface>
+        <surface xml:id="i75" n="37r">
+            <graphic n="JRL1205716" decls="#downloadImageRights #download" rend="portrait" height="5315px"
+                width="3609px" url="MS-LATIN-00006-000-00075.jp2"/>
+        </surface>
+        <surface xml:id="i76" n="37v">
+            <graphic n="JRL1205717" decls="#downloadImageRights #download" rend="portrait" height="5155px"
+                width="3442px" url="MS-LATIN-00006-000-00076.jp2"/>
+        </surface>
+        <surface xml:id="i77" n="38r">
+            <graphic n="JRL1205718" decls="#downloadImageRights #download" rend="portrait" height="5315px"
+                width="3609px" url="MS-LATIN-00006-000-00077.jp2"/>
+        </surface>
+        <surface xml:id="i78" n="38v">
+            <graphic n="JRL1205719" decls="#downloadImageRights #download" rend="portrait" height="5160px"
+                width="3442px" url="MS-LATIN-00006-000-00078.jp2"/>
+        </surface>
+        <surface xml:id="i79" n="39r">
+            <graphic n="JRL1205720" decls="#downloadImageRights #download" rend="portrait" height="5315px"
+                width="3609px" url="MS-LATIN-00006-000-00079.jp2"/>
+        </surface>
+        <surface xml:id="i80" n="39v">
+            <graphic n="JRL1205721" decls="#downloadImageRights #download" rend="portrait" height="5160px"
+                width="3442px" url="MS-LATIN-00006-000-00080.jp2"/>
+        </surface>
+        <surface xml:id="i81" n="40r">
+            <graphic n="JRL1205722" decls="#downloadImageRights #download" rend="portrait" height="5315px"
+                width="3609px" url="MS-LATIN-00006-000-00081.jp2"/>
+        </surface>
+        <surface xml:id="i82" n="40v">
+            <graphic n="JRL1205723" decls="#downloadImageRights #download" rend="portrait" height="5160px"
+                width="3442px" url="MS-LATIN-00006-000-00082.jp2"/>
+        </surface>
+        <surface xml:id="i83" n="41r">
+            <graphic n="JRL1205724" decls="#downloadImageRights #download" rend="portrait" height="5315px"
+                width="3609px" url="MS-LATIN-00006-000-00083.jp2"/>
+        </surface>
+        <surface xml:id="i84" n="41v">
+            <graphic n="JRL1205725" decls="#downloadImageRights #download" rend="portrait" height="5160px"
+                width="3442px" url="MS-LATIN-00006-000-00084.jp2"/>
+        </surface>
+        <surface xml:id="i85" n="42r">
+            <graphic n="JRL1205726" decls="#downloadImageRights #download" rend="portrait" height="5315px"
+                width="3609px" url="MS-LATIN-00006-000-00085.jp2"/>
+        </surface>
+        <surface xml:id="i86" n="42v">
+            <graphic n="JRL1205727" decls="#downloadImageRights #download" rend="portrait" height="5160px"
+                width="3442px" url="MS-LATIN-00006-000-00086.jp2"/>
+        </surface>
+        <surface xml:id="i87" n="43r">
+            <graphic n="JRL1205728" decls="#downloadImageRights #download" rend="portrait" height="5315px"
+                width="3609px" url="MS-LATIN-00006-000-00087.jp2"/>
+        </surface>
+        <surface xml:id="i88" n="43v">
+            <graphic n="JRL1205729" decls="#downloadImageRights #download" rend="portrait" height="5160px"
+                width="3442px" url="MS-LATIN-00006-000-00088.jp2"/>
+        </surface>
+        <surface xml:id="i89" n="44r">
+            <graphic n="JRL1205730" decls="#downloadImageRights #download" rend="portrait" height="5307px"
+                width="3586px" url="MS-LATIN-00006-000-00089.jp2"/>
+        </surface>
+        <surface xml:id="i90" n="44v">
+            <graphic n="JRL1205731" decls="#downloadImageRights #download" rend="portrait" height="5175px"
+                width="3442px" url="MS-LATIN-00006-000-00090.jp2"/>
+        </surface>
+        <surface xml:id="i91" n="45r">
+            <graphic n="JRL1205732" decls="#downloadImageRights #download" rend="portrait" height="5307px"
+                width="3586px" url="MS-LATIN-00006-000-00091.jp2"/>
+        </surface>
+        <surface xml:id="i92" n="45v">
+            <graphic n="JRL1205733" decls="#downloadImageRights #download" rend="portrait" height="5175px"
+                width="3442px" url="MS-LATIN-00006-000-00092.jp2"/>
+        </surface>
+        <surface xml:id="i93" n="46r">
+            <graphic n="JRL1205734" decls="#downloadImageRights #download" rend="portrait" height="5330px"
+                width="3598px" url="MS-LATIN-00006-000-00093.jp2"/>
+        </surface>
+        <surface xml:id="i94" n="46v">
+            <graphic n="JRL1205735" decls="#downloadImageRights #download" rend="portrait" height="5175px"
+                width="3442px" url="MS-LATIN-00006-000-00094.jp2"/>
+        </surface>
+        <surface xml:id="i95" n="47r">
+            <graphic n="JRL1205736" decls="#downloadImageRights #download" rend="portrait" height="5363px"
+                width="3598px" url="MS-LATIN-00006-000-00095.jp2"/>
+        </surface>
+        <surface xml:id="i96" n="47v">
+            <graphic n="JRL1205737" decls="#downloadImageRights #download" rend="portrait" height="5175px"
+                width="3442px" url="MS-LATIN-00006-000-00096.jp2"/>
+        </surface>
+        <surface xml:id="i97" n="48r">
+            <graphic n="JRL1205738" decls="#downloadImageRights #download" rend="portrait" height="5304px"
+                width="3598px" url="MS-LATIN-00006-000-00097.jp2"/>
+        </surface>
+        <surface xml:id="i98" n="48v">
+            <graphic n="JRL1205739" decls="#downloadImageRights #download" rend="portrait" height="5175px"
+                width="3442px" url="MS-LATIN-00006-000-00098.jp2"/>
+        </surface>
+        <surface xml:id="i99" n="49r">
+            <graphic n="JRL1205740" decls="#downloadImageRights #download" rend="portrait" height="5304px"
+                width="3598px" url="MS-LATIN-00006-000-00099.jp2"/>
+        </surface>
+        <surface xml:id="i100" n="49v">
+            <graphic n="JRL1205741" decls="#downloadImageRights #download" rend="portrait" height="5175px"
+                width="3442px" url="MS-LATIN-00006-000-00100.jp2"/>
+        </surface>
+        <surface xml:id="i101" n="50r">
+            <graphic n="JRL1205742" decls="#downloadImageRights #download" rend="portrait" height="5304px"
+                width="3598px" url="MS-LATIN-00006-000-00101.jp2"/>
+        </surface>
+        <surface xml:id="i102" n="50v">
+            <graphic n="JRL1205743" decls="#downloadImageRights #download" rend="portrait" height="5175px"
+                width="3442px" url="MS-LATIN-00006-000-00102.jp2"/>
+        </surface>
+        <surface xml:id="i103" n="51r">
+            <graphic n="JRL1205744" decls="#downloadImageRights #download" rend="portrait" height="5304px"
+                width="3598px" url="MS-LATIN-00006-000-00103.jp2"/>
+        </surface>
+        <surface xml:id="i104" n="51v">
+            <graphic n="JRL1205745" decls="#downloadImageRights #download" rend="portrait" height="5175px"
+                width="3442px" url="MS-LATIN-00006-000-00104.jp2"/>
+        </surface>
+        <surface xml:id="i105" n="52r">
+            <graphic n="JRL1205746" decls="#downloadImageRights #download" rend="portrait" height="5304px"
+                width="3598px" url="MS-LATIN-00006-000-00105.jp2"/>
+        </surface>
+        <surface xml:id="i106" n="52v">
+            <graphic n="JRL1205747" decls="#downloadImageRights #download" rend="portrait" height="5184px"
+                width="3442px" url="MS-LATIN-00006-000-00106.jp2"/>
+        </surface>
+        <surface xml:id="i107" n="53r">
+            <graphic n="JRL1205748" decls="#downloadImageRights #download" rend="portrait" height="5304px"
+                width="3598px" url="MS-LATIN-00006-000-00107.jp2"/>
+        </surface>
+        <surface xml:id="i108" n="53v">
+            <graphic n="JRL1205749" decls="#downloadImageRights #download" rend="portrait" height="5184px"
+                width="3442px" url="MS-LATIN-00006-000-00108.jp2"/>
+        </surface>
+        <surface xml:id="i109" n="54r">
+            <graphic n="JRL1205750" decls="#downloadImageRights #download" rend="portrait" height="5304px"
+                width="3598px" url="MS-LATIN-00006-000-00109.jp2"/>
+        </surface>
+        <surface xml:id="i110" n="54v">
+            <graphic n="JRL1205751" decls="#downloadImageRights #download" rend="portrait" height="5184px"
+                width="3442px" url="MS-LATIN-00006-000-00110.jp2"/>
+        </surface>
+        <surface xml:id="i111" n="55r">
+            <graphic n="JRL1205752" decls="#downloadImageRights #download" rend="portrait" height="5304px"
+                width="3598px" url="MS-LATIN-00006-000-00111.jp2"/>
+        </surface>
+        <surface xml:id="i112" n="55v">
+            <graphic n="JRL1205753" decls="#downloadImageRights #download" rend="portrait" height="5184px"
+                width="3442px" url="MS-LATIN-00006-000-00112.jp2"/>
+        </surface>
+        <surface xml:id="i113" n="56r">
+            <graphic n="JRL1205754" decls="#downloadImageRights #download" rend="portrait" height="5308px"
+                width="3598px" url="MS-LATIN-00006-000-00113.jp2"/>
+        </surface>
+        <surface xml:id="i114" n="56v">
+            <graphic n="JRL1205755" decls="#downloadImageRights #download" rend="portrait" height="5184px"
+                width="3442px" url="MS-LATIN-00006-000-00114.jp2"/>
+        </surface>
+        <surface xml:id="i115" n="57r">
+            <graphic n="JRL1205756" decls="#downloadImageRights #download" rend="portrait" height="5304px"
+                width="3598px" url="MS-LATIN-00006-000-00115.jp2"/>
+        </surface>
+        <surface xml:id="i116" n="57v">
+            <graphic n="JRL1205757" decls="#downloadImageRights #download" rend="portrait" height="5184px"
+                width="3442px" url="MS-LATIN-00006-000-00116.jp2"/>
+        </surface>
+        <surface xml:id="i117" n="58r">
+            <graphic n="JRL1205758" decls="#downloadImageRights #download" rend="portrait" height="5304px"
+                width="3598px" url="MS-LATIN-00006-000-00117.jp2"/>
+        </surface>
+        <surface xml:id="i118" n="58v">
+            <graphic n="JRL1205759" decls="#downloadImageRights #download" rend="portrait" height="5212px"
+                width="3442px" url="MS-LATIN-00006-000-00118.jp2"/>
+        </surface>
+        <surface xml:id="i119" n="59r">
+            <graphic n="JRL1205760" decls="#downloadImageRights #download" rend="portrait" height="5304px"
+                width="3598px" url="MS-LATIN-00006-000-00119.jp2"/>
+        </surface>
+        <surface xml:id="i120" n="59v">
+            <graphic n="JRL1205761" decls="#downloadImageRights #download" rend="portrait" height="5212px"
+                width="3442px" url="MS-LATIN-00006-000-00120.jp2"/>
+        </surface>
+        <surface xml:id="i121" n="60r">
+            <graphic n="JRL1205762" decls="#downloadImageRights #download" rend="portrait" height="5304px"
+                width="3598px" url="MS-LATIN-00006-000-00121.jp2"/>
+        </surface>
+        <surface xml:id="i122" n="60v">
+            <graphic n="JRL1205763" decls="#downloadImageRights #download" rend="portrait" height="5187px"
+                width="3442px" url="MS-LATIN-00006-000-00122.jp2"/>
+        </surface>
+        <surface xml:id="i123" n="61r">
+            <graphic n="JRL1205764" decls="#downloadImageRights #download" rend="portrait" height="5339px"
+                width="3545px" url="MS-LATIN-00006-000-00123.jp2"/>
+        </surface>
+        <surface xml:id="i124" n="61v">
+            <graphic n="JRL1205765" decls="#downloadImageRights #download" rend="portrait" height="5187px"
+                width="3442px" url="MS-LATIN-00006-000-00124.jp2"/>
+        </surface>
+        <surface xml:id="i125" n="62r">
+            <graphic n="JRL1205766" decls="#downloadImageRights #download" rend="portrait" height="5288px"
+                width="3545px" url="MS-LATIN-00006-000-00125.jp2"/>
+        </surface>
+        <surface xml:id="i126" n="62v">
+            <graphic n="JRL1205767" decls="#downloadImageRights #download" rend="portrait" height="5207px"
+                width="3442px" url="MS-LATIN-00006-000-00126.jp2"/>
+        </surface>
+        <surface xml:id="i127" n="63r">
+            <graphic n="JRL1205768" decls="#downloadImageRights #download" rend="portrait" height="5288px"
+                width="3545px" url="MS-LATIN-00006-000-00127.jp2"/>
+        </surface>
+        <surface xml:id="i128" n="63v">
+            <graphic n="JRL1205769" decls="#downloadImageRights #download" rend="portrait" height="5187px"
+                width="3442px" url="MS-LATIN-00006-000-00128.jp2"/>
+        </surface>
+        <surface xml:id="i129" n="64r">
+            <graphic n="JRL1205770" decls="#downloadImageRights #download" rend="portrait" height="5313px"
+                width="3545px" url="MS-LATIN-00006-000-00129.jp2"/>
+        </surface>
+        <surface xml:id="i130" n="64v">
+            <graphic n="JRL1205771" decls="#downloadImageRights #download" rend="portrait" height="5204px"
+                width="3442px" url="MS-LATIN-00006-000-00130.jp2"/>
+        </surface>
+        <surface xml:id="i131" n="65r">
+            <graphic n="JRL1205772" decls="#downloadImageRights #download" rend="portrait" height="5313px"
+                width="3545px" url="MS-LATIN-00006-000-00131.jp2"/>
+        </surface>
+        <surface xml:id="i132" n="65v">
+            <graphic n="JRL1205773" decls="#downloadImageRights #download" rend="portrait" height="5204px"
+                width="3442px" url="MS-LATIN-00006-000-00132.jp2"/>
+        </surface>
+        <surface xml:id="i133" n="66r">
+            <graphic n="JRL1205774" decls="#downloadImageRights #download" rend="portrait" height="5313px"
+                width="3545px" url="MS-LATIN-00006-000-00133.jp2"/>
+        </surface>
+        <surface xml:id="i134" n="66v">
+            <graphic n="JRL1205775" decls="#downloadImageRights #download" rend="portrait" height="5204px"
+                width="3442px" url="MS-LATIN-00006-000-00134.jp2"/>
+        </surface>
+        <surface xml:id="i135" n="67r">
+            <graphic n="JRL1205776" decls="#downloadImageRights #download" rend="portrait" height="5313px"
+                width="3545px" url="MS-LATIN-00006-000-00135.jp2"/>
+        </surface>
+        <surface xml:id="i136" n="67v">
+            <graphic n="JRL1205777" decls="#downloadImageRights #download" rend="portrait" height="5204px"
+                width="3442px" url="MS-LATIN-00006-000-00136.jp2"/>
+        </surface>
+        <surface xml:id="i137" n="68r">
+            <graphic n="JRL1205778" decls="#downloadImageRights #download" rend="portrait" height="5313px"
+                width="3545px" url="MS-LATIN-00006-000-00137.jp2"/>
+        </surface>
+        <surface xml:id="i138" n="68v">
+            <graphic n="JRL1205779" decls="#downloadImageRights #download" rend="portrait" height="5204px"
+                width="3442px" url="MS-LATIN-00006-000-00138.jp2"/>
+        </surface>
+        <surface xml:id="i139" n="69r">
+            <graphic n="JRL1205780" decls="#downloadImageRights #download" rend="portrait" height="5313px"
+                width="3545px" url="MS-LATIN-00006-000-00139.jp2"/>
+        </surface>
+        <surface xml:id="i140" n="69v">
+            <graphic n="JRL1205781" decls="#downloadImageRights #download" rend="portrait" height="5204px"
+                width="3442px" url="MS-LATIN-00006-000-00140.jp2"/>
+        </surface>
+        <surface xml:id="i141" n="70r">
+            <graphic n="JRL1205782" decls="#downloadImageRights #download" rend="portrait" height="5313px"
+                width="3545px" url="MS-LATIN-00006-000-00141.jp2"/>
+        </surface>
+        <surface xml:id="i142" n="70v">
+            <graphic n="JRL1205783" decls="#downloadImageRights #download" rend="portrait" height="5204px"
+                width="3442px" url="MS-LATIN-00006-000-00142.jp2"/>
+        </surface>
+        <surface xml:id="i143" n="71r">
+            <graphic n="JRL1205784" decls="#downloadImageRights #download" rend="portrait" height="5313px"
+                width="3545px" url="MS-LATIN-00006-000-00143.jp2"/>
+        </surface>
+        <surface xml:id="i144" n="71v">
+            <graphic n="JRL1205785" decls="#downloadImageRights #download" rend="portrait" height="5204px"
+                width="3442px" url="MS-LATIN-00006-000-00144.jp2"/>
+        </surface>
+        <surface xml:id="i145" n="72r">
+            <graphic n="JRL1205786" decls="#downloadImageRights #download" rend="portrait" height="5313px"
+                width="3545px" url="MS-LATIN-00006-000-00145.jp2"/>
+        </surface>
+        <surface xml:id="i146" n="72v">
+            <graphic n="JRL1205787" decls="#downloadImageRights #download" rend="portrait" height="5204px"
+                width="3442px" url="MS-LATIN-00006-000-00146.jp2"/>
+        </surface>
+        <surface xml:id="i147" n="73r">
+            <graphic n="JRL1205788" decls="#downloadImageRights #download" rend="portrait" height="5265px"
+                width="3492px" url="MS-LATIN-00006-000-00147.jp2"/>
+        </surface>
+        <surface xml:id="i148" n="73v">
+            <graphic n="JRL1205789" decls="#downloadImageRights #download" rend="portrait" height="5216px"
+                width="3442px" url="MS-LATIN-00006-000-00148.jp2"/>
+        </surface>
+        <surface xml:id="i149" n="74r">
+            <graphic n="JRL1205790" decls="#downloadImageRights #download" rend="portrait" height="5271px"
+                width="3492px" url="MS-LATIN-00006-000-00149.jp2"/>
+        </surface>
+        <surface xml:id="i150" n="74v">
+            <graphic n="JRL1205791" decls="#downloadImageRights #download" rend="portrait" height="5216px"
+                width="3442px" url="MS-LATIN-00006-000-00150.jp2"/>
+        </surface>
+        <surface xml:id="i151" n="75r">
+            <graphic n="JRL1205792" decls="#downloadImageRights #download" rend="portrait" height="5279px"
+                width="3459px" url="MS-LATIN-00006-000-00151.jp2"/>
+        </surface>
+        <surface xml:id="i152" n="75v">
+            <graphic n="JRL1205793" decls="#downloadImageRights #download" rend="portrait" height="5231px"
+                width="3442px" url="MS-LATIN-00006-000-00152.jp2"/>
+        </surface>
+        <surface xml:id="i153" n="76r">
+            <graphic n="JRL1205794" decls="#downloadImageRights #download" rend="portrait" height="5279px"
+                width="3459px" url="MS-LATIN-00006-000-00153.jp2"/>
+        </surface>
+        <surface xml:id="i154" n="76v">
+            <graphic n="JRL1205795" decls="#downloadImageRights #download" rend="portrait" height="5231px"
+                width="3442px" url="MS-LATIN-00006-000-00154.jp2"/>
+        </surface>
+        <surface xml:id="i155" n="77r">
+            <graphic n="JRL1205796" decls="#downloadImageRights #download" rend="portrait" height="5279px"
+                width="3459px" url="MS-LATIN-00006-000-00155.jp2"/>
+        </surface>
+        <surface xml:id="i156" n="77v">
+            <graphic n="JRL1205797" decls="#downloadImageRights #download" rend="portrait" height="5231px"
+                width="3442px" url="MS-LATIN-00006-000-00156.jp2"/>
+        </surface>
+        <surface xml:id="i157" n="78r">
+            <graphic n="JRL1205798" decls="#downloadImageRights #download" rend="portrait" height="5279px"
+                width="3459px" url="MS-LATIN-00006-000-00157.jp2"/>
+        </surface>
+        <surface xml:id="i158" n="78v">
+            <graphic n="JRL1205799" decls="#downloadImageRights #download" rend="portrait" height="5231px"
+                width="3442px" url="MS-LATIN-00006-000-00158.jp2"/>
+        </surface>
+        <surface xml:id="i159" n="79r">
+            <graphic n="JRL1205800" decls="#downloadImageRights #download" rend="portrait" height="5279px"
+                width="3459px" url="MS-LATIN-00006-000-00159.jp2"/>
+        </surface>
+        <surface xml:id="i160" n="79v">
+            <graphic n="JRL1205801" decls="#downloadImageRights #download" rend="portrait" height="5231px"
+                width="3442px" url="MS-LATIN-00006-000-00160.jp2"/>
+        </surface>
+        <surface xml:id="i161" n="80r">
+            <graphic n="JRL1205802" decls="#downloadImageRights #download" rend="portrait" height="5279px"
+                width="3459px" url="MS-LATIN-00006-000-00161.jp2"/>
+        </surface>
+        <surface xml:id="i162" n="80v">
+            <graphic n="JRL1205803" decls="#downloadImageRights #download" rend="portrait" height="5231px"
+                width="3442px" url="MS-LATIN-00006-000-00162.jp2"/>
+        </surface>
+        <surface xml:id="i163" n="81r">
+            <graphic n="JRL1205804" decls="#downloadImageRights #download" rend="portrait" height="5279px"
+                width="3459px" url="MS-LATIN-00006-000-00163.jp2"/>
+        </surface>
+        <surface xml:id="i164" n="81v">
+            <graphic n="JRL1205805" decls="#downloadImageRights #download" rend="portrait" height="5247px"
+                width="3442px" url="MS-LATIN-00006-000-00164.jp2"/>
+        </surface>
+        <surface xml:id="i165" n="82r">
+            <graphic n="JRL1205806" decls="#downloadImageRights #download" rend="portrait" height="5279px"
+                width="3459px" url="MS-LATIN-00006-000-00165.jp2"/>
+        </surface>
+        <surface xml:id="i166" n="82v">
+            <graphic n="JRL1205807" decls="#downloadImageRights #download" rend="portrait" height="5247px"
+                width="3442px" url="MS-LATIN-00006-000-00166.jp2"/>
+        </surface>
+        <surface xml:id="i167" n="83r">
+            <graphic n="JRL1205808" decls="#downloadImageRights #download" rend="portrait" height="5279px"
+                width="3459px" url="MS-LATIN-00006-000-00167.jp2"/>
+        </surface>
+        <surface xml:id="i168" n="83v">
+            <graphic n="JRL1205809" decls="#downloadImageRights #download" rend="portrait" height="5247px"
+                width="3442px" url="MS-LATIN-00006-000-00168.jp2"/>
+        </surface>
+        <surface xml:id="i169" n="84r">
+            <graphic n="JRL1205810" decls="#downloadImageRights #download" rend="portrait" height="5279px"
+                width="3459px" url="MS-LATIN-00006-000-00169.jp2"/>
+        </surface>
+        <surface xml:id="i170" n="84v">
+            <graphic n="JRL1205811" decls="#downloadImageRights #download" rend="portrait" height="5247px"
+                width="3442px" url="MS-LATIN-00006-000-00170.jp2"/>
+        </surface>
+        <surface xml:id="i171" n="85r">
+            <graphic n="JRL1205812" decls="#downloadImageRights #download" rend="portrait" height="5279px"
+                width="3459px" url="MS-LATIN-00006-000-00171.jp2"/>
+        </surface>
+        <surface xml:id="i172" n="85v">
+            <graphic n="JRL1205813" decls="#downloadImageRights #download" rend="portrait" height="5261px"
+                width="3442px" url="MS-LATIN-00006-000-00172.jp2"/>
+        </surface>
+        <surface xml:id="i173" n="86r">
+            <graphic n="JRL1205814" decls="#downloadImageRights #download" rend="portrait" height="5279px"
+                width="3459px" url="MS-LATIN-00006-000-00173.jp2"/>
+        </surface>
+        <surface xml:id="i174" n="86v">
+            <graphic n="JRL1205815" decls="#downloadImageRights #download" rend="portrait" height="5238px"
+                width="3442px" url="MS-LATIN-00006-000-00174.jp2"/>
+        </surface>
+        <surface xml:id="i175" n="87r">
+            <graphic n="JRL1205816" decls="#downloadImageRights #download" rend="portrait" height="5279px"
+                width="3459px" url="MS-LATIN-00006-000-00175.jp2"/>
+        </surface>
+        <surface xml:id="i176" n="87v">
+            <graphic n="JRL1205817" decls="#downloadImageRights #download" rend="portrait" height="5238px"
+                width="3442px" url="MS-LATIN-00006-000-00176.jp2"/>
+        </surface>
+        <surface xml:id="i177" n="88r">
+            <graphic n="JRL1205818" decls="#downloadImageRights #download" rend="portrait" height="5279px"
+                width="3459px" url="MS-LATIN-00006-000-00177.jp2"/>
+        </surface>
+        <surface xml:id="i178" n="88v">
+            <graphic n="JRL1205819" decls="#downloadImageRights #download" rend="portrait" height="5248px"
+                width="3442px" url="MS-LATIN-00006-000-00178.jp2"/>
+        </surface>
+        <surface xml:id="i179" n="89r">
+            <graphic n="JRL1205820" decls="#downloadImageRights #download" rend="portrait" height="5279px"
+                width="3459px" url="MS-LATIN-00006-000-00179.jp2"/>
+        </surface>
+        <surface xml:id="i180" n="89v">
+            <graphic n="JRL1205821" decls="#downloadImageRights #download" rend="portrait" height="5248px"
+                width="3442px" url="MS-LATIN-00006-000-00180.jp2"/>
+        </surface>
+        <surface xml:id="i181" n="90r">
+            <graphic n="JRL1205822" decls="#downloadImageRights #download" rend="portrait" height="5279px"
+                width="3459px" url="MS-LATIN-00006-000-00181.jp2"/>
+        </surface>
+        <surface xml:id="i182" n="90v">
+            <graphic n="JRL1205823" decls="#downloadImageRights #download" rend="portrait" height="5248px"
+                width="3442px" url="MS-LATIN-00006-000-00182.jp2"/>
+        </surface>
+        <surface xml:id="i183" n="91r">
+            <graphic n="JRL1205824" decls="#downloadImageRights #download" rend="portrait" height="5279px"
+                width="3459px" url="MS-LATIN-00006-000-00183.jp2"/>
+        </surface>
+        <surface xml:id="i184" n="91v">
+            <graphic n="JRL1205825" decls="#downloadImageRights #download" rend="portrait" height="5273px"
+                width="3442px" url="MS-LATIN-00006-000-00184.jp2"/>
+        </surface>
+        <surface xml:id="i185" n="92r">
+            <graphic n="JRL1205826" decls="#downloadImageRights #download" rend="portrait" height="5279px"
+                width="3459px" url="MS-LATIN-00006-000-00185.jp2"/>
+        </surface>
+        <surface xml:id="i186" n="92v">
+            <graphic n="JRL1205827" decls="#downloadImageRights #download" rend="portrait" height="5273px"
+                width="3442px" url="MS-LATIN-00006-000-00186.jp2"/>
+        </surface>
+        <surface xml:id="i187" n="93r">
+            <graphic n="JRL1205828" decls="#downloadImageRights #download" rend="portrait" height="5279px"
+                width="3459px" url="MS-LATIN-00006-000-00187.jp2"/>
+        </surface>
+        <surface xml:id="i188" n="93v">
+            <graphic n="JRL1205829" decls="#downloadImageRights #download" rend="portrait" height="5273px"
+                width="3442px" url="MS-LATIN-00006-000-00188.jp2"/>
+        </surface>
+        <surface xml:id="i189" n="94r">
+            <graphic n="JRL1205830" decls="#downloadImageRights #download" rend="portrait" height="5279px"
+                width="3459px" url="MS-LATIN-00006-000-00189.jp2"/>
+        </surface>
+        <surface xml:id="i190" n="94v">
+            <graphic n="JRL1205831" decls="#downloadImageRights #download" rend="portrait" height="5273px"
+                width="3442px" url="MS-LATIN-00006-000-00190.jp2"/>
+        </surface>
+        <surface xml:id="i191" n="95r">
+            <graphic n="JRL1205832" decls="#downloadImageRights #download" rend="portrait" height="5279px"
+                width="3459px" url="MS-LATIN-00006-000-00191.jp2"/>
+        </surface>
+        <surface xml:id="i192" n="95v">
+            <graphic n="JRL1205833" decls="#downloadImageRights #download" rend="portrait" height="5251px"
+                width="3442px" url="MS-LATIN-00006-000-00192.jp2"/>
+        </surface>
+        <surface xml:id="i193" n="96r">
+            <graphic n="JRL1205834" decls="#downloadImageRights #download" rend="portrait" height="5279px"
+                width="3459px" url="MS-LATIN-00006-000-00193.jp2"/>
+        </surface>
+        <surface xml:id="i194" n="96v">
+            <graphic n="JRL1205835" decls="#downloadImageRights #download" rend="portrait" height="5256px"
+                width="3442px" url="MS-LATIN-00006-000-00194.jp2"/>
+        </surface>
+        <surface xml:id="i195" n="97r">
+            <graphic n="JRL1205836" decls="#downloadImageRights #download" rend="portrait" height="5279px"
+                width="3459px" url="MS-LATIN-00006-000-00195.jp2"/>
+        </surface>
+        <surface xml:id="i196" n="97v">
+            <graphic n="JRL1205837" decls="#downloadImageRights #download" rend="portrait" height="5313px"
+                width="3442px" url="MS-LATIN-00006-000-00196.jp2"/>
+        </surface>
+        <surface xml:id="i197" n="98r">
+            <graphic n="JRL1205838" decls="#downloadImageRights #download" rend="portrait" height="5279px"
+                width="3459px" url="MS-LATIN-00006-000-00197.jp2"/>
+        </surface>
+        <surface xml:id="i198" n="98v">
+            <graphic n="JRL1205839" decls="#downloadImageRights #download" rend="portrait" height="5313px"
+                width="3442px" url="MS-LATIN-00006-000-00198.jp2"/>
+        </surface>
+        <surface xml:id="i199" n="99r">
+            <graphic n="JRL1205840" decls="#downloadImageRights #download" rend="portrait" height="5279px"
+                width="3459px" url="MS-LATIN-00006-000-00199.jp2"/>
+        </surface>
+        <surface xml:id="i200" n="99v">
+            <graphic n="JRL1205841" decls="#downloadImageRights #download" rend="portrait" height="5313px"
+                width="3442px" url="MS-LATIN-00006-000-00200.jp2"/>
+        </surface>
+        <surface xml:id="i201" n="100r">
+            <graphic n="JRL1205842" decls="#downloadImageRights #download" rend="portrait" height="5279px"
+                width="3459px" url="MS-LATIN-00006-000-00201.jp2"/>
+        </surface>
+        <surface xml:id="i202" n="100v">
+            <graphic n="JRL1205843" decls="#downloadImageRights #download" rend="portrait" height="5313px"
+                width="3442px" url="MS-LATIN-00006-000-00202.jp2"/>
+        </surface>
+        <surface xml:id="i203" n="101r">
+            <graphic n="JRL1205844" decls="#downloadImageRights #download" rend="portrait" height="5279px"
+                width="3459px" url="MS-LATIN-00006-000-00203.jp2"/>
+        </surface>
+        <surface xml:id="i204" n="101v">
+            <graphic n="JRL1205845" decls="#downloadImageRights #download" rend="portrait" height="5313px"
+                width="3442px" url="MS-LATIN-00006-000-00204.jp2"/>
+        </surface>
+        <surface xml:id="i205" n="102r">
+            <graphic n="JRL1205846" decls="#downloadImageRights #download" rend="portrait" height="5279px"
+                width="3459px" url="MS-LATIN-00006-000-00205.jp2"/>
+        </surface>
+        <surface xml:id="i206" n="102v">
+            <graphic n="JRL1205847" decls="#downloadImageRights #download" rend="portrait" height="5290px"
+                width="3442px" url="MS-LATIN-00006-000-00206.jp2"/>
+        </surface>
+        <surface xml:id="i207" n="103r">
+            <graphic n="JRL1205848" decls="#downloadImageRights #download" rend="portrait" height="5279px"
+                width="3459px" url="MS-LATIN-00006-000-00207.jp2"/>
+        </surface>
+        <surface xml:id="i208" n="103v">
+            <graphic n="JRL1205849" decls="#downloadImageRights #download" rend="portrait" height="5290px"
+                width="3442px" url="MS-LATIN-00006-000-00208.jp2"/>
+        </surface>
+        <surface xml:id="i209" n="104r">
+            <graphic n="JRL1205850" decls="#downloadImageRights #download" rend="portrait" height="5212px"
+                width="3425px" url="MS-LATIN-00006-000-00209.jp2"/>
+        </surface>
+        <surface xml:id="i210" n="104v">
+            <graphic n="JRL1205851" decls="#downloadImageRights #download" rend="portrait" height="5315px"
+                width="3442px" url="MS-LATIN-00006-000-00210.jp2"/>
+        </surface>
+        <surface xml:id="i211" n="105r">
+            <graphic n="JRL1205852" decls="#downloadImageRights #download" rend="portrait" height="5212px"
+                width="3425px" url="MS-LATIN-00006-000-00211.jp2"/>
+        </surface>
+        <surface xml:id="i212" n="105v">
+            <graphic n="JRL1205853" decls="#downloadImageRights #download" rend="portrait" height="5315px"
+                width="3442px" url="MS-LATIN-00006-000-00212.jp2"/>
+        </surface>
+        <surface xml:id="i213" n="106r">
+            <graphic n="JRL1205854" decls="#downloadImageRights #download" rend="portrait" height="5232px"
+                width="3425px" url="MS-LATIN-00006-000-00213.jp2"/>
+        </surface>
+        <surface xml:id="i214" n="106v">
+            <graphic n="JRL1205855" decls="#downloadImageRights #download" rend="portrait" height="5315px"
+                width="3442px" url="MS-LATIN-00006-000-00214.jp2"/>
+        </surface>
+        <surface xml:id="i215" n="107r">
+            <graphic n="JRL1205856" decls="#downloadImageRights #download" rend="portrait" height="5232px"
+                width="3425px" url="MS-LATIN-00006-000-00215.jp2"/>
+        </surface>
+        <surface xml:id="i216" n="107v">
+            <graphic n="JRL1205857" decls="#downloadImageRights #download" rend="portrait" height="5315px"
+                width="3442px" url="MS-LATIN-00006-000-00216.jp2"/>
+        </surface>
+        <surface xml:id="i217" n="108r">
+            <graphic n="JRL1205858" decls="#downloadImageRights #download" rend="portrait" height="5232px"
+                width="3425px" url="MS-LATIN-00006-000-00217.jp2"/>
+        </surface>
+        <surface xml:id="i218" n="108v">
+            <graphic n="JRL1205859" decls="#downloadImageRights #download" rend="portrait" height="5315px"
+                width="3442px" url="MS-LATIN-00006-000-00218.jp2"/>
+        </surface>
+        <surface xml:id="i219" n="109r">
+            <graphic n="JRL1205860" decls="#downloadImageRights #download" rend="portrait" height="5232px"
+                width="3425px" url="MS-LATIN-00006-000-00219.jp2"/>
+        </surface>
+        <surface xml:id="i220" n="109v">
+            <graphic n="JRL1205861" decls="#downloadImageRights #download" rend="portrait" height="5315px"
+                width="3442px" url="MS-LATIN-00006-000-00220.jp2"/>
+        </surface>
+        <surface xml:id="i221" n="110r">
+            <graphic n="JRL1205862" decls="#downloadImageRights #download" rend="portrait" height="5208px"
+                width="3425px" url="MS-LATIN-00006-000-00221.jp2"/>
+        </surface>
+        <surface xml:id="i222" n="110v">
+            <graphic n="JRL1205863" decls="#downloadImageRights #download" rend="portrait" height="5315px"
+                width="3442px" url="MS-LATIN-00006-000-00222.jp2"/>
+        </surface>
+        <surface xml:id="i223" n="111r">
+            <graphic n="JRL1205864" decls="#downloadImageRights #download" rend="portrait" height="5232px"
+                width="3425px" url="MS-LATIN-00006-000-00223.jp2"/>
+        </surface>
+        <surface xml:id="i224" n="111v">
+            <graphic n="JRL1205865" decls="#downloadImageRights #download" rend="portrait" height="5315px"
+                width="3442px" url="MS-LATIN-00006-000-00224.jp2"/>
+        </surface>
+        <surface xml:id="i225" n="112r">
+            <graphic n="JRL1205866" decls="#downloadImageRights #download" rend="portrait" height="5232px"
+                width="3425px" url="MS-LATIN-00006-000-00225.jp2"/>
+        </surface>
+        <surface xml:id="i226" n="112v">
+            <graphic n="JRL1205867" decls="#downloadImageRights #download" rend="portrait" height="5315px"
+                width="3442px" url="MS-LATIN-00006-000-00226.jp2"/>
+        </surface>
+        <surface xml:id="i227" n="113r">
+            <graphic n="JRL1205868" decls="#downloadImageRights #download" rend="portrait" height="5232px"
+                width="3425px" url="MS-LATIN-00006-000-00227.jp2"/>
+        </surface>
+        <surface xml:id="i228" n="113v">
+            <graphic n="JRL1205869" decls="#downloadImageRights #download" rend="portrait" height="5315px"
+                width="3442px" url="MS-LATIN-00006-000-00228.jp2"/>
+        </surface>
+        <surface xml:id="i229" n="114r">
+            <graphic n="JRL1205870" decls="#downloadImageRights #download" rend="portrait" height="5232px"
+                width="3425px" url="MS-LATIN-00006-000-00229.jp2"/>
+        </surface>
+        <surface xml:id="i230" n="114v">
+            <graphic n="JRL1205871" decls="#downloadImageRights #download" rend="portrait" height="5315px"
+                width="3442px" url="MS-LATIN-00006-000-00230.jp2"/>
+        </surface>
+        <surface xml:id="i231" n="115r">
+            <graphic n="JRL1205872" decls="#downloadImageRights #download" rend="portrait" height="5232px"
+                width="3425px" url="MS-LATIN-00006-000-00231.jp2"/>
+        </surface>
+        <surface xml:id="i232" n="115v">
+            <graphic n="JRL1205873" decls="#downloadImageRights #download" rend="portrait" height="5315px"
+                width="3442px" url="MS-LATIN-00006-000-00232.jp2"/>
+        </surface>
+        <surface xml:id="i233" n="116r">
+            <graphic n="JRL1205874" decls="#downloadImageRights #download" rend="portrait" height="5232px"
+                width="3425px" url="MS-LATIN-00006-000-00233.jp2"/>
+        </surface>
+        <surface xml:id="i234" n="116v">
+            <graphic n="JRL1205875" decls="#downloadImageRights #download" rend="portrait" height="5315px"
+                width="3442px" url="MS-LATIN-00006-000-00234.jp2"/>
+        </surface>
+        <surface xml:id="i235" n="117r">
+            <graphic n="JRL1205876" decls="#downloadImageRights #download" rend="portrait" height="5232px"
+                width="3425px" url="MS-LATIN-00006-000-00235.jp2"/>
+        </surface>
+        <surface xml:id="i236" n="117v">
+            <graphic n="JRL1205877" decls="#downloadImageRights #download" rend="portrait" height="5315px"
+                width="3442px" url="MS-LATIN-00006-000-00236.jp2"/>
+        </surface>
+        <surface xml:id="i237" n="118r">
+            <graphic n="JRL1205878" decls="#downloadImageRights #download" rend="portrait" height="5232px"
+                width="3425px" url="MS-LATIN-00006-000-00237.jp2"/>
+        </surface>
+        <surface xml:id="i238" n="118v">
+            <graphic n="JRL1205879" decls="#downloadImageRights #download" rend="portrait" height="5315px"
+                width="3442px" url="MS-LATIN-00006-000-00238.jp2"/>
+        </surface>
+        <surface xml:id="i239" n="119r">
+            <graphic n="JRL1205880" decls="#downloadImageRights #download" rend="portrait" height="5232px"
+                width="3425px" url="MS-LATIN-00006-000-00239.jp2"/>
+        </surface>
+        <surface xml:id="i240" n="119v">
+            <graphic n="JRL1205881" decls="#downloadImageRights #download" rend="portrait" height="5339px"
+                width="3442px" url="MS-LATIN-00006-000-00240.jp2"/>
+        </surface>
+        <surface xml:id="i241" n="120r">
+            <graphic n="JRL1205882" decls="#downloadImageRights #download" rend="portrait" height="5232px"
+                width="3425px" url="MS-LATIN-00006-000-00241.jp2"/>
+        </surface>
+        <surface xml:id="i242" n="120v">
+            <graphic n="JRL1205883" decls="#downloadImageRights #download" rend="portrait" height="5339px"
+                width="3442px" url="MS-LATIN-00006-000-00242.jp2"/>
+        </surface>
+        <surface xml:id="i243" n="121r">
+            <graphic n="JRL1205884" decls="#downloadImageRights #download" rend="portrait" height="5232px"
+                width="3425px" url="MS-LATIN-00006-000-00243.jp2"/>
+        </surface>
+        <surface xml:id="i244" n="121v">
+            <graphic n="JRL1205885" decls="#downloadImageRights #download" rend="portrait" height="5321px"
+                width="3442px" url="MS-LATIN-00006-000-00244.jp2"/>
+        </surface>
+        <surface xml:id="i245" n="122r">
+            <graphic n="JRL1205886" decls="#downloadImageRights #download" rend="portrait" height="5232px"
+                width="3425px" url="MS-LATIN-00006-000-00245.jp2"/>
+        </surface>
+        <surface xml:id="i246" n="122v">
+            <graphic n="JRL1205887" decls="#downloadImageRights #download" rend="portrait" height="5354px"
+                width="3442px" url="MS-LATIN-00006-000-00246.jp2"/>
+        </surface>
+        <surface xml:id="i247" n="123r">
+            <graphic n="JRL1205888" decls="#downloadImageRights #download" rend="portrait" height="5232px"
+                width="3425px" url="MS-LATIN-00006-000-00247.jp2"/>
+        </surface>
+        <surface xml:id="i248" n="123v">
+            <graphic n="JRL1205889" decls="#downloadImageRights #download" rend="portrait" height="5354px"
+                width="3442px" url="MS-LATIN-00006-000-00248.jp2"/>
+        </surface>
+        <surface xml:id="i249" n="124r">
+            <graphic n="JRL1205890" decls="#downloadImageRights #download" rend="portrait" height="5232px"
+                width="3425px" url="MS-LATIN-00006-000-00249.jp2"/>
+        </surface>
+        <surface xml:id="i250" n="124v">
+            <graphic n="JRL1205891" decls="#downloadImageRights #download" rend="portrait" height="5354px"
+                width="3442px" url="MS-LATIN-00006-000-00250.jp2"/>
+        </surface>
+        <surface xml:id="i251" n="125r">
+            <graphic n="JRL1205892" decls="#downloadImageRights #download" rend="portrait" height="5201px"
+                width="3412px" url="MS-LATIN-00006-000-00251.jp2"/>
+        </surface>
+        <surface xml:id="i252" n="125v">
+            <graphic n="JRL1205893" decls="#downloadImageRights #download" rend="portrait" height="5354px"
+                width="3442px" url="MS-LATIN-00006-000-00252.jp2"/>
+        </surface>
+        <surface xml:id="i253" n="126r">
+            <graphic n="JRL1205894" decls="#downloadImageRights #download" rend="portrait" height="5201px"
+                width="3412px" url="MS-LATIN-00006-000-00253.jp2"/>
+        </surface>
+        <surface xml:id="i254" n="126v">
+            <graphic n="JRL1205895" decls="#downloadImageRights #download" rend="portrait" height="5354px"
+                width="3442px" url="MS-LATIN-00006-000-00254.jp2"/>
+        </surface>
+        <surface xml:id="i255" n="127r">
+            <graphic n="JRL1205896" decls="#downloadImageRights #download" rend="portrait" height="5201px"
+                width="3412px" url="MS-LATIN-00006-000-00255.jp2"/>
+        </surface>
+        <surface xml:id="i256" n="127v">
+            <graphic n="JRL1205897" decls="#downloadImageRights #download" rend="portrait" height="5354px"
+                width="3442px" url="MS-LATIN-00006-000-00256.jp2"/>
+        </surface>
+        <surface xml:id="i257" n="128r">
+            <graphic n="JRL1205898" decls="#downloadImageRights #download" rend="portrait" height="5201px"
+                width="3412px" url="MS-LATIN-00006-000-00257.jp2"/>
+        </surface>
+        <surface xml:id="i258" n="128v">
+            <graphic n="JRL1205899" decls="#downloadImageRights #download" rend="portrait" height="5354px"
+                width="3510px" url="MS-LATIN-00006-000-00258.jp2"/>
+        </surface>
+        <surface xml:id="i259" n="129r">
+            <graphic n="JRL1205900" decls="#downloadImageRights #download" rend="portrait" height="5201px"
+                width="3412px" url="MS-LATIN-00006-000-00259.jp2"/>
+        </surface>
+        <surface xml:id="i260" n="129v">
+            <graphic n="JRL1205901" decls="#downloadImageRights #download" rend="portrait" height="5354px"
+                width="3510px" url="MS-LATIN-00006-000-00260.jp2"/>
+        </surface>
+        <surface xml:id="i261" n="130r">
+            <graphic n="JRL1205902" decls="#downloadImageRights #download" rend="portrait" height="5201px"
+                width="3412px" url="MS-LATIN-00006-000-00261.jp2"/>
+        </surface>
+        <surface xml:id="i262" n="130v">
+            <graphic n="JRL1205903" decls="#downloadImageRights #download" rend="portrait" height="5354px"
+                width="3510px" url="MS-LATIN-00006-000-00262.jp2"/>
+        </surface>
+        <surface xml:id="i263" n="131r">
+            <graphic n="JRL1205904" decls="#downloadImageRights #download" rend="portrait" height="5201px"
+                width="3412px" url="MS-LATIN-00006-000-00263.jp2"/>
+        </surface>
+        <surface xml:id="i264" n="131v">
+            <graphic n="JRL1205905" decls="#downloadImageRights #download" rend="portrait" height="5354px"
+                width="3510px" url="MS-LATIN-00006-000-00264.jp2"/>
+        </surface>
+        <surface xml:id="i265" n="132r">
+            <graphic n="JRL1205906" decls="#downloadImageRights #download" rend="portrait" height="5201px"
+                width="3412px" url="MS-LATIN-00006-000-00265.jp2"/>
+        </surface>
+        <surface xml:id="i266" n="132v">
+            <graphic n="JRL1205907" decls="#downloadImageRights #download" rend="portrait" height="5354px"
+                width="3510px" url="MS-LATIN-00006-000-00266.jp2"/>
+        </surface>
+        <surface xml:id="i267" n="133r">
+            <graphic n="JRL1205908" decls="#downloadImageRights #download" rend="portrait" height="5201px"
+                width="3412px" url="MS-LATIN-00006-000-00267.jp2"/>
+        </surface>
+        <surface xml:id="i268" n="133v">
+            <graphic n="JRL1205909" decls="#downloadImageRights #download" rend="portrait" height="5354px"
+                width="3510px" url="MS-LATIN-00006-000-00268.jp2"/>
+        </surface>
+        <surface xml:id="i269" n="134r">
+            <graphic n="JRL1205910" decls="#downloadImageRights #download" rend="portrait" height="5201px"
+                width="3412px" url="MS-LATIN-00006-000-00269.jp2"/>
+        </surface>
+        <surface xml:id="i270" n="134v">
+            <graphic n="JRL1205911" decls="#downloadImageRights #download" rend="portrait" height="5354px"
+                width="3510px" url="MS-LATIN-00006-000-00270.jp2"/>
+        </surface>
+        <surface xml:id="i271" n="135r">
+            <graphic n="JRL1205912" decls="#downloadImageRights #download" rend="portrait" height="5201px"
+                width="3412px" url="MS-LATIN-00006-000-00271.jp2"/>
+        </surface>
+        <surface xml:id="i272" n="135v">
+            <graphic n="JRL1205913" decls="#downloadImageRights #download" rend="portrait" height="5354px"
+                width="3510px" url="MS-LATIN-00006-000-00272.jp2"/>
+        </surface>
+        <surface xml:id="i273" n="136r">
+            <graphic n="JRL1205914" decls="#downloadImageRights #download" rend="portrait" height="5201px"
+                width="3412px" url="MS-LATIN-00006-000-00273.jp2"/>
+        </surface>
+        <surface xml:id="i274" n="136v">
+            <graphic n="JRL1205915" decls="#downloadImageRights #download" rend="portrait" height="5354px"
+                width="3510px" url="MS-LATIN-00006-000-00274.jp2"/>
+        </surface>
+        <surface xml:id="i275" n="137r">
+            <graphic n="JRL1205916" decls="#downloadImageRights #download" rend="portrait" height="5201px"
+                width="3412px" url="MS-LATIN-00006-000-00275.jp2"/>
+        </surface>
+        <surface xml:id="i276" n="137v">
+            <graphic n="JRL1205917" decls="#downloadImageRights #download" rend="portrait" height="5354px"
+                width="3510px" url="MS-LATIN-00006-000-00276.jp2"/>
+        </surface>
+        <surface xml:id="i277" n="138r">
+            <graphic n="JRL1205918" decls="#downloadImageRights #download" rend="portrait" height="5201px"
+                width="3412px" url="MS-LATIN-00006-000-00277.jp2"/>
+        </surface>
+        <surface xml:id="i278" n="138v">
+            <graphic n="JRL1205919" decls="#downloadImageRights #download" rend="portrait" height="5354px"
+                width="3510px" url="MS-LATIN-00006-000-00278.jp2"/>
+        </surface>
+        <surface xml:id="i279" n="139r">
+            <graphic n="JRL1205920" decls="#downloadImageRights #download" rend="portrait" height="5201px"
+                width="3412px" url="MS-LATIN-00006-000-00279.jp2"/>
+        </surface>
+        <surface xml:id="i280" n="139v">
+            <graphic n="JRL1205921" decls="#downloadImageRights #download" rend="portrait" height="5354px"
+                width="3510px" url="MS-LATIN-00006-000-00280.jp2"/>
+        </surface>
+        <surface xml:id="i281" n="140r">
+            <graphic n="JRL1205922" decls="#downloadImageRights #download" rend="portrait" height="5201px"
+                width="3412px" url="MS-LATIN-00006-000-00281.jp2"/>
+        </surface>
+        <surface xml:id="i282" n="140v">
+            <graphic n="JRL1205923" decls="#downloadImageRights #download" rend="portrait" height="5354px"
+                width="3510px" url="MS-LATIN-00006-000-00282.jp2"/>
+        </surface>
+        <surface xml:id="i283" n="141r">
+            <graphic n="JRL1205924" decls="#downloadImageRights #download" rend="portrait" height="5201px"
+                width="3412px" url="MS-LATIN-00006-000-00283.jp2"/>
+        </surface>
+        <surface xml:id="i284" n="141v">
+            <graphic n="JRL1205925" decls="#downloadImageRights #download" rend="portrait" height="5354px"
+                width="3551px" url="MS-LATIN-00006-000-00284.jp2"/>
+        </surface>
+        <surface xml:id="i285" n="142r">
+            <graphic n="JRL1205926" decls="#downloadImageRights #download" rend="portrait" height="5201px"
+                width="3412px" url="MS-LATIN-00006-000-00285.jp2"/>
+        </surface>
+        <surface xml:id="i286" n="142v">
+            <graphic n="JRL1205927" decls="#downloadImageRights #download" rend="portrait" height="5354px"
+                width="3551px" url="MS-LATIN-00006-000-00286.jp2"/>
+        </surface>
+        <surface xml:id="i287" n="143r">
+            <graphic n="JRL1205928" decls="#downloadImageRights #download" rend="portrait" height="5201px"
+                width="3412px" url="MS-LATIN-00006-000-00287.jp2"/>
+        </surface>
+        <surface xml:id="i288" n="143v">
+            <graphic n="JRL1205929" decls="#downloadImageRights #download" rend="portrait" height="5361px"
+                width="3551px" url="MS-LATIN-00006-000-00288.jp2"/>
+        </surface>
+        <surface xml:id="i289" n="144r">
+            <graphic n="JRL1205930" decls="#downloadImageRights #download" rend="portrait" height="5201px"
+                width="3412px" url="MS-LATIN-00006-000-00289.jp2"/>
+        </surface>
+        <surface xml:id="i290" n="144v">
+            <graphic n="JRL1205931" decls="#downloadImageRights #download" rend="portrait" height="5361px"
+                width="3551px" url="MS-LATIN-00006-000-00290.jp2"/>
+        </surface>
+        <surface xml:id="i291" n="145r">
+            <graphic n="JRL1205932" decls="#downloadImageRights #download" rend="portrait" height="5201px"
+                width="3412px" url="MS-LATIN-00006-000-00291.jp2"/>
+        </surface>
+        <surface xml:id="i292" n="145v">
+            <graphic n="JRL1205933" decls="#downloadImageRights #download" rend="portrait" height="5361px"
+                width="3551px" url="MS-LATIN-00006-000-00292.jp2"/>
+        </surface>
+        <surface xml:id="i293" n="146r">
+            <graphic n="JRL1205934" decls="#downloadImageRights #download" rend="portrait" height="5201px"
+                width="3412px" url="MS-LATIN-00006-000-00293.jp2"/>
+        </surface>
+        <surface xml:id="i294" n="146v">
+            <graphic n="JRL1205935" decls="#downloadImageRights #download" rend="portrait" height="5387px"
+                width="3551px" url="MS-LATIN-00006-000-00294.jp2"/>
+        </surface>
+        <surface xml:id="i295" n="147r">
+            <graphic n="JRL1205936" decls="#downloadImageRights #download" rend="portrait" height="5201px"
+                width="3412px" url="MS-LATIN-00006-000-00295.jp2"/>
+        </surface>
+        <surface xml:id="i296" n="147v">
+            <graphic n="JRL1205937" decls="#downloadImageRights #download" rend="portrait" height="5387px"
+                width="3551px" url="MS-LATIN-00006-000-00296.jp2"/>
+        </surface>
+        <surface xml:id="i297" n="148r">
+            <graphic n="JRL1205938" decls="#downloadImageRights #download" rend="portrait" height="5201px"
+                width="3412px" url="MS-LATIN-00006-000-00297.jp2"/>
+        </surface>
+        <surface xml:id="i298" n="148v">
+            <graphic n="JRL1205939" decls="#downloadImageRights #download" rend="portrait" height="5387px"
+                width="3551px" url="MS-LATIN-00006-000-00298.jp2"/>
+        </surface>
+        <surface xml:id="i299" n="149r">
+            <graphic n="JRL1205940" decls="#downloadImageRights #download" rend="portrait" height="5201px"
+                width="3412px" url="MS-LATIN-00006-000-00299.jp2"/>
+        </surface>
+        <surface xml:id="i300" n="149v">
+            <graphic n="JRL1205941" decls="#downloadImageRights #download" rend="portrait" height="5387px"
+                width="3551px" url="MS-LATIN-00006-000-00300.jp2"/>
+        </surface>
+        <surface xml:id="i301" n="150r">
+            <graphic n="JRL1205942" decls="#downloadImageRights #download" rend="portrait" height="5201px"
+                width="3412px" url="MS-LATIN-00006-000-00301.jp2"/>
+        </surface>
+        <surface xml:id="i302" n="150v">
+            <graphic n="JRL1205943" decls="#downloadImageRights #download" rend="portrait" height="5387px"
+                width="3551px" url="MS-LATIN-00006-000-00302.jp2"/>
+        </surface>
+        <surface xml:id="i303" n="151r">
+            <graphic n="JRL1205944" decls="#downloadImageRights #download" rend="portrait" height="5201px"
+                width="3412px" url="MS-LATIN-00006-000-00303.jp2"/>
+        </surface>
+        <surface xml:id="i304" n="151v">
+            <graphic n="JRL1205945" decls="#downloadImageRights #download" rend="portrait" height="5387px"
+                width="3551px" url="MS-LATIN-00006-000-00304.jp2"/>
+        </surface>
+        <surface xml:id="i305" n="152r">
+            <graphic n="JRL1205946" decls="#downloadImageRights #download" rend="portrait" height="5201px"
+                width="3412px" url="MS-LATIN-00006-000-00305.jp2"/>
+        </surface>
+        <surface xml:id="i306" n="152v">
+            <graphic n="JRL1205947" decls="#downloadImageRights #download" rend="portrait" height="5387px"
+                width="3551px" url="MS-LATIN-00006-000-00306.jp2"/>
+        </surface>
+        <surface xml:id="i307" n="153r">
+            <graphic n="JRL1205948" decls="#downloadImageRights #download" rend="portrait" height="5187px"
+                width="3325px" url="MS-LATIN-00006-000-00307.jp2"/>
+        </surface>
+        <surface xml:id="i308" n="153v">
+            <graphic n="JRL1205949" decls="#downloadImageRights #download" rend="portrait" height="5410px"
+                width="3551px" url="MS-LATIN-00006-000-00308.jp2"/>
+        </surface>
+        <surface xml:id="i309" n="154r">
+            <graphic n="JRL1205950" decls="#downloadImageRights #download" rend="portrait" height="5187px"
+                width="3325px" url="MS-LATIN-00006-000-00309.jp2"/>
+        </surface>
+        <surface xml:id="i310" n="154v">
+            <graphic n="JRL1205951" decls="#downloadImageRights #download" rend="portrait" height="5410px"
+                width="3551px" url="MS-LATIN-00006-000-00310.jp2"/>
+        </surface>
+        <surface xml:id="i311" n="155r">
+            <graphic n="JRL1205952" decls="#downloadImageRights #download" rend="portrait" height="5187px"
+                width="3325px" url="MS-LATIN-00006-000-00311.jp2"/>
+        </surface>
+        <surface xml:id="i312" n="155v">
+            <graphic n="JRL1205953" decls="#downloadImageRights #download" rend="portrait" height="5410px"
+                width="3551px" url="MS-LATIN-00006-000-00312.jp2"/>
+        </surface>
+        <surface xml:id="i313" n="156r">
+            <graphic n="JRL1205954" decls="#downloadImageRights #download" rend="portrait" height="5187px"
+                width="3325px" url="MS-LATIN-00006-000-00313.jp2"/>
+        </surface>
+        <surface xml:id="i314" n="156v">
+            <graphic n="JRL1205955" decls="#downloadImageRights #download" rend="portrait" height="5410px"
+                width="3551px" url="MS-LATIN-00006-000-00314.jp2"/>
+        </surface>
+        <surface xml:id="i315" n="157r">
+            <graphic n="JRL1205956" decls="#downloadImageRights #download" rend="portrait" height="5187px"
+                width="3325px" url="MS-LATIN-00006-000-00315.jp2"/>
+        </surface>
+        <surface xml:id="i316" n="157v">
+            <graphic n="JRL1205957" decls="#downloadImageRights #download" rend="portrait" height="5392px"
+                width="3551px" url="MS-LATIN-00006-000-00316.jp2"/>
+        </surface>
+        <surface xml:id="i317" n="158r">
+            <graphic n="JRL1205958" decls="#downloadImageRights #download" rend="portrait" height="5187px"
+                width="3325px" url="MS-LATIN-00006-000-00317.jp2"/>
+        </surface>
+        <surface xml:id="i318" n="158v">
+            <graphic n="JRL1205959" decls="#downloadImageRights #download" rend="portrait" height="5392px"
+                width="3551px" url="MS-LATIN-00006-000-00318.jp2"/>
+        </surface>
+        <surface xml:id="i319" n="159r">
+            <graphic n="JRL1205960" decls="#downloadImageRights #download" rend="portrait" height="5187px"
+                width="3325px" url="MS-LATIN-00006-000-00319.jp2"/>
+        </surface>
+        <surface xml:id="i320" n="159v">
+            <graphic n="JRL1205961" decls="#downloadImageRights #download" rend="portrait" height="5451px"
+                width="3551px" url="MS-LATIN-00006-000-00320.jp2"/>
+        </surface>
+        <surface xml:id="i321" n="160r">
+            <graphic n="JRL1205962" decls="#downloadImageRights #download" rend="portrait" height="5178px"
+                width="3325px" url="MS-LATIN-00006-000-00321.jp2"/>
+        </surface>
+        <surface xml:id="i322" n="160v">
+            <graphic n="JRL1205963" decls="#downloadImageRights #download" rend="portrait" height="5420px"
+                width="3649px" url="MS-LATIN-00006-000-00322.jp2"/>
+        </surface>
+        <surface xml:id="i323" n="161r">
+            <graphic n="JRL1205964" decls="#downloadImageRights #download" rend="portrait" height="5178px"
+                width="3325px" url="MS-LATIN-00006-000-00323.jp2"/>
+        </surface>
+        <surface xml:id="i324" n="161v">
+            <graphic n="JRL1205965" decls="#downloadImageRights #download" rend="portrait" height="5420px"
+                width="3649px" url="MS-LATIN-00006-000-00324.jp2"/>
+        </surface>
+        <surface xml:id="i325" n="162r">
+            <graphic n="JRL1205966" decls="#downloadImageRights #download" rend="portrait" height="5178px"
+                width="3325px" url="MS-LATIN-00006-000-00325.jp2"/>
+        </surface>
+        <surface xml:id="i326" n="162v">
+            <graphic n="JRL1205967" decls="#downloadImageRights #download" rend="portrait" height="5420px"
+                width="3649px" url="MS-LATIN-00006-000-00326.jp2"/>
+        </surface>
+        <surface xml:id="i327" n="163r">
+            <graphic n="JRL1205968" decls="#downloadImageRights #download" rend="portrait" height="5178px"
+                width="3325px" url="MS-LATIN-00006-000-00327.jp2"/>
+        </surface>
+        <surface xml:id="i328" n="163v">
+            <graphic n="JRL1205969" decls="#downloadImageRights #download" rend="portrait" height="5420px"
+                width="3649px" url="MS-LATIN-00006-000-00328.jp2"/>
+        </surface>
+        <surface xml:id="i329" n="164r">
+            <graphic n="JRL1205970" decls="#downloadImageRights #download" rend="portrait" height="5178px"
+                width="3325px" url="MS-LATIN-00006-000-00329.jp2"/>
+        </surface>
+        <surface xml:id="i330" n="164v">
+            <graphic n="JRL1205971" decls="#downloadImageRights #download" rend="portrait" height="5420px"
+                width="3649px" url="MS-LATIN-00006-000-00330.jp2"/>
+        </surface>
+        <surface xml:id="i331" n="165r">
+            <graphic n="JRL1205972" decls="#downloadImageRights #download" rend="portrait" height="5178px"
+                width="3325px" url="MS-LATIN-00006-000-00331.jp2"/>
+        </surface>
+        <surface xml:id="i332" n="165v">
+            <graphic n="JRL1205973" decls="#downloadImageRights #download" rend="portrait" height="5420px"
+                width="3649px" url="MS-LATIN-00006-000-00332.jp2"/>
+        </surface>
+        <surface xml:id="i333" n="166r">
+            <graphic n="JRL1205974" decls="#downloadImageRights #download" rend="portrait" height="5178px"
+                width="3325px" url="MS-LATIN-00006-000-00333.jp2"/>
+        </surface>
+        <surface xml:id="i334" n="166v">
+            <graphic n="JRL1205975" decls="#downloadImageRights #download" rend="portrait" height="5437px"
+                width="3649px" url="MS-LATIN-00006-000-00334.jp2"/>
+        </surface>
+        <surface xml:id="i335" n="167r">
+            <graphic n="JRL1205976" decls="#downloadImageRights #download" rend="portrait" height="5178px"
+                width="3325px" url="MS-LATIN-00006-000-00335.jp2"/>
+        </surface>
+        <surface xml:id="i336" n="167v">
+            <graphic n="JRL1205977" decls="#downloadImageRights #download" rend="portrait" height="5437px"
+                width="3649px" url="MS-LATIN-00006-000-00336.jp2"/>
+        </surface>
+        <surface xml:id="i337" n="168r">
+            <graphic n="JRL1205978" decls="#downloadImageRights #download" rend="portrait" height="5178px"
+                width="3325px" url="MS-LATIN-00006-000-00337.jp2"/>
+        </surface>
+        <surface xml:id="i338" n="168v">
+            <graphic n="JRL1205979" decls="#downloadImageRights #download" rend="portrait" height="5437px"
+                width="3649px" url="MS-LATIN-00006-000-00338.jp2"/>
+        </surface>
+        <surface xml:id="i339" n="169r">
+            <graphic n="JRL1205980" decls="#downloadImageRights #download" rend="portrait" height="5124px"
+                width="3359px" url="MS-LATIN-00006-000-00339.jp2"/>
+        </surface>
+        <surface xml:id="i340" n="169v">
+            <graphic n="JRL1205981" decls="#downloadImageRights #download" rend="portrait" height="5437px"
+                width="3649px" url="MS-LATIN-00006-000-00340.jp2"/>
+        </surface>
+        <surface xml:id="i341" n="170r">
+            <graphic n="JRL1205982" decls="#downloadImageRights #download" rend="portrait" height="5124px"
+                width="3359px" url="MS-LATIN-00006-000-00341.jp2"/>
+        </surface>
+        <surface xml:id="i342" n="170v">
+            <graphic n="JRL1205983" decls="#downloadImageRights #download" rend="portrait" height="5437px"
+                width="3649px" url="MS-LATIN-00006-000-00342.jp2"/>
+        </surface>
+        <surface xml:id="i343" n="171r">
+            <graphic n="JRL1205984" decls="#downloadImageRights #download" rend="portrait" height="5124px"
+                width="3359px" url="MS-LATIN-00006-000-00343.jp2"/>
+        </surface>
+        <surface xml:id="i344" n="171v">
+            <graphic n="JRL1205985" decls="#downloadImageRights #download" rend="portrait" height="5437px"
+                width="3649px" url="MS-LATIN-00006-000-00344.jp2"/>
+        </surface>
+        <surface xml:id="i345" n="172r">
+            <graphic n="JRL1205986" decls="#downloadImageRights #download" rend="portrait" height="5124px"
+                width="3359px" url="MS-LATIN-00006-000-00345.jp2"/>
+        </surface>
+        <surface xml:id="i346" n="172v">
+            <graphic n="JRL1205987" decls="#downloadImageRights #download" rend="portrait" height="5437px"
+                width="3649px" url="MS-LATIN-00006-000-00346.jp2"/>
+        </surface>
+        <surface xml:id="i347" n="173r">
+            <graphic n="JRL1205988" decls="#downloadImageRights #download" rend="portrait" height="5124px"
+                width="3359px" url="MS-LATIN-00006-000-00347.jp2"/>
+        </surface>
+        <surface xml:id="i348" n="173v">
+            <graphic n="JRL1205989" decls="#downloadImageRights #download" rend="portrait" height="5437px"
+                width="3649px" url="MS-LATIN-00006-000-00348.jp2"/>
+        </surface>
+        <surface xml:id="i349" n="174r">
+            <graphic n="JRL1205990" decls="#downloadImageRights #download" rend="portrait" height="5161px"
+                width="3359px" url="MS-LATIN-00006-000-00349.jp2"/>
+        </surface>
+        <surface xml:id="i350" n="174v">
+            <graphic n="JRL1205991" decls="#downloadImageRights #download" rend="portrait" height="5437px"
+                width="3649px" url="MS-LATIN-00006-000-00350.jp2"/>
+        </surface>
+        <surface xml:id="i351" n="175r">
+            <graphic n="JRL1205992" decls="#downloadImageRights #download" rend="portrait" height="5161px"
+                width="3359px" url="MS-LATIN-00006-000-00351.jp2"/>
+        </surface>
+        <surface xml:id="i352" n="175v">
+            <graphic n="JRL1205993" decls="#downloadImageRights #download" rend="portrait" height="5437px"
+                width="3649px" url="MS-LATIN-00006-000-00352.jp2"/>
+        </surface>
+        <surface xml:id="i353" n="176r">
+            <graphic n="JRL1205994" decls="#downloadImageRights #download" rend="portrait" height="5161px"
+                width="3359px" url="MS-LATIN-00006-000-00353.jp2"/>
+        </surface>
+        <surface xml:id="i354" n="176v">
+            <graphic n="JRL1205995" decls="#downloadImageRights #download" rend="portrait" height="5437px"
+                width="3649px" url="MS-LATIN-00006-000-00354.jp2"/>
+        </surface>
+        <surface xml:id="i355" n="177r">
+            <graphic n="JRL1205996" decls="#downloadImageRights #download" rend="portrait" height="5161px"
+                width="3359px" url="MS-LATIN-00006-000-00355.jp2"/>
+        </surface>
+        <surface xml:id="i356" n="177v">
+            <graphic n="JRL1205997" decls="#downloadImageRights #download" rend="portrait" height="5455px"
+                width="3649px" url="MS-LATIN-00006-000-00356.jp2"/>
+        </surface>
+        <surface xml:id="i357" n="178r">
+            <graphic n="JRL1205998" decls="#downloadImageRights #download" rend="portrait" height="5161px"
+                width="3359px" url="MS-LATIN-00006-000-00357.jp2"/>
+        </surface>
+        <surface xml:id="i358" n="178v">
+            <graphic n="JRL1205999" decls="#downloadImageRights #download" rend="portrait" height="5455px"
+                width="3649px" url="MS-LATIN-00006-000-00358.jp2"/>
+        </surface>
+        <surface xml:id="i359" n="179r">
+            <graphic n="JRL1206000" decls="#downloadImageRights #download" rend="portrait" height="5161px"
+                width="3359px" url="MS-LATIN-00006-000-00359.jp2"/>
+        </surface>
+        <surface xml:id="i360" n="179v">
+            <graphic n="JRL1206001" decls="#downloadImageRights #download" rend="portrait" height="5455px"
+                width="3649px" url="MS-LATIN-00006-000-00360.jp2"/>
+        </surface>
+        <surface xml:id="i361" n="180r">
+            <graphic n="JRL1206002" decls="#downloadImageRights #download" rend="portrait" height="5161px"
+                width="3359px" url="MS-LATIN-00006-000-00361.jp2"/>
+        </surface>
+        <surface xml:id="i362" n="180v">
+            <graphic n="JRL1206003" decls="#downloadImageRights #download" rend="portrait" height="5455px"
+                width="3649px" url="MS-LATIN-00006-000-00362.jp2"/>
+        </surface>
+        <surface xml:id="i363" n="181r">
+            <graphic n="JRL1206004" decls="#downloadImageRights #download" rend="portrait" height="5161px"
+                width="3359px" url="MS-LATIN-00006-000-00363.jp2"/>
+        </surface>
+        <surface xml:id="i364" n="181v">
+            <graphic n="JRL1206005" decls="#downloadImageRights #download" rend="portrait" height="5455px"
+                width="3649px" url="MS-LATIN-00006-000-00364.jp2"/>
+        </surface>
+        <surface xml:id="i365" n="182r">
+            <graphic n="JRL1206006" decls="#downloadImageRights #download" rend="portrait" height="5161px"
+                width="3359px" url="MS-LATIN-00006-000-00365.jp2"/>
+        </surface>
+        <surface xml:id="i366" n="182v">
+            <graphic n="JRL1206007" decls="#downloadImageRights #download" rend="portrait" height="5455px"
+                width="3649px" url="MS-LATIN-00006-000-00366.jp2"/>
+        </surface>
+        <surface xml:id="i367" n="183r">
+            <graphic n="JRL1206008" decls="#downloadImageRights #download" rend="portrait" height="5161px"
+                width="3359px" url="MS-LATIN-00006-000-00367.jp2"/>
+        </surface>
+        <surface xml:id="i368" n="183v">
+            <graphic n="JRL1206009" decls="#downloadImageRights #download" rend="portrait" height="5485px"
+                width="3649px" url="MS-LATIN-00006-000-00368.jp2"/>
+        </surface>
+        <surface xml:id="i369" n="184r">
+            <graphic n="JRL1206010" decls="#downloadImageRights #download" rend="portrait" height="5110px"
+                width="3334px" url="MS-LATIN-00006-000-00369.jp2"/>
+        </surface>
+        <surface xml:id="i370" n="184v">
+            <graphic n="JRL1206011" decls="#downloadImageRights #download" rend="portrait" height="5485px"
+                width="3649px" url="MS-LATIN-00006-000-00370.jp2"/>
+        </surface>
+        <surface xml:id="i371" n="185r">
+            <graphic n="JRL1206012" decls="#downloadImageRights #download" rend="portrait" height="5110px"
+                width="3334px" url="MS-LATIN-00006-000-00371.jp2"/>
+        </surface>
+        <surface xml:id="i372" n="185v">
+            <graphic n="JRL1206013" decls="#downloadImageRights #download" rend="portrait" height="5485px"
+                width="3649px" url="MS-LATIN-00006-000-00372.jp2"/>
+        </surface>
+        <surface xml:id="i373" n="186r">
+            <graphic n="JRL1206014" decls="#downloadImageRights #download" rend="portrait" height="5110px"
+                width="3334px" url="MS-LATIN-00006-000-00373.jp2"/>
+        </surface>
+        <surface xml:id="i374" n="186v">
+            <graphic n="JRL1206015" decls="#downloadImageRights #download" rend="portrait" height="5485px"
+                width="3649px" url="MS-LATIN-00006-000-00374.jp2"/>
+        </surface>
+        <surface xml:id="i375" n="187r">
+            <graphic n="JRL1206016" decls="#downloadImageRights #download" rend="portrait" height="5110px"
+                width="3334px" url="MS-LATIN-00006-000-00375.jp2"/>
+        </surface>
+        <surface xml:id="i376" n="187v">
+            <graphic n="JRL1206017" decls="#downloadImageRights #download" rend="portrait" height="5510px"
+                width="3649px" url="MS-LATIN-00006-000-00376.jp2"/>
+        </surface>
+        <surface xml:id="i377" n="188r">
+            <graphic n="JRL1206018" decls="#downloadImageRights #download" rend="portrait" height="5110px"
+                width="3334px" url="MS-LATIN-00006-000-00377.jp2"/>
+        </surface>
+        <surface xml:id="i378" n="188v">
+            <graphic n="JRL1206019" decls="#downloadImageRights #download" rend="portrait" height="5510px"
+                width="3649px" url="MS-LATIN-00006-000-00378.jp2"/>
+        </surface>
+        <surface xml:id="i379" n="189r">
+            <graphic n="JRL1206020" decls="#downloadImageRights #download" rend="portrait" height="5110px"
+                width="3334px" url="MS-LATIN-00006-000-00379.jp2"/>
+        </surface>
+        <surface xml:id="i380" n="189v">
+            <graphic n="JRL1206021" decls="#downloadImageRights #download" rend="portrait" height="5510px"
+                width="3649px" url="MS-LATIN-00006-000-00380.jp2"/>
+        </surface>
+        <surface xml:id="i381" n="190r">
+            <graphic n="JRL1206022" decls="#downloadImageRights #download" rend="portrait" height="5110px"
+                width="3334px" url="MS-LATIN-00006-000-00381.jp2"/>
+        </surface>
+        <surface xml:id="i382" n="190v">
+            <graphic n="JRL1206023" decls="#downloadImageRights #download" rend="portrait" height="5510px"
+                width="3649px" url="MS-LATIN-00006-000-00382.jp2"/>
+        </surface>
+        <surface xml:id="i383" n="191r">
+            <graphic n="JRL1206024" decls="#downloadImageRights #download" rend="portrait" height="5110px"
+                width="3334px" url="MS-LATIN-00006-000-00383.jp2"/>
+        </surface>
+        <surface xml:id="i384" n="191v">
+            <graphic n="JRL1206025" decls="#downloadImageRights #download" rend="portrait" height="5510px"
+                width="3649px" url="MS-LATIN-00006-000-00384.jp2"/>
+        </surface>
+        <surface xml:id="i385" n="192r">
+            <graphic n="JRL1206026" decls="#downloadImageRights #download" rend="portrait" height="5110px"
+                width="3334px" url="MS-LATIN-00006-000-00385.jp2"/>
+        </surface>
+        <surface xml:id="i386" n="192v">
+            <graphic n="JRL1206027" decls="#downloadImageRights #download" rend="portrait" height="5510px"
+                width="3649px" url="MS-LATIN-00006-000-00386.jp2"/>
+        </surface>
+        <surface xml:id="i387" n="193r">
+            <graphic n="JRL1206028" decls="#downloadImageRights #download" rend="portrait" height="5110px"
+                width="3334px" url="MS-LATIN-00006-000-00387.jp2"/>
+        </surface>
+        <surface xml:id="i388" n="193v">
+            <graphic n="JRL1206029" decls="#downloadImageRights #download" rend="portrait" height="5510px"
+                width="3649px" url="MS-LATIN-00006-000-00388.jp2"/>
+        </surface>
+        <surface xml:id="i389" n="194r">
+            <graphic n="JRL1206030" decls="#downloadImageRights #download" rend="portrait" height="5110px"
+                width="3334px" url="MS-LATIN-00006-000-00389.jp2"/>
+        </surface>
+        <surface xml:id="i390" n="194v">
+            <graphic n="JRL1206031" decls="#downloadImageRights #download" rend="portrait" height="5510px"
+                width="3649px" url="MS-LATIN-00006-000-00390.jp2"/>
+        </surface>
+        <surface xml:id="i391" n="195r">
+            <graphic n="JRL1206032" decls="#downloadImageRights #download" rend="portrait" height="5110px"
+                width="3334px" url="MS-LATIN-00006-000-00391.jp2"/>
+        </surface>
+        <surface xml:id="i392" n="195v">
+            <graphic n="JRL1206033" decls="#downloadImageRights #download" rend="portrait" height="5510px"
+                width="3649px" url="MS-LATIN-00006-000-00392.jp2"/>
+        </surface>
+        <surface xml:id="i393" n="196r">
+            <graphic n="JRL1206034" decls="#downloadImageRights #download" rend="portrait" height="5083px"
+                width="3310px" url="MS-LATIN-00006-000-00393.jp2"/>
+        </surface>
+        <surface xml:id="i394" n="196v">
+            <graphic n="JRL1206035" decls="#downloadImageRights #download" rend="portrait" height="5510px"
+                width="3649px" url="MS-LATIN-00006-000-00394.jp2"/>
+        </surface>
+        <surface xml:id="i395" n="197r">
+            <graphic n="JRL1206036" decls="#downloadImageRights #download" rend="portrait" height="5083px"
+                width="3310px" url="MS-LATIN-00006-000-00395.jp2"/>
+        </surface>
+        <surface xml:id="i396" n="197v">
+            <graphic n="JRL1206037" decls="#downloadImageRights #download" rend="portrait" height="5510px"
+                width="3649px" url="MS-LATIN-00006-000-00396.jp2"/>
+        </surface>
+        <surface xml:id="i397" n="Inner_back_cover">
+            <graphic n="JRL1206038" decls="#downloadImageRights #download" rend="portrait" height="5083px"
+                width="3487px" url="MS-LATIN-00006-000-00397.jp2"/>
+        </surface>
+        <surface xml:id="i398" n="Back_cover">
+            <graphic n="JRL1206039" decls="#downloadImageRights #download" rend="portrait" height="5940px"
+                width="4043px" url="MS-LATIN-00006-000-00398.jp2"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div>
+                <pb n="Front_cover" xml:id="pb-Front_cover" facs="#i1"/>
+                <pb n="Inner_front_cover" xml:id="pb-Inner_front_cover" facs="#i2"/>
+                <pb n="1r" xml:id="pb-1r" facs="#i3"/>
+                <pb n="1v" xml:id="pb-1v" facs="#i4"/>
+                <pb n="2r" xml:id="pb-2r" facs="#i5"/>
+                <pb n="2v" xml:id="pb-2v" facs="#i6"/>
+                <pb n="3r" xml:id="pb-3r" facs="#i7"/>
+                <pb n="3v" xml:id="pb-3v" facs="#i8"/>
+                <pb n="4r" xml:id="pb-4r" facs="#i9"/>
+                <pb n="4v" xml:id="pb-4v" facs="#i10"/>
+                <pb n="5r" xml:id="pb-5r" facs="#i11"/>
+                <pb n="5v" xml:id="pb-5v" facs="#i12"/>
+                <pb n="6r" xml:id="pb-6r" facs="#i13"/>
+                <pb n="6v" xml:id="pb-6v" facs="#i14"/>
+                <pb n="7r" xml:id="pb-7r" facs="#i15"/>
+                <pb n="7v" xml:id="pb-7v" facs="#i16"/>
+                <pb n="8r" xml:id="pb-8r" facs="#i17"/>
+                <pb n="8v" xml:id="pb-8v" facs="#i18"/>
+                <pb n="9r" xml:id="pb-9r" facs="#i19"/>
+                <pb n="9v" xml:id="pb-9v" facs="#i20"/>
+                <pb n="10r" xml:id="pb-10r" facs="#i21"/>
+                <pb n="10v" xml:id="pb-10v" facs="#i22"/>
+                <pb n="11r" xml:id="pb-11r" facs="#i23"/>
+                <pb n="11v" xml:id="pb-11v" facs="#i24"/>
+                <pb n="12r" xml:id="pb-12r" facs="#i25"/>
+                <pb n="12v" xml:id="pb-12v" facs="#i26"/>
+                <pb n="13r" xml:id="pb-13r" facs="#i27"/>
+                <pb n="13v" xml:id="pb-13v" facs="#i28"/>
+                <pb n="14r" xml:id="pb-14r" facs="#i29"/>
+                <pb n="14v" xml:id="pb-14v" facs="#i30"/>
+                <pb n="15r" xml:id="pb-15r" facs="#i31"/>
+                <pb n="15v" xml:id="pb-15v" facs="#i32"/>
+                <pb n="16r" xml:id="pb-16r" facs="#i33"/>
+                <pb n="16v" xml:id="pb-16v" facs="#i34"/>
+                <pb n="17r" xml:id="pb-17r" facs="#i35"/>
+                <pb n="17v" xml:id="pb-17v" facs="#i36"/>
+                <pb n="18r" xml:id="pb-18r" facs="#i37"/>
+                <pb n="18v" xml:id="pb-18v" facs="#i38"/>
+                <pb n="19r" xml:id="pb-19r" facs="#i39"/>
+                <pb n="19v" xml:id="pb-19v" facs="#i40"/>
+                <pb n="20r" xml:id="pb-20r" facs="#i41"/>
+                <pb n="20v" xml:id="pb-20v" facs="#i42"/>
+                <pb n="21r" xml:id="pb-21r" facs="#i43"/>
+                <pb n="21v" xml:id="pb-21v" facs="#i44"/>
+                <pb n="22r" xml:id="pb-22r" facs="#i45"/>
+                <pb n="22v" xml:id="pb-22v" facs="#i46"/>
+                <pb n="23r" xml:id="pb-23r" facs="#i47"/>
+                <pb n="23v" xml:id="pb-23v" facs="#i48"/>
+                <pb n="24r" xml:id="pb-24r" facs="#i49"/>
+                <pb n="24v" xml:id="pb-24v" facs="#i50"/>
+                <pb n="25r" xml:id="pb-25r" facs="#i51"/>
+                <pb n="25v" xml:id="pb-25v" facs="#i52"/>
+                <pb n="26r" xml:id="pb-26r" facs="#i53"/>
+                <pb n="26v" xml:id="pb-26v" facs="#i54"/>
+                <pb n="27r" xml:id="pb-27r" facs="#i55"/>
+                <pb n="27v" xml:id="pb-27v" facs="#i56"/>
+                <pb n="28r" xml:id="pb-28r" facs="#i57"/>
+                <pb n="28v" xml:id="pb-28v" facs="#i58"/>
+                <pb n="29r" xml:id="pb-29r" facs="#i59"/>
+                <pb n="29v" xml:id="pb-29v" facs="#i60"/>
+                <pb n="30r" xml:id="pb-30r" facs="#i61"/>
+                <pb n="30v" xml:id="pb-30v" facs="#i62"/>
+                <pb n="31r" xml:id="pb-31r" facs="#i63"/>
+                <pb n="31v" xml:id="pb-31v" facs="#i64"/>
+                <pb n="32r" xml:id="pb-32r" facs="#i65"/>
+                <pb n="32v" xml:id="pb-32v" facs="#i66"/>
+                <pb n="33r" xml:id="pb-33r" facs="#i67"/>
+                <pb n="33v" xml:id="pb-33v" facs="#i68"/>
+                <pb n="34r" xml:id="pb-34r" facs="#i69"/>
+                <pb n="34v" xml:id="pb-34v" facs="#i70"/>
+                <pb n="35r" xml:id="pb-35r" facs="#i71"/>
+                <pb n="35v" xml:id="pb-35v" facs="#i72"/>
+                <pb n="36r" xml:id="pb-36r" facs="#i73"/>
+                <pb n="36v" xml:id="pb-36v" facs="#i74"/>
+                <pb n="37r" xml:id="pb-37r" facs="#i75"/>
+                <pb n="37v" xml:id="pb-37v" facs="#i76"/>
+                <pb n="38r" xml:id="pb-38r" facs="#i77"/>
+                <pb n="38v" xml:id="pb-38v" facs="#i78"/>
+                <pb n="39r" xml:id="pb-39r" facs="#i79"/>
+                <pb n="39v" xml:id="pb-39v" facs="#i80"/>
+                <pb n="40r" xml:id="pb-40r" facs="#i81"/>
+                <pb n="40v" xml:id="pb-40v" facs="#i82"/>
+                <pb n="41r" xml:id="pb-41r" facs="#i83"/>
+                <pb n="41v" xml:id="pb-41v" facs="#i84"/>
+                <pb n="42r" xml:id="pb-42r" facs="#i85"/>
+                <pb n="42v" xml:id="pb-42v" facs="#i86"/>
+                <pb n="43r" xml:id="pb-43r" facs="#i87"/>
+                <pb n="43v" xml:id="pb-43v" facs="#i88"/>
+                <pb n="44r" xml:id="pb-44r" facs="#i89"/>
+                <pb n="44v" xml:id="pb-44v" facs="#i90"/>
+                <pb n="45r" xml:id="pb-45r" facs="#i91"/>
+                <pb n="45v" xml:id="pb-45v" facs="#i92"/>
+                <pb n="46r" xml:id="pb-46r" facs="#i93"/>
+                <pb n="46v" xml:id="pb-46v" facs="#i94"/>
+                <pb n="47r" xml:id="pb-47r" facs="#i95"/>
+                <pb n="47v" xml:id="pb-47v" facs="#i96"/>
+                <pb n="48r" xml:id="pb-48r" facs="#i97"/>
+                <pb n="48v" xml:id="pb-48v" facs="#i98"/>
+                <pb n="49r" xml:id="pb-49r" facs="#i99"/>
+                <pb n="49v" xml:id="pb-49v" facs="#i100"/>
+                <pb n="50r" xml:id="pb-50r" facs="#i101"/>
+                <pb n="50v" xml:id="pb-50v" facs="#i102"/>
+                <pb n="51r" xml:id="pb-51r" facs="#i103"/>
+                <pb n="51v" xml:id="pb-51v" facs="#i104"/>
+                <pb n="52r" xml:id="pb-52r" facs="#i105"/>
+                <pb n="52v" xml:id="pb-52v" facs="#i106"/>
+                <pb n="53r" xml:id="pb-53r" facs="#i107"/>
+                <pb n="53v" xml:id="pb-53v" facs="#i108"/>
+                <pb n="54r" xml:id="pb-54r" facs="#i109"/>
+                <pb n="54v" xml:id="pb-54v" facs="#i110"/>
+                <pb n="55r" xml:id="pb-55r" facs="#i111"/>
+                <pb n="55v" xml:id="pb-55v" facs="#i112"/>
+                <pb n="56r" xml:id="pb-56r" facs="#i113"/>
+                <pb n="56v" xml:id="pb-56v" facs="#i114"/>
+                <pb n="57r" xml:id="pb-57r" facs="#i115"/>
+                <pb n="57v" xml:id="pb-57v" facs="#i116"/>
+                <pb n="58r" xml:id="pb-58r" facs="#i117"/>
+                <pb n="58v" xml:id="pb-58v" facs="#i118"/>
+                <pb n="59r" xml:id="pb-59r" facs="#i119"/>
+                <pb n="59v" xml:id="pb-59v" facs="#i120"/>
+                <pb n="60r" xml:id="pb-60r" facs="#i121"/>
+                <pb n="60v" xml:id="pb-60v" facs="#i122"/>
+                <pb n="61r" xml:id="pb-61r" facs="#i123"/>
+                <pb n="61v" xml:id="pb-61v" facs="#i124"/>
+                <pb n="62r" xml:id="pb-62r" facs="#i125"/>
+                <pb n="62v" xml:id="pb-62v" facs="#i126"/>
+                <pb n="63r" xml:id="pb-63r" facs="#i127"/>
+                <pb n="63v" xml:id="pb-63v" facs="#i128"/>
+                <pb n="64r" xml:id="pb-64r" facs="#i129"/>
+                <pb n="64v" xml:id="pb-64v" facs="#i130"/>
+                <pb n="65r" xml:id="pb-65r" facs="#i131"/>
+                <pb n="65v" xml:id="pb-65v" facs="#i132"/>
+                <pb n="66r" xml:id="pb-66r" facs="#i133"/>
+                <pb n="66v" xml:id="pb-66v" facs="#i134"/>
+                <pb n="67r" xml:id="pb-67r" facs="#i135"/>
+                <pb n="67v" xml:id="pb-67v" facs="#i136"/>
+                <pb n="68r" xml:id="pb-68r" facs="#i137"/>
+                <pb n="68v" xml:id="pb-68v" facs="#i138"/>
+                <pb n="69r" xml:id="pb-69r" facs="#i139"/>
+                <pb n="69v" xml:id="pb-69v" facs="#i140"/>
+                <pb n="70r" xml:id="pb-70r" facs="#i141"/>
+                <pb n="70v" xml:id="pb-70v" facs="#i142"/>
+                <pb n="71r" xml:id="pb-71r" facs="#i143"/>
+                <pb n="71v" xml:id="pb-71v" facs="#i144"/>
+                <pb n="72r" xml:id="pb-72r" facs="#i145"/>
+                <pb n="72v" xml:id="pb-72v" facs="#i146"/>
+                <pb n="73r" xml:id="pb-73r" facs="#i147"/>
+                <pb n="73v" xml:id="pb-73v" facs="#i148"/>
+                <pb n="74r" xml:id="pb-74r" facs="#i149"/>
+                <pb n="74v" xml:id="pb-74v" facs="#i150"/>
+                <pb n="75r" xml:id="pb-75r" facs="#i151"/>
+                <pb n="75v" xml:id="pb-75v" facs="#i152"/>
+                <pb n="76r" xml:id="pb-76r" facs="#i153"/>
+                <pb n="76v" xml:id="pb-76v" facs="#i154"/>
+                <pb n="77r" xml:id="pb-77r" facs="#i155"/>
+                <pb n="77v" xml:id="pb-77v" facs="#i156"/>
+                <pb n="78r" xml:id="pb-78r" facs="#i157"/>
+                <pb n="78v" xml:id="pb-78v" facs="#i158"/>
+                <pb n="79r" xml:id="pb-79r" facs="#i159"/>
+                <pb n="79v" xml:id="pb-79v" facs="#i160"/>
+                <pb n="80r" xml:id="pb-80r" facs="#i161"/>
+                <pb n="80v" xml:id="pb-80v" facs="#i162"/>
+                <pb n="81r" xml:id="pb-81r" facs="#i163"/>
+                <pb n="81v" xml:id="pb-81v" facs="#i164"/>
+                <pb n="82r" xml:id="pb-82r" facs="#i165"/>
+                <pb n="82v" xml:id="pb-82v" facs="#i166"/>
+                <pb n="83r" xml:id="pb-83r" facs="#i167"/>
+                <pb n="83v" xml:id="pb-83v" facs="#i168"/>
+                <pb n="84r" xml:id="pb-84r" facs="#i169"/>
+                <pb n="84v" xml:id="pb-84v" facs="#i170"/>
+                <pb n="85r" xml:id="pb-85r" facs="#i171"/>
+                <pb n="85v" xml:id="pb-85v" facs="#i172"/>
+                <pb n="86r" xml:id="pb-86r" facs="#i173"/>
+                <pb n="86v" xml:id="pb-86v" facs="#i174"/>
+                <pb n="87r" xml:id="pb-87r" facs="#i175"/>
+                <pb n="87v" xml:id="pb-87v" facs="#i176"/>
+                <pb n="88r" xml:id="pb-88r" facs="#i177"/>
+                <pb n="88v" xml:id="pb-88v" facs="#i178"/>
+                <pb n="89r" xml:id="pb-89r" facs="#i179"/>
+                <pb n="89v" xml:id="pb-89v" facs="#i180"/>
+                <pb n="90r" xml:id="pb-90r" facs="#i181"/>
+                <pb n="90v" xml:id="pb-90v" facs="#i182"/>
+                <pb n="91r" xml:id="pb-91r" facs="#i183"/>
+                <pb n="91v" xml:id="pb-91v" facs="#i184"/>
+                <pb n="92r" xml:id="pb-92r" facs="#i185"/>
+                <pb n="92v" xml:id="pb-92v" facs="#i186"/>
+                <pb n="93r" xml:id="pb-93r" facs="#i187"/>
+                <pb n="93v" xml:id="pb-93v" facs="#i188"/>
+                <pb n="94r" xml:id="pb-94r" facs="#i189"/>
+                <pb n="94v" xml:id="pb-94v" facs="#i190"/>
+                <pb n="95r" xml:id="pb-95r" facs="#i191"/>
+                <pb n="95v" xml:id="pb-95v" facs="#i192"/>
+                <pb n="96r" xml:id="pb-96r" facs="#i193"/>
+                <pb n="96v" xml:id="pb-96v" facs="#i194"/>
+                <pb n="97r" xml:id="pb-97r" facs="#i195"/>
+                <pb n="97v" xml:id="pb-97v" facs="#i196"/>
+                <pb n="98r" xml:id="pb-98r" facs="#i197"/>
+                <pb n="98v" xml:id="pb-98v" facs="#i198"/>
+                <pb n="99r" xml:id="pb-99r" facs="#i199"/>
+                <pb n="99v" xml:id="pb-99v" facs="#i200"/>
+                <pb n="100r" xml:id="pb-100r" facs="#i201"/>
+                <pb n="100v" xml:id="pb-100v" facs="#i202"/>
+                <pb n="101r" xml:id="pb-101r" facs="#i203"/>
+                <pb n="101v" xml:id="pb-101v" facs="#i204"/>
+                <pb n="102r" xml:id="pb-102r" facs="#i205"/>
+                <pb n="102v" xml:id="pb-102v" facs="#i206"/>
+                <pb n="103r" xml:id="pb-103r" facs="#i207"/>
+                <pb n="103v" xml:id="pb-103v" facs="#i208"/>
+                <pb n="104r" xml:id="pb-104r" facs="#i209"/>
+                <pb n="104v" xml:id="pb-104v" facs="#i210"/>
+                <pb n="105r" xml:id="pb-105r" facs="#i211"/>
+                <pb n="105v" xml:id="pb-105v" facs="#i212"/>
+                <pb n="106r" xml:id="pb-106r" facs="#i213"/>
+                <pb n="106v" xml:id="pb-106v" facs="#i214"/>
+                <pb n="107r" xml:id="pb-107r" facs="#i215"/>
+                <pb n="107v" xml:id="pb-107v" facs="#i216"/>
+                <pb n="108r" xml:id="pb-108r" facs="#i217"/>
+                <pb n="108v" xml:id="pb-108v" facs="#i218"/>
+                <pb n="109r" xml:id="pb-109r" facs="#i219"/>
+                <pb n="109v" xml:id="pb-109v" facs="#i220"/>
+                <pb n="110r" xml:id="pb-110r" facs="#i221"/>
+                <pb n="110v" xml:id="pb-110v" facs="#i222"/>
+                <pb n="111r" xml:id="pb-111r" facs="#i223"/>
+                <pb n="111v" xml:id="pb-111v" facs="#i224"/>
+                <pb n="112r" xml:id="pb-112r" facs="#i225"/>
+                <pb n="112v" xml:id="pb-112v" facs="#i226"/>
+                <pb n="113r" xml:id="pb-113r" facs="#i227"/>
+                <pb n="113v" xml:id="pb-113v" facs="#i228"/>
+                <pb n="114r" xml:id="pb-114r" facs="#i229"/>
+                <pb n="114v" xml:id="pb-114v" facs="#i230"/>
+                <pb n="115r" xml:id="pb-115r" facs="#i231"/>
+                <pb n="115v" xml:id="pb-115v" facs="#i232"/>
+                <pb n="116r" xml:id="pb-116r" facs="#i233"/>
+                <pb n="116v" xml:id="pb-116v" facs="#i234"/>
+                <pb n="117r" xml:id="pb-117r" facs="#i235"/>
+                <pb n="117v" xml:id="pb-117v" facs="#i236"/>
+                <pb n="118r" xml:id="pb-118r" facs="#i237"/>
+                <pb n="118v" xml:id="pb-118v" facs="#i238"/>
+                <pb n="119r" xml:id="pb-119r" facs="#i239"/>
+                <pb n="119v" xml:id="pb-119v" facs="#i240"/>
+                <pb n="120r" xml:id="pb-120r" facs="#i241"/>
+                <pb n="120v" xml:id="pb-120v" facs="#i242"/>
+                <pb n="121r" xml:id="pb-121r" facs="#i243"/>
+                <pb n="121v" xml:id="pb-121v" facs="#i244"/>
+                <pb n="122r" xml:id="pb-122r" facs="#i245"/>
+                <pb n="122v" xml:id="pb-122v" facs="#i246"/>
+                <pb n="123r" xml:id="pb-123r" facs="#i247"/>
+                <pb n="123v" xml:id="pb-123v" facs="#i248"/>
+                <pb n="124r" xml:id="pb-124r" facs="#i249"/>
+                <pb n="124v" xml:id="pb-124v" facs="#i250"/>
+                <pb n="125r" xml:id="pb-125r" facs="#i251"/>
+                <pb n="125v" xml:id="pb-125v" facs="#i252"/>
+                <pb n="126r" xml:id="pb-126r" facs="#i253"/>
+                <pb n="126v" xml:id="pb-126v" facs="#i254"/>
+                <pb n="127r" xml:id="pb-127r" facs="#i255"/>
+                <pb n="127v" xml:id="pb-127v" facs="#i256"/>
+                <pb n="128r" xml:id="pb-128r" facs="#i257"/>
+                <pb n="128v" xml:id="pb-128v" facs="#i258"/>
+                <pb n="129r" xml:id="pb-129r" facs="#i259"/>
+                <pb n="129v" xml:id="pb-129v" facs="#i260"/>
+                <pb n="130r" xml:id="pb-130r" facs="#i261"/>
+                <pb n="130v" xml:id="pb-130v" facs="#i262"/>
+                <pb n="131r" xml:id="pb-131r" facs="#i263"/>
+                <pb n="131v" xml:id="pb-131v" facs="#i264"/>
+                <pb n="132r" xml:id="pb-132r" facs="#i265"/>
+                <pb n="132v" xml:id="pb-132v" facs="#i266"/>
+                <pb n="133r" xml:id="pb-133r" facs="#i267"/>
+                <pb n="133v" xml:id="pb-133v" facs="#i268"/>
+                <pb n="134r" xml:id="pb-134r" facs="#i269"/>
+                <pb n="134v" xml:id="pb-134v" facs="#i270"/>
+                <pb n="135r" xml:id="pb-135r" facs="#i271"/>
+                <pb n="135v" xml:id="pb-135v" facs="#i272"/>
+                <pb n="136r" xml:id="pb-136r" facs="#i273"/>
+                <pb n="136v" xml:id="pb-136v" facs="#i274"/>
+                <pb n="137r" xml:id="pb-137r" facs="#i275"/>
+                <pb n="137v" xml:id="pb-137v" facs="#i276"/>
+                <pb n="138r" xml:id="pb-138r" facs="#i277"/>
+                <pb n="138v" xml:id="pb-138v" facs="#i278"/>
+                <pb n="139r" xml:id="pb-139r" facs="#i279"/>
+                <pb n="139v" xml:id="pb-139v" facs="#i280"/>
+                <pb n="140r" xml:id="pb-140r" facs="#i281"/>
+                <pb n="140v" xml:id="pb-140v" facs="#i282"/>
+                <pb n="141r" xml:id="pb-141r" facs="#i283"/>
+                <pb n="141v" xml:id="pb-141v" facs="#i284"/>
+                <pb n="142r" xml:id="pb-142r" facs="#i285"/>
+                <pb n="142v" xml:id="pb-142v" facs="#i286"/>
+                <pb n="143r" xml:id="pb-143r" facs="#i287"/>
+                <pb n="143v" xml:id="pb-143v" facs="#i288"/>
+                <pb n="144r" xml:id="pb-144r" facs="#i289"/>
+                <pb n="144v" xml:id="pb-144v" facs="#i290"/>
+                <pb n="145r" xml:id="pb-145r" facs="#i291"/>
+                <pb n="145v" xml:id="pb-145v" facs="#i292"/>
+                <pb n="146r" xml:id="pb-146r" facs="#i293"/>
+                <pb n="146v" xml:id="pb-146v" facs="#i294"/>
+                <pb n="147r" xml:id="pb-147r" facs="#i295"/>
+                <pb n="147v" xml:id="pb-147v" facs="#i296"/>
+                <pb n="148r" xml:id="pb-148r" facs="#i297"/>
+                <pb n="148v" xml:id="pb-148v" facs="#i298"/>
+                <pb n="149r" xml:id="pb-149r" facs="#i299"/>
+                <pb n="149v" xml:id="pb-149v" facs="#i300"/>
+                <pb n="150r" xml:id="pb-150r" facs="#i301"/>
+                <pb n="150v" xml:id="pb-150v" facs="#i302"/>
+                <pb n="151r" xml:id="pb-151r" facs="#i303"/>
+                <pb n="151v" xml:id="pb-151v" facs="#i304"/>
+                <pb n="152r" xml:id="pb-152r" facs="#i305"/>
+                <pb n="152v" xml:id="pb-152v" facs="#i306"/>
+                <pb n="153r" xml:id="pb-153r" facs="#i307"/>
+                <pb n="153v" xml:id="pb-153v" facs="#i308"/>
+                <pb n="154r" xml:id="pb-154r" facs="#i309"/>
+                <pb n="154v" xml:id="pb-154v" facs="#i310"/>
+                <pb n="155r" xml:id="pb-155r" facs="#i311"/>
+                <pb n="155v" xml:id="pb-155v" facs="#i312"/>
+                <pb n="156r" xml:id="pb-156r" facs="#i313"/>
+                <pb n="156v" xml:id="pb-156v" facs="#i314"/>
+                <pb n="157r" xml:id="pb-157r" facs="#i315"/>
+                <pb n="157v" xml:id="pb-157v" facs="#i316"/>
+                <pb n="158r" xml:id="pb-158r" facs="#i317"/>
+                <pb n="158v" xml:id="pb-158v" facs="#i318"/>
+                <pb n="159r" xml:id="pb-159r" facs="#i319"/>
+                <pb n="159v" xml:id="pb-159v" facs="#i320"/>
+                <pb n="160r" xml:id="pb-160r" facs="#i321"/>
+                <pb n="160v" xml:id="pb-160v" facs="#i322"/>
+                <pb n="161r" xml:id="pb-161r" facs="#i323"/>
+                <pb n="161v" xml:id="pb-161v" facs="#i324"/>
+                <pb n="162r" xml:id="pb-162r" facs="#i325"/>
+                <pb n="162v" xml:id="pb-162v" facs="#i326"/>
+                <pb n="163r" xml:id="pb-163r" facs="#i327"/>
+                <pb n="163v" xml:id="pb-163v" facs="#i328"/>
+                <pb n="164r" xml:id="pb-164r" facs="#i329"/>
+                <pb n="164v" xml:id="pb-164v" facs="#i330"/>
+                <pb n="165r" xml:id="pb-165r" facs="#i331"/>
+                <pb n="165v" xml:id="pb-165v" facs="#i332"/>
+                <pb n="166r" xml:id="pb-166r" facs="#i333"/>
+                <pb n="166v" xml:id="pb-166v" facs="#i334"/>
+                <pb n="167r" xml:id="pb-167r" facs="#i335"/>
+                <pb n="167v" xml:id="pb-167v" facs="#i336"/>
+                <pb n="168r" xml:id="pb-168r" facs="#i337"/>
+                <pb n="168v" xml:id="pb-168v" facs="#i338"/>
+                <pb n="169r" xml:id="pb-169r" facs="#i339"/>
+                <pb n="169v" xml:id="pb-169v" facs="#i340"/>
+                <pb n="170r" xml:id="pb-170r" facs="#i341"/>
+                <pb n="170v" xml:id="pb-170v" facs="#i342"/>
+                <pb n="171r" xml:id="pb-171r" facs="#i343"/>
+                <pb n="171v" xml:id="pb-171v" facs="#i344"/>
+                <pb n="172r" xml:id="pb-172r" facs="#i345"/>
+                <pb n="172v" xml:id="pb-172v" facs="#i346"/>
+                <pb n="173r" xml:id="pb-173r" facs="#i347"/>
+                <pb n="173v" xml:id="pb-173v" facs="#i348"/>
+                <pb n="174r" xml:id="pb-174r" facs="#i349"/>
+                <pb n="174v" xml:id="pb-174v" facs="#i350"/>
+                <pb n="175r" xml:id="pb-175r" facs="#i351"/>
+                <pb n="175v" xml:id="pb-175v" facs="#i352"/>
+                <pb n="176r" xml:id="pb-176r" facs="#i353"/>
+                <pb n="176v" xml:id="pb-176v" facs="#i354"/>
+                <pb n="177r" xml:id="pb-177r" facs="#i355"/>
+                <pb n="177v" xml:id="pb-177v" facs="#i356"/>
+                <pb n="178r" xml:id="pb-178r" facs="#i357"/>
+                <pb n="178v" xml:id="pb-178v" facs="#i358"/>
+                <pb n="179r" xml:id="pb-179r" facs="#i359"/>
+                <pb n="179v" xml:id="pb-179v" facs="#i360"/>
+                <pb n="180r" xml:id="pb-180r" facs="#i361"/>
+                <pb n="180v" xml:id="pb-180v" facs="#i362"/>
+                <pb n="181r" xml:id="pb-181r" facs="#i363"/>
+                <pb n="181v" xml:id="pb-181v" facs="#i364"/>
+                <pb n="182r" xml:id="pb-182r" facs="#i365"/>
+                <pb n="182v" xml:id="pb-182v" facs="#i366"/>
+                <pb n="183r" xml:id="pb-183r" facs="#i367"/>
+                <pb n="183v" xml:id="pb-183v" facs="#i368"/>
+                <pb n="184r" xml:id="pb-184r" facs="#i369"/>
+                <pb n="184v" xml:id="pb-184v" facs="#i370"/>
+                <pb n="185r" xml:id="pb-185r" facs="#i371"/>
+                <pb n="185v" xml:id="pb-185v" facs="#i372"/>
+                <pb n="186r" xml:id="pb-186r" facs="#i373"/>
+                <pb n="186v" xml:id="pb-186v" facs="#i374"/>
+                <pb n="187r" xml:id="pb-187r" facs="#i375"/>
+                <pb n="187v" xml:id="pb-187v" facs="#i376"/>
+                <pb n="188r" xml:id="pb-188r" facs="#i377"/>
+                <pb n="188v" xml:id="pb-188v" facs="#i378"/>
+                <pb n="189r" xml:id="pb-189r" facs="#i379"/>
+                <pb n="189v" xml:id="pb-189v" facs="#i380"/>
+                <pb n="190r" xml:id="pb-190r" facs="#i381"/>
+                <pb n="190v" xml:id="pb-190v" facs="#i382"/>
+                <pb n="191r" xml:id="pb-191r" facs="#i383"/>
+                <pb n="191v" xml:id="pb-191v" facs="#i384"/>
+                <pb n="192r" xml:id="pb-192r" facs="#i385"/>
+                <pb n="192v" xml:id="pb-192v" facs="#i386"/>
+                <pb n="193r" xml:id="pb-193r" facs="#i387"/>
+                <pb n="193v" xml:id="pb-193v" facs="#i388"/>
+                <pb n="194r" xml:id="pb-194r" facs="#i389"/>
+                <pb n="194v" xml:id="pb-194v" facs="#i390"/>
+                <pb n="195r" xml:id="pb-195r" facs="#i391"/>
+                <pb n="195v" xml:id="pb-195v" facs="#i392"/>
+                <pb n="196r" xml:id="pb-196r" facs="#i393"/>
+                <pb n="196v" xml:id="pb-196v" facs="#i394"/>
+                <pb n="197r" xml:id="pb-197r" facs="#i395"/>
+                <pb n="197v" xml:id="pb-197v" facs="#i396"/>
+                <pb n="Inner_back_cover" xml:id="pb-Inner_back_cover" facs="#i397"/>
+                <pb n="Back_cover" xml:id="pb-Back_cover" facs="#i398"/>
+            </div>
+        </body>
+    </text>
