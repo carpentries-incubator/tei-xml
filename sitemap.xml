@@ -19,7 +19,13 @@
     <loc>https://carpentries-incubator.github.io/tei-xml/LICENSE.html</loc>
   </url>
   <url>
+    <loc>https://carpentries-incubator.github.io/tei-xml/aio.html</loc>
+  </url>
+  <url>
     <loc>https://carpentries-incubator.github.io/tei-xml/discuss.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries-incubator.github.io/tei-xml/images.html</loc>
   </url>
   <url>
     <loc>https://carpentries-incubator.github.io/tei-xml/index.html</loc>
@@ -43,16 +49,34 @@
     <loc>https://carpentries-incubator.github.io/tei-xml/instructor/LICENSE.html</loc>
   </url>
   <url>
+    <loc>https://carpentries-incubator.github.io/tei-xml/instructor/aio.html</loc>
+  </url>
+  <url>
     <loc>https://carpentries-incubator.github.io/tei-xml/instructor/discuss.html</loc>
   </url>
   <url>
+    <loc>https://carpentries-incubator.github.io/tei-xml/instructor/images.html</loc>
+  </url>
+  <url>
     <loc>https://carpentries-incubator.github.io/tei-xml/instructor/index.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries-incubator.github.io/tei-xml/instructor/instructor-notes.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries-incubator.github.io/tei-xml/instructor/key-points.html</loc>
   </url>
   <url>
     <loc>https://carpentries-incubator.github.io/tei-xml/instructor/profiles.html</loc>
   </url>
   <url>
     <loc>https://carpentries-incubator.github.io/tei-xml/instructor/reference.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries-incubator.github.io/tei-xml/instructor-notes.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries-incubator.github.io/tei-xml/key-points.html</loc>
   </url>
   <url>
     <loc>https://carpentries-incubator.github.io/tei-xml/profiles.html</loc>
