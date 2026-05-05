@@ -412,7 +412,7 @@ functions as the beginning and end of an element).</p>
 <div class="codewrapper sourceCode" id="cb2">
 <h3 class="code-label">XML<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode xml" tabindex="0"><code class="sourceCode xml"><span id="cb2-1"><a href="#cb2-1" tabindex="-1" aria-label="code-block-2-1"></a>&lt;<span class="kw">layout</span><span class="ot"> columns=</span><span class="st">"1"</span><span class="ot"> writtenLines=</span><span class="st">"25"</span>&gt;</span>
+<pre class="sourceCode xml" tabindex="0"><code class="sourceCode xml"><span id="cb2-1"><a href="#cb2-1" tabindex="-1" aria-label="code-block-2-1"></a>&lt;<span class="kw">layout</span> <span class="ot">columns=</span><span class="st">"1"</span> <span class="ot">writtenLines=</span><span class="st">"25"</span>&gt;</span>
 <span id="cb2-2"><a href="#cb2-2" tabindex="-1" aria-label="code-block-2-2"></a>  	&lt;<span class="kw">p</span>&gt;1 column, 25 lines&lt;/<span class="kw">p</span>&gt;</span>
 <span id="cb2-3"><a href="#cb2-3" tabindex="-1" aria-label="code-block-2-3"></a>&lt;/<span class="kw">layout</span>&gt;</span></code></pre>
 </div>
@@ -428,7 +428,7 @@ by an equal sign, then the content in double quotes.</p>
 <hr class="half-width"><div class="codewrapper sourceCode" id="cb3">
 <h3 class="code-label">XML<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode xml" tabindex="0"><code class="sourceCode xml"><span id="cb3-1"><a href="#cb3-1" tabindex="-1" aria-label="code-block-3-1"></a><span class="fu">&lt;?xml</span><span class="ot"> version=</span><span class="st">"1.0"</span><span class="ot"> encoding=</span><span class="st">"UTF-8"</span><span class="fu">?&gt;</span></span>
+<pre class="sourceCode xml" tabindex="0"><code class="sourceCode xml"><span id="cb3-1"><a href="#cb3-1" tabindex="-1" aria-label="code-block-3-1"></a><span class="fu">&lt;?xml</span> <span class="ot">version=</span><span class="st">"1.0"</span> <span class="ot">encoding=</span><span class="st">"UTF-8"</span><span class="fu">?&gt;</span></span>
 <span id="cb3-2"><a href="#cb3-2" tabindex="-1" aria-label="code-block-3-2"></a>&lt;<span class="kw">TEI</span>&gt;</span>
 <span id="cb3-3"><a href="#cb3-3" tabindex="-1" aria-label="code-block-3-3"></a>	&lt;<span class="kw">teiHeader</span>&gt;...&lt;/<span class="kw">teiHeader</span>&gt;</span>
 <span id="cb3-4"><a href="#cb3-4" tabindex="-1" aria-label="code-block-3-4"></a>	&lt;<span class="kw">facsimile</span>&gt;...&lt;/<span class="kw">facsimile</span>&gt;</span>
@@ -498,9 +498,9 @@ changes made).</li>
 </h3>
 <pre class="sourceCode xml" tabindex="0"><code class="sourceCode xml"><span id="cb5-1"><a href="#cb5-1" tabindex="-1" aria-label="code-block-5-1"></a>&lt;<span class="kw">TEI</span>&gt;</span>
 <span id="cb5-2"><a href="#cb5-2" tabindex="-1" aria-label="code-block-5-2"></a>	&lt;<span class="kw">teiHeader</span>&gt;...&lt;/<span class="kw">teiHeader</span>&gt;</span>
-<span id="cb5-3"><a href="#cb5-3" tabindex="-1" aria-label="code-block-5-3"></a>	&lt;<span class="kw">text</span><span class="ot"> xml:id=</span><span class="st">"HAM/1/1/3/8"</span>&gt;</span>
+<span id="cb5-3"><a href="#cb5-3" tabindex="-1" aria-label="code-block-5-3"></a>	&lt;<span class="kw">text</span> <span class="ot">xml:id=</span><span class="st">"HAM/1/1/3/8"</span>&gt;</span>
 <span id="cb5-4"><a href="#cb5-4" tabindex="-1" aria-label="code-block-5-4"></a>		&lt;<span class="kw">body</span>&gt;</span>
-<span id="cb5-5"><a href="#cb5-5" tabindex="-1" aria-label="code-block-5-5"></a>			&lt;<span class="kw">pb</span><span class="ot"> n=</span><span class="st">"1"</span>/&gt;</span>
+<span id="cb5-5"><a href="#cb5-5" tabindex="-1" aria-label="code-block-5-5"></a>			&lt;<span class="kw">pb</span> <span class="ot">n=</span><span class="st">"1"</span>/&gt;</span>
 <span id="cb5-6"><a href="#cb5-6" tabindex="-1" aria-label="code-block-5-6"></a>			&lt;<span class="kw">lb</span>/&gt;...</span>
 <span id="cb5-7"><a href="#cb5-7" tabindex="-1" aria-label="code-block-5-7"></a>			&lt;<span class="kw">opener</span>&gt;Dear ...&lt;/<span class="kw">opener</span>&gt;</span>
 <span id="cb5-8"><a href="#cb5-8" tabindex="-1" aria-label="code-block-5-8"></a>			&lt;<span class="kw">lb</span>/&gt;...</span>
@@ -556,7 +556,7 @@ Word document</a> or <a href="../files/TEI_Exercise_Puzzle.pdf">PDF</a>.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>The missing elements appear in the following order:</p>
 <ol style="list-style-type: decimal"><li>
@@ -604,36 +604,36 @@ coded in a machine-readable way (YYYY-MM-DD)</li>
 <span id="cb6-11"><a href="#cb6-11" tabindex="-1" aria-label="code-block-6-11"></a> 			&lt;/<span class="kw">sourceDesc</span>&gt;</span>
 <span id="cb6-12"><a href="#cb6-12" tabindex="-1" aria-label="code-block-6-12"></a> 		&lt;/<span class="kw">fileDesc</span>&gt;</span>
 <span id="cb6-13"><a href="#cb6-13" tabindex="-1" aria-label="code-block-6-13"></a> 		&lt;<span class="kw">profileDesc</span>&gt;</span>
-<span id="cb6-14"><a href="#cb6-14" tabindex="-1" aria-label="code-block-6-14"></a> 			&lt;<span class="kw">langUsage</span>&gt;&lt;<span class="kw">language</span><span class="ot"> ident=</span><span class="st">"en-GB"</span>&gt;British English&lt;/<span class="kw">language</span>&gt;&lt;/<span class="kw">langUsage</span>&gt;</span>
+<span id="cb6-14"><a href="#cb6-14" tabindex="-1" aria-label="code-block-6-14"></a> 			&lt;<span class="kw">langUsage</span>&gt;&lt;<span class="kw">language</span> <span class="ot">ident=</span><span class="st">"en-GB"</span>&gt;British English&lt;/<span class="kw">language</span>&gt;&lt;/<span class="kw">langUsage</span>&gt;</span>
 <span id="cb6-15"><a href="#cb6-15" tabindex="-1" aria-label="code-block-6-15"></a> 			&lt;<span class="kw">correspDesc</span>&gt;</span>
-<span id="cb6-16"><a href="#cb6-16" tabindex="-1" aria-label="code-block-6-16"></a> 				&lt;<span class="kw">correspAction</span><span class="ot"> type=</span><span class="st">"sent"</span>&gt;</span>
-<span id="cb6-17"><a href="#cb6-17" tabindex="-1" aria-label="code-block-6-17"></a> 					&lt;<span class="kw">persName</span><span class="ot"> role=</span><span class="st">"author"</span>&gt;</span>
+<span id="cb6-16"><a href="#cb6-16" tabindex="-1" aria-label="code-block-6-16"></a> 				&lt;<span class="kw">correspAction</span> <span class="ot">type=</span><span class="st">"sent"</span>&gt;</span>
+<span id="cb6-17"><a href="#cb6-17" tabindex="-1" aria-label="code-block-6-17"></a> 					&lt;<span class="kw">persName</span> <span class="ot">role=</span><span class="st">"author"</span>&gt;</span>
 <span id="cb6-18"><a href="#cb6-18" tabindex="-1" aria-label="code-block-6-18"></a> 						Elizabeth, Princess, daughter of George III, King of Great Britain (1770-1840/41). </span>
 <span id="cb6-19"><a href="#cb6-19" tabindex="-1" aria-label="code-block-6-19"></a> 					&lt;/<span class="kw">persName</span>&gt;</span>
-<span id="cb6-20"><a href="#cb6-20" tabindex="-1" aria-label="code-block-6-20"></a> 					&lt;<span class="kw">date</span><span class="ot"> when=</span><span class="st">"1780-12-18"</span>&gt;18 December 1780&lt;/<span class="kw">date</span>&gt;</span>
+<span id="cb6-20"><a href="#cb6-20" tabindex="-1" aria-label="code-block-6-20"></a> 					&lt;<span class="kw">date</span> <span class="ot">when=</span><span class="st">"1780-12-18"</span>&gt;18 December 1780&lt;/<span class="kw">date</span>&gt;</span>
 <span id="cb6-21"><a href="#cb6-21" tabindex="-1" aria-label="code-block-6-21"></a> 				&lt;/<span class="kw">correspAction</span>&gt;</span>
-<span id="cb6-22"><a href="#cb6-22" tabindex="-1" aria-label="code-block-6-22"></a> 				&lt;<span class="kw">correspAction</span><span class="ot"> type=</span><span class="st">"received"</span>&gt;</span>
+<span id="cb6-22"><a href="#cb6-22" tabindex="-1" aria-label="code-block-6-22"></a> 				&lt;<span class="kw">correspAction</span> <span class="ot">type=</span><span class="st">"received"</span>&gt;</span>
 <span id="cb6-23"><a href="#cb6-23" tabindex="-1" aria-label="code-block-6-23"></a> 					&lt;<span class="kw">persName</span>&gt;Hamilton, Mary (1756-1816).&lt;/<span class="kw">persName</span>&gt;</span>
 <span id="cb6-24"><a href="#cb6-24" tabindex="-1" aria-label="code-block-6-24"></a> 				&lt;/<span class="kw">correspAction</span>&gt;</span>
 <span id="cb6-25"><a href="#cb6-25" tabindex="-1" aria-label="code-block-6-25"></a> 			&lt;/<span class="kw">correspDesc</span>&gt;</span>
 <span id="cb6-26"><a href="#cb6-26" tabindex="-1" aria-label="code-block-6-26"></a> 		&lt;/<span class="kw">profileDesc</span>&gt;</span>
 <span id="cb6-27"><a href="#cb6-27" tabindex="-1" aria-label="code-block-6-27"></a> 	&lt;/<span class="kw">teiHeader</span>&gt;</span>
-<span id="cb6-28"><a href="#cb6-28" tabindex="-1" aria-label="code-block-6-28"></a> 	&lt;<span class="kw">text</span><span class="ot"> xml:id=</span><span class="st">"HAM/1/1/3/8"</span>&gt;</span>
+<span id="cb6-28"><a href="#cb6-28" tabindex="-1" aria-label="code-block-6-28"></a> 	&lt;<span class="kw">text</span> <span class="ot">xml:id=</span><span class="st">"HAM/1/1/3/8"</span>&gt;</span>
 <span id="cb6-29"><a href="#cb6-29" tabindex="-1" aria-label="code-block-6-29"></a> 		&lt;<span class="kw">body</span>&gt;</span>
-<span id="cb6-30"><a href="#cb6-30" tabindex="-1" aria-label="code-block-6-30"></a> 			&lt;<span class="kw">pb</span><span class="ot"> n=</span><span class="st">"1"</span>/&gt;</span>
-<span id="cb6-31"><a href="#cb6-31" tabindex="-1" aria-label="code-block-6-31"></a> 			&lt;<span class="kw">lb</span>/&gt;&lt;<span class="kw">opener</span><span class="ot"> rend=</span><span class="st">"align-left"</span>&gt;&lt;<span class="kw">salute</span><span class="ot"> n=</span><span class="st">"opening"</span>&gt;Dear Miſs Hamilton&lt;/<span class="kw">salute</span>&gt;&lt;/<span class="kw">opener</span>&gt;</span>
+<span id="cb6-30"><a href="#cb6-30" tabindex="-1" aria-label="code-block-6-30"></a> 			&lt;<span class="kw">pb</span> <span class="ot">n=</span><span class="st">"1"</span>/&gt;</span>
+<span id="cb6-31"><a href="#cb6-31" tabindex="-1" aria-label="code-block-6-31"></a> 			&lt;<span class="kw">lb</span>/&gt;&lt;<span class="kw">opener</span> <span class="ot">rend=</span><span class="st">"align-left"</span>&gt;&lt;<span class="kw">salute</span> <span class="ot">n=</span><span class="st">"opening"</span>&gt;Dear Miſs Hamilton&lt;/<span class="kw">salute</span>&gt;&lt;/<span class="kw">opener</span>&gt;</span>
 <span id="cb6-32"><a href="#cb6-32" tabindex="-1" aria-label="code-block-6-32"></a> 			&lt;<span class="kw">lb</span>/&gt;I have &lt;<span class="kw">choice</span>&gt;&lt;<span class="kw">orig</span>&gt;learnd&lt;/<span class="kw">orig</span>&gt;&lt;<span class="kw">reg</span>&gt;learned&lt;/<span class="kw">reg</span>&gt;&lt;/<span class="kw">choice</span>&gt; the</span>
 <span id="cb6-33"><a href="#cb6-33" tabindex="-1" aria-label="code-block-6-33"></a> 			&lt;<span class="kw">lb</span>/&gt;six lines that you ordered me.</span>
 <span id="cb6-34"><a href="#cb6-34" tabindex="-1" aria-label="code-block-6-34"></a> 			&lt;<span class="kw">lb</span>/&gt;I hope you <span class="dv">&amp;amp;</span> Princeſs Royal</span>
-<span id="cb6-35"><a href="#cb6-35" tabindex="-1" aria-label="code-block-6-35"></a> 			&lt;<span class="kw">lb</span>/&gt;are &lt;<span class="kw">add</span><span class="ot"> place=</span><span class="st">"above"</span>&gt;both&lt;/<span class="kw">add</span>&gt; well Augusta sends her love</span>
+<span id="cb6-35"><a href="#cb6-35" tabindex="-1" aria-label="code-block-6-35"></a> 			&lt;<span class="kw">lb</span>/&gt;are &lt;<span class="kw">add</span> <span class="ot">place=</span><span class="st">"above"</span>&gt;both&lt;/<span class="kw">add</span>&gt; well Augusta sends her love</span>
 <span id="cb6-36"><a href="#cb6-36" tabindex="-1" aria-label="code-block-6-36"></a> 			&lt;<span class="kw">lb</span>/&gt;<span class="dv">&amp;amp;</span> Sophia a kiſs <span class="dv">&amp;amp;</span> Mary her</span>
 <span id="cb6-37"><a href="#cb6-37" tabindex="-1" aria-label="code-block-6-37"></a> 			&lt;<span class="kw">lb</span>/&gt;love</span>
-<span id="cb6-38"><a href="#cb6-38" tabindex="-1" aria-label="code-block-6-38"></a> 			&lt;<span class="kw">lb</span>/&gt;&lt;<span class="kw">salute</span><span class="ot"> n=</span><span class="st">"closing"</span><span class="ot"> rend=</span><span class="st">"align-right"</span>&gt;I am &lt;<span class="kw">del</span><span class="ot"> rend=</span><span class="st">"erased"</span>&gt;your&lt;/<span class="kw">del</span>&gt;</span>
+<span id="cb6-38"><a href="#cb6-38" tabindex="-1" aria-label="code-block-6-38"></a> 			&lt;<span class="kw">lb</span>/&gt;&lt;<span class="kw">salute</span> <span class="ot">n=</span><span class="st">"closing"</span> <span class="ot">rend=</span><span class="st">"align-right"</span>&gt;I am &lt;<span class="kw">del</span> <span class="ot">rend=</span><span class="st">"erased"</span>&gt;your&lt;/<span class="kw">del</span>&gt;</span>
 <span id="cb6-39"><a href="#cb6-39" tabindex="-1" aria-label="code-block-6-39"></a> 			&lt;<span class="kw">lb</span>/&gt;yours&lt;/<span class="kw">salute</span>&gt;</span>
-<span id="cb6-40"><a href="#cb6-40" tabindex="-1" aria-label="code-block-6-40"></a> 			&lt;<span class="kw">lb</span>/&gt;&lt;<span class="kw">signed</span><span class="ot"> rend=</span><span class="st">"align-right"</span>&gt;&lt;<span class="kw">persName</span>&gt;Elizabeth&lt;/<span class="kw">persName</span>&gt;&lt;/<span class="kw">signed</span>&gt;</span>
+<span id="cb6-40"><a href="#cb6-40" tabindex="-1" aria-label="code-block-6-40"></a> 			&lt;<span class="kw">lb</span>/&gt;&lt;<span class="kw">signed</span> <span class="ot">rend=</span><span class="st">"align-right"</span>&gt;&lt;<span class="kw">persName</span>&gt;Elizabeth&lt;/<span class="kw">persName</span>&gt;&lt;/<span class="kw">signed</span>&gt;</span>
 <span id="cb6-41"><a href="#cb6-41" tabindex="-1" aria-label="code-block-6-41"></a> 			&lt;<span class="kw">lb</span>/&gt;</span>
 <span id="cb6-42"><a href="#cb6-42" tabindex="-1" aria-label="code-block-6-42"></a> 			&lt;<span class="kw">lb</span>/&gt;&lt;<span class="kw">dateline</span>&gt;&lt;<span class="kw">address</span>&gt;&lt;<span class="kw">addrLine</span>&gt;Queens House&lt;/<span class="kw">addrLine</span>&gt;&lt;/<span class="kw">address</span>&gt;</span>
-<span id="cb6-43"><a href="#cb6-43" tabindex="-1" aria-label="code-block-6-43"></a> 			&lt;<span class="kw">lb</span>/&gt;&lt;<span class="kw">date</span><span class="ot"> when=</span><span class="st">"1780-12-18"</span>&gt;&lt;<span class="kw">add</span><span class="ot"> place=</span><span class="st">"above"</span>&gt;December&lt;/<span class="kw">add</span>&gt; 18 1780&lt;/<span class="kw">date</span>&gt;&lt;/<span class="kw">dateline</span>&gt;</span>
+<span id="cb6-43"><a href="#cb6-43" tabindex="-1" aria-label="code-block-6-43"></a> 			&lt;<span class="kw">lb</span>/&gt;&lt;<span class="kw">date</span> <span class="ot">when=</span><span class="st">"1780-12-18"</span>&gt;&lt;<span class="kw">add</span> <span class="ot">place=</span><span class="st">"above"</span>&gt;December&lt;/<span class="kw">add</span>&gt; 18 1780&lt;/<span class="kw">date</span>&gt;&lt;/<span class="kw">dateline</span>&gt;</span>
 <span id="cb6-44"><a href="#cb6-44" tabindex="-1" aria-label="code-block-6-44"></a> 		&lt;/<span class="kw">body</span>&gt;</span>
 <span id="cb6-45"><a href="#cb6-45" tabindex="-1" aria-label="code-block-6-45"></a> 	&lt;/<span class="kw">text</span>&gt;</span>
 <span id="cb6-46"><a href="#cb6-46" tabindex="-1" aria-label="code-block-6-46"></a>  &lt;/<span class="kw">TEI</span>&gt;</span></code></pre>
@@ -804,7 +804,7 @@ highlighted in the main editor window.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <ol style="list-style-type: decimal"><li><code>&lt;sourceDesc&gt;</code></li>
 <li>
@@ -869,7 +869,7 @@ searchable?</li>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
   <h4 class="accordion-header" id="headingSolution3"> Show me the solution </h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
 <div class="accordion-body">
 <p>Find the ID number of the manuscript:</p>
 <p>The ID number is Latin MS 98 (within <code>&lt;msdesc&gt;</code>;
@@ -925,10 +925,10 @@ which contains the measurements, and also a human readable version
 <h3 class="code-label">XML<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
 <pre class="sourceCode xml" tabindex="0"><code class="sourceCode xml"><span id="cb7-1"><a href="#cb7-1" tabindex="-1" aria-label="code-block-7-1"></a>&lt;<span class="kw">extent</span>&gt;</span>
-<span id="cb7-2"><a href="#cb7-2" tabindex="-1" aria-label="code-block-7-2"></a>    &lt;<span class="kw">measure</span><span class="ot"> unit=</span><span class="st">"leaf"</span><span class="ot"> n=</span><span class="st">"207"</span>&gt;ff. 207 (ii+205)&lt;/<span class="kw">measure</span>&gt;</span>
-<span id="cb7-3"><a href="#cb7-3" tabindex="-1" aria-label="code-block-7-3"></a>   &lt;<span class="kw">dimensions</span><span class="ot"> type=</span><span class="st">"leaf"</span><span class="ot"> unit=</span><span class="st">"mm"</span>&gt;</span>
-<span id="cb7-4"><a href="#cb7-4" tabindex="-1" aria-label="code-block-7-4"></a>       &lt;<span class="kw">height</span><span class="ot"> quantity=</span><span class="st">"240"</span>&gt;240&lt;/<span class="kw">height</span>&gt;</span>
-<span id="cb7-5"><a href="#cb7-5" tabindex="-1" aria-label="code-block-7-5"></a>        &lt;<span class="kw">width</span><span class="ot"> quantity=</span><span class="st">"193"</span>&gt;193&lt;/<span class="kw">width</span>&gt;</span>
+<span id="cb7-2"><a href="#cb7-2" tabindex="-1" aria-label="code-block-7-2"></a>    &lt;<span class="kw">measure</span> <span class="ot">unit=</span><span class="st">"leaf"</span> <span class="ot">n=</span><span class="st">"207"</span>&gt;ff. 207 (ii+205)&lt;/<span class="kw">measure</span>&gt;</span>
+<span id="cb7-3"><a href="#cb7-3" tabindex="-1" aria-label="code-block-7-3"></a>   &lt;<span class="kw">dimensions</span> <span class="ot">type=</span><span class="st">"leaf"</span> <span class="ot">unit=</span><span class="st">"mm"</span>&gt;</span>
+<span id="cb7-4"><a href="#cb7-4" tabindex="-1" aria-label="code-block-7-4"></a>       &lt;<span class="kw">height</span> <span class="ot">quantity=</span><span class="st">"240"</span>&gt;240&lt;/<span class="kw">height</span>&gt;</span>
+<span id="cb7-5"><a href="#cb7-5" tabindex="-1" aria-label="code-block-7-5"></a>        &lt;<span class="kw">width</span> <span class="ot">quantity=</span><span class="st">"193"</span>&gt;193&lt;/<span class="kw">width</span>&gt;</span>
 <span id="cb7-6"><a href="#cb7-6" tabindex="-1" aria-label="code-block-7-6"></a>    &lt;/<span class="kw">dimensions</span>&gt;</span>
 <span id="cb7-7"><a href="#cb7-7" tabindex="-1" aria-label="code-block-7-7"></a>&lt;/<span class="kw">extent</span>&gt;</span></code></pre>
 </div>
@@ -1016,7 +1016,7 @@ linking.</li>
   "identifier": "https://carpentries-incubator.github.io/tei-xml/instructor/01-introduction.html",
   "dateCreated": "2020-02-20",
   "dateModified": "2025-01-28",
-  "datePublished": "2026-04-28"
+  "datePublished": "2026-05-05"
 }
 
   </script><script>
